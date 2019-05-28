@@ -8,3 +8,7 @@
 ###### &nbsp;&nbsp;1.1、[CSS](./FileSpecification/css/README.md)
 
  &nbsp;&nbsp; &nbsp;&nbsp;*关于CSS文件规范，主要有CSS文件的模板注释，对reset.css和normalize.css做了介绍并总结*
+
+###### &nbsp;&nbsp;1.2、JS
+
+ &nbsp;&nbsp; &nbsp;&nbsp;*关于JS文件规范，主要有JS文件的模板注释，具体的参见[template.js](./FileSpecification/js/template.js)*
