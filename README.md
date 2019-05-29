@@ -23,3 +23,12 @@
 
 ###### &nbsp;&nbsp;2.1、[VSCode](./ToolsUseage/VSCode/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*关于工具VSCode的介绍，包含了C以及C++环境的配置、Python环境的配置、文件模板的配置、用户信息的配置等*
+
+#### 3、环境搭建
+
+>这里是阿涛啦童鞋整理的环境搭建笔记
+
+###### &nbsp;&nbsp;3.1、[hexo + github](./EnvSet/hexo/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*基于hexo和github搭建免费的静态页面个人博客*
+
