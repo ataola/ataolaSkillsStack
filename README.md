@@ -17,3 +17,9 @@
  
 &nbsp;&nbsp; &nbsp;&nbsp;*关于HTML文件规范，主要有HTML文件的模板注释,以及对其历史做简要介绍*
 
+#### 2、工具使用
+
+>这里是阿涛啦童鞋整理的工具使用配置和规范
+
+###### &nbsp;&nbsp;2.1、[VSCode](./ToolsUseage/VSCode/README.md)
+&nbsp;&nbsp; &nbsp;&nbsp;*关于工具VSCode的介绍，包含了C以及C++环境的配置、Python环境的配置、文件模板的配置、用户信息的配置等*

@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Program Files (x86)/Dev-Cpp/MinGW64/include",
+                "D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/i686-mingw32/4.4.5/include",
+                "D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/i686-mingw32/4.4.5/include/c++",
+                "D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/i686-mingw32/4.4.5/include/c++/backward",
+                "D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/i686-mingw32/4.4.5/include/c++/tr1",
+                "D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/i686-mingw32/4.4.5/include/c++/i686-mingw32"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:/Program Files (x86)/Dev-Cpp/MinGW64/bin/g++.exe",
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

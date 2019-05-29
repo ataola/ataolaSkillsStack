@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp"
+    },
+    "editor.fontFamily": "'Comic Sans MS', 'Courier New', monospace,\"华文行楷\"",
+    "editor.fontSize": 18,
+    "window.zoomLevel": 0.1,
+    "C_Cpp.default.cppStandard": "c++03",
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "smooth"
+}
