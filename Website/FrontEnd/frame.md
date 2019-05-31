@@ -5,13 +5,17 @@
 **jquery**
 
 [jquery官网](http://jquery.com/)
+
 [jquery插件库](https://www.jq22.com/)
+
 [jquery 中文网](https://www.jquery123.com/)
+
 [jquery mobie](http://jquerymobile.com/)
 
 **Jquery  EasyUI**
 
 [Jquery EasyUI中文网](http://www.jeasyui.net/)
+
 [Jquery EasyUI官网](http://www.jeasyui.com/)
 
 **layui**
@@ -21,6 +25,7 @@
 **Bootstrap**
 
 [bootstrap官网](https://getbootstrap.com/)
+
 [bootstrap中文网](http://www.bootcss.com/)
 
 **Element UI**
@@ -30,21 +35,29 @@
 **Vue.JS**
 
 [Vue.JS官网](https://vuejs.org/)
+
 [Vue.JS中文网](https://cn.vuejs.org/)
 
 **React**
 
 [React.js官网](https://reactjs.org/)
+
 [React.js中文文档](https://react.docschina.org/docs/react-api.html)
+
 [React China](http://react-china.org/)
+
 [React Native中文网](https://reactnative.cn/)
+
 [React Native官网](https://facebook.github.io/react-native/)
 
 **Angular**
 
 [angular.io](https://angular.io/)
+
 [angular.org](https://angularjs.org/)
+
 [angular.cn](https://www.angular.cn/)
+
 [angular中文网](https://www.angularjs.net.cn/)
 
 **uniapp**
@@ -62,7 +75,9 @@
 **echarts**
 
 [echarts](https://echarts.baidu.com/)
+
 [echars例子](https://echarts.baidu.com/echarts2/doc/example.html)
+
 [echarts库](https://gallery.echartsjs.com/explore.html#sort=rank~timeframe=all~author=all)
 
 **ionic**
