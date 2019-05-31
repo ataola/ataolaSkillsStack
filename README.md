@@ -24,6 +24,9 @@
 ###### &nbsp;&nbsp;2.1、[VSCode](./ToolsUseage/VSCode/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*关于工具VSCode的介绍，包含了C以及C++环境的配置、Python环境的配置、文件模板的配置、用户信息的配置等*
 
+###### &nbsp;&nbsp;2.2、[涛版颜色表（UI）](./ToolsUseage/ColorTable/README.md)
+&nbsp;&nbsp; &nbsp;&nbsp;*关于工作中视觉交互颜色的整理总结*
+
 #### 3、环境搭建
 
 >这里是阿涛啦童鞋整理的环境搭建笔记
