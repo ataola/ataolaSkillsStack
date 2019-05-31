@@ -45,6 +45,8 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;**[CSS](./Website/FrontEnd/CSS.md)**
 
+&nbsp;&nbsp; &nbsp;&nbsp;**[框架](./Website/FrontEnd/frame.md)**
+
 ###### &nbsp;&nbsp;4.2、后端
 
 &nbsp;&nbsp; &nbsp;&nbsp;*前端部分相关学习网站*
@@ -63,4 +65,8 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*综合部分相关学习网站*
 
-&nbsp;&nbsp; &nbsp;&nbsp;**[书籍网站](./Website/Comprehensive/books.md)**
+&nbsp;&nbsp; &nbsp;&nbsp;**[书籍文档](./Website/Comprehensive/books.md)**
+
+&nbsp;&nbsp; &nbsp;&nbsp;**[翻译](./Website/Comprehensive/translate.md)**
+
+&nbsp;&nbsp; &nbsp;&nbsp;**[博客论坛](./Website/Comprehensive/blogs.md)**
