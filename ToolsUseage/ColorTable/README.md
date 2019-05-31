@@ -103,12 +103,12 @@
 > 由白到灰  用于背景边框
 
 一楼 <span style="width:30px;height:10px;background-color:#F0F0F0;display:inline-block"></span>
-二楼 <span style="width:30px;height:10px;background-color:#f2f2f2;display:inline-block"></span>
-三楼 <span style="width:30px;height:10px;background-color:#eeeeee;display:inline-block"></span>
-四楼 <span style="width:30px;height:10px;background-color:#e2e2e2;display:inline-block"></span>
-五楼 <span style="width:30px;height:10px;background-color:#dddddd;display:inline-block"></span>
-六楼 <span style="width:30px;height:10px;background-color:#d2d2d2;display:inline-block"></span>
-七楼 <span style="width:30px;height:10px;background-color:#c2c2c2;display:inline-block"></span>
+二楼 <span style="width:30px;height:10px;background-color:#F2F2F2;display:inline-block"></span>
+三楼 <span style="width:30px;height:10px;background-color:#EEE;display:inline-block"></span>
+四楼 <span style="width:30px;height:10px;background-color:#E2E2E2;display:inline-block"></span>
+五楼 <span style="width:30px;height:10px;background-color:#DDD;display:inline-block"></span>
+六楼 <span style="width:30px;height:10px;background-color:#D2D2D2;display:inline-block"></span>
+七楼 <span style="width:30px;height:10px;background-color:#C2C2C2;display:inline-block"></span>
 
 #### 春花泛滥
 
@@ -122,7 +122,7 @@
 六楼 <span style="width:30px;height:10px;background-color:#E1E4F1;display:inline-block"></span>
 七楼 <span style="width:30px;height:10px;background-color:#F7F6FB;display:inline-block"></span>
 
-# CSS原生支持的颜色
+#### CSS原生支持的颜色
 
 > 这些只要打字母，不用写16进制或者RGB
 
@@ -286,4 +286,8 @@ orange <span style="width:30px;height:10px;background-color:orange;display:inlin
 网易绿 <span style="width:30px;height:10px;background-color:#46B3BA;display:inline-block"></span>
 
 网易沉 <span style="width:30px;height:10px;background-color:#C24767;display:inline-block"></span>
+
+**wtf??? 在VSCode中预览Markdown是正确的，是自己想要的结果，然后push到本地的gitblit也是友好的显示，没想到备份到github它不支持在markdown文件下使用html的span元素，也罢，上图片吧:expressionless:**
+
+![大众系](./imgs/2019-05-31_111609.png)
 
