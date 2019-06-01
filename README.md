@@ -39,6 +39,14 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*基于hexo和github搭建免费的静态页面个人博客*
 
+###### &nbsp;&nbsp;3.2、[express-html cli](./EnvSet/expressHTML/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*基于express html 模板的脚手架*
+
+###### &nbsp;&nbsp;3.2、[Node.JS](./EnvSet/nodeJS/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*基于express html 模板的脚手架*
+
 #### 4、网站整理
 
 >这里是阿涛啦童鞋整理的网站，当然有些的话一星保护，私人用就不放了。
