@@ -43,9 +43,9 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*基于express html 模板的脚手架*
 
-###### &nbsp;&nbsp;3.2、[Node.JS](./EnvSet/nodeJS/README.md)
+###### &nbsp;&nbsp;3.3、[Node.JS](./EnvSet/nodeJS/README.md)
 
-&nbsp;&nbsp; &nbsp;&nbsp;*基于express html 模板的脚手架*
+&nbsp;&nbsp; &nbsp;&nbsp;*Node.JS 介绍*
 
 #### 4、网站整理
 
