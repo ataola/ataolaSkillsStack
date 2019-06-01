@@ -1,6 +1,10 @@
 # ataolaSkillsStack
 阿涛啦的成长技术栈（开源部分）持续更新中 :rocket: :rocket: :rocket:
 
+<div align="center">
+<img src="./imgs/logo.jpg" width="200" height="200">
+</div>
+
 #### 1、文件规范
 
 >这里是阿涛啦童鞋整理的前端的一些文件规范以及常用配置
@@ -37,15 +41,15 @@
 
 #### 4、网站整理
 
->这里是阿涛啦童鞋整理的网站
+>这里是阿涛啦童鞋整理的网站，当然有些的话一星保护，私人用就不放了。
 
 ###### &nbsp;&nbsp;4.1、前端
 
 &nbsp;&nbsp; &nbsp;&nbsp;*前端部分相关学习网站*
 
-&nbsp;&nbsp; &nbsp;&nbsp;**[CSS](./Website/FrontEnd/CSS.md)**
+&nbsp;&nbsp; &nbsp;&nbsp;[CSS](./Website/FrontEnd/CSS.md)
 
-&nbsp;&nbsp; &nbsp;&nbsp;**[框架](./Website/FrontEnd/frame.md)**
+&nbsp;&nbsp; &nbsp;&nbsp;[框架](./Website/FrontEnd/frame.md)
 
 ###### &nbsp;&nbsp;4.2、后端
 
@@ -59,14 +63,21 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*运维部分相关学习网站*
 
-&nbsp;&nbsp; &nbsp;&nbsp;**[相关镜像站仓库](./Website/Operation/Repository.md)**
+&nbsp;&nbsp; &nbsp;&nbsp;[相关镜像站仓库](./Website/Operation/Repository.md)
 
 ###### &nbsp;&nbsp;4.5、综合部分
 
 &nbsp;&nbsp; &nbsp;&nbsp;*综合部分相关学习网站*
 
-&nbsp;&nbsp; &nbsp;&nbsp;**[书籍文档](./Website/Comprehensive/books.md)**
+&nbsp;&nbsp; &nbsp;&nbsp;[书籍文档](./Website/Comprehensive/books.md)
 
-&nbsp;&nbsp; &nbsp;&nbsp;**[翻译](./Website/Comprehensive/translate.md)**
+&nbsp;&nbsp; &nbsp;&nbsp;[翻译](./Website/Comprehensive/translate.md)
 
-&nbsp;&nbsp; &nbsp;&nbsp;**[博客论坛](./Website/Comprehensive/blogs.md)**
+&nbsp;&nbsp; &nbsp;&nbsp;[博客论坛](./Website/Comprehensive/blogs.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;[便捷工具箱](./Website/Comprehensive/tools.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;[看世界](./Website/Comprehensive/seeWorld.md)
+
+
+
