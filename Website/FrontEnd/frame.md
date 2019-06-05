@@ -50,6 +50,7 @@
 
 [React Native官网](https://facebook.github.io/react-native/)
 
+
 **Angular**
 
 [angular.io](https://angular.io/)
@@ -124,3 +125,21 @@
 #### 一种趋势
 
 [awesomes](https://www.awesomes.cn/)
+
+**代码检查**
+
+[eslint](https://eslint.cn/)
+
+**测试相关**
+
+[assert断言](http://nodejs.cn/api/assert.html)
+
+[chai断言](https://www.chaijs.com/)
+
+[mocha](https://mochajs.org/)
+
+[测试覆盖率](https://github.com/gotwarlost/istanbul)
+
+[持续集成](https://travis-ci.org/)
+
+

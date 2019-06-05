@@ -144,3 +144,17 @@ http://mirror.lzu.edu.cn/
 http://mirrors.ustc.edu.cn/
 
 ```
+
+#### 工具下载
+
+```
+#gitlab
+https://about.gitlab.com/downloads/
+
+#jenkins
+http://mirrors.jenkins-ci.org/war/latest/jenkins.war
+java -jar jenkins.war  || nohup java -jar jenkins.war &
+
+```
+
+

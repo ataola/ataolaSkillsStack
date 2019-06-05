@@ -31,6 +31,9 @@
 ###### &nbsp;&nbsp;2.2、[涛版颜色表（UI）](./ToolsUseage/ColorTable/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*关于工作中视觉交互颜色的整理总结*
 
+###### &nbsp;&nbsp;2.3、[MySQL](./ToolsUseage/Mysql/README.md)
+&nbsp;&nbsp; &nbsp;&nbsp;*关于Mysql的一些问题*
+
 #### 3、环境搭建
 
 >这里是阿涛啦童鞋整理的环境搭建笔记
@@ -39,13 +42,9 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*基于hexo和github搭建免费的静态页面个人博客*
 
-###### &nbsp;&nbsp;3.2、[express-html cli](./EnvSet/expressHTML/README.md)
+###### &nbsp;&nbsp;3.1、[hexo + github](./EnvSet/nginx/README.md)
 
-&nbsp;&nbsp; &nbsp;&nbsp;*基于express html 模板的脚手架*
-
-###### &nbsp;&nbsp;3.3、[Node.JS](./EnvSet/nodeJS/README.md)
-
-&nbsp;&nbsp; &nbsp;&nbsp;*Node.JS 介绍*
+&nbsp;&nbsp; &nbsp;&nbsp;*nginx的编译安装配置*
 
 #### 4、网站整理
 
@@ -61,11 +60,13 @@
 
 ###### &nbsp;&nbsp;4.2、后端
 
-&nbsp;&nbsp; &nbsp;&nbsp;*前端部分相关学习网站*
+&nbsp;&nbsp; &nbsp;&nbsp;*后端部分相关学习网站*
+
+&nbsp;&nbsp; &nbsp;&nbsp;**[Node.JS](./Website/BackEnd/nodejs.md)**
 
 ###### &nbsp;&nbsp;4.3、数据库
 
-&nbsp;&nbsp; &nbsp;&nbsp;*前端部分相关学习网站*
+&nbsp;&nbsp; &nbsp;&nbsp;*数据库部分相关学习网站*
 
 ###### &nbsp;&nbsp;4.4、运维
 
