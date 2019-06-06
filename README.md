@@ -34,6 +34,12 @@
 ###### &nbsp;&nbsp;2.3、[MySQL](./ToolsUseage/Mysql/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*关于Mysql的一些问题*
 
+###### &nbsp;&nbsp;2.4、[Jmeter](./ToolsUseage/Jmeter/README.md)
+&nbsp;&nbsp; &nbsp;&nbsp;*做测试用的 点点点工具*
+
+###### &nbsp;&nbsp;2.5、[Excel](./ToolsUseage/Excel/README.md)
+&nbsp;&nbsp; &nbsp;&nbsp;*以具体的示例来重学Excel，这样记得会深刻一点，愿景是在有一定编码能力的基础上，提高图表数据处理能力。*
+
 #### 3、环境搭建
 
 >这里是阿涛啦童鞋整理的环境搭建笔记
