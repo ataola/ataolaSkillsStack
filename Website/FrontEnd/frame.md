@@ -142,4 +142,6 @@
 
 [持续集成](https://travis-ci.org/)
 
+[Jest](https://jestjs.io/zh-Hans/)
+
 

@@ -42,9 +42,13 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*基于hexo和github搭建免费的静态页面个人博客*
 
-###### &nbsp;&nbsp;3.1、[nginx](./EnvSet/nginx/README.md)
+###### &nbsp;&nbsp;3.2、[nginx](./EnvSet/nginx/README.md)
 
 &nbsp;&nbsp; &nbsp;&nbsp;*nginx的编译安装配置*
+
+###### &nbsp;&nbsp;3.3、[测试环境之Jest](./EnvSet/jest/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*基于jest的测试环境脚手架*
 
 #### 4、网站整理
 
