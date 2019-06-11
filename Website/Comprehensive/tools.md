@@ -38,6 +38,33 @@
 
 [微信公众号格式化编辑器](https://lab.lyric.im/wxformat/)
 
+[gif制作](https://www.soogif.com/compress)
+
+[斗图网](http://www.adoutu.com/index)
+
+[Julian Glander](https://glander.co/)
+
+[scorpiondagger](https://giphy.com/scorpiondagger)
+
 #### 科学上网
 
 [zjcqoo](https://zjcqoo.github.io)
+
+#### 图片素材
+
+[pixabay](https://pixabay.com/)
+
+[unsplash](https://unsplash.com/)
+
+[摄图网](http://699pic.com/)
+
+[花瓣网](https://huaban.com/)
+
+[gratisography](http://gratisography.com/)
+
+[foodiesfeed](https://www.foodiesfeed.com/)
+
+[阿里巴巴矢量素材库](https://www.iconfont.cn/)
+
+[iconmonstr](https://iconmonstr.com/)
+
