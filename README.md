@@ -21,6 +21,10 @@
  
 &nbsp;&nbsp; &nbsp;&nbsp;*关于HTML文件规范，主要有HTML文件的模板注释,以及对其历史做简要介绍*
 
+###### &nbsp;&nbsp;1.4、[代码检查](./FileSpecification/code/README.md)
+ 
+&nbsp;&nbsp; &nbsp;&nbsp;*基于npm的代码检查工作流*
+
 #### 2、工具使用
 
 >这里是阿涛啦童鞋整理的工具使用配置和规范
@@ -39,6 +43,12 @@
 
 ###### &nbsp;&nbsp;2.5、[Excel](./ToolsUseage/Excel/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*以具体的示例来重学Excel，这样记得会深刻一点，愿景是在有一定编码能力的基础上，提高图表数据处理能力。*
+
+###### &nbsp;&nbsp;2.6、[npm script](./ToolsUseage/npm/README.md)
+&nbsp;&nbsp; &nbsp;&nbsp;*npm script的学习*
+
+###### &nbsp;&nbsp;2.7、[webpack](./ToolsUseage/webpack/README.md)
+&nbsp;&nbsp; &nbsp;&nbsp;*webpack的学习*
 
 #### 3、环境搭建
 

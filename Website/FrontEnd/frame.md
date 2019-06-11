@@ -136,6 +136,8 @@
 
 [chai断言](https://www.chaijs.com/)
 
+[sinon](https://sinonjs.org)
+
 [mocha](https://mochajs.org/)
 
 [测试覆盖率](https://github.com/gotwarlost/istanbul)

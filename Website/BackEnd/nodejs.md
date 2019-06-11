@@ -23,3 +23,14 @@ https://github.com/eggjs/egg
 https://eggjs.org/
 
 ```
+&nbsp;&nbsp;**查看包：**
+```
+https://www.npmjs.com
+https://libraries.io/
+```
+
+&nbsp;&nbsp;**覆盖率：**
+```
+nyc https://github.com/istanbuljs/nyc
+istanbul https://istanbul.js.org
+```
