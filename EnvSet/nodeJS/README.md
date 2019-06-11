@@ -2,6 +2,33 @@
 
 >mac和win都差不多下载安装包然后一路next，win上介意的话改成非系统盘，linux非编译安装也简单的在CentOS下 yum install nodejs、在ubuntu下 apt-get install nodejs。如果是做测试的话，用nvm来管理node和npm的版本。
 
+&nbsp;&nbsp;**环境安装搭建**
+```
+#编译安装
+yum -y install gcc make gcc-c++ openssl-devel wget git
+wget https://nodejs.org/dist/v0.12.7/node-v0.12.7.tar.gz
+tar -zxvf node-v0.12.7.tar.gz
+cd node-v0.12.7
+./configure
+make && make install
+
+#安装nvm(https://github.com/creationix/nvm)
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+安装nodejs (安装你喜欢的版本)
+nvm install 0.12.7
+该命令可见已安装所有版本
+nvm ls
+切换到指定的版本
+nvm use 0.12.7
+
+#yum	
+yum -y install nodejs npm --enablerepo=epel
+
+#docker	
+FROM readytalk/nodejs
+
+```
+
 &nbsp;&nbsp;**npm切换国内镜像**
 
 ```
@@ -28,6 +55,15 @@ npm i xxx -g
 #开发环境安装模块
 npm i xxx --save-dev
 
+```
+
+&nbsp;&nbsp;**yarn换源**
+
+```
+#查看当前源
+yarn config get registry
+#设置淘宝镜像
+yarn config set registry https://registry.npm.taobao.org
 ```
 
 &nbsp;&nbsp;**npm常用模块**

@@ -1,5 +1,38 @@
 ## Mysql
 
+&nbsp;&nbsp;**Mysql配置文件阉割版**
+```
+# ./mysql/my.cnf
+
+[mysqld_safe]
+pid-file = /var/run/mysqld/mysqld.pid
+socket   = /var/run/mysqld/mysqld.sock
+nice     = 0
+
+[mysqld]
+skip-host-cache
+skip-name-resolve
+explicit_defaults_for_timestamp
+
+bind-address = 0.0.0.0
+port         = 3306
+
+user      = mysql
+pid-file  = /var/run/mysqld/mysqld.pid
+socket    = /var/run/mysqld/mysqld.sock
+log-error = /var/log/mysql/error.log
+basedir   = /usr
+datadir   = /var/lib/mysql
+tmpdir    = /tmp
+sql_mode  = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+
+lc-messages-dir = /usr/share/mysql
+
+symbolic-links = 0
+
+#参考地址： https://dev.mysql.com/doc/refman/5.7/en/server-options.html
+```
+
 &nbsp;&nbsp;**Mysql8.0的caching_sha2_password问题：**
 
 *大致是客户端正常连接不上，例如用navicat去连接会报一个2059的错误*

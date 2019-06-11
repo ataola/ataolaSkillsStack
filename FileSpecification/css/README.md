@@ -47,3 +47,34 @@ a:hover {
 
 * 代码简短精悍
 * 适合初学者研究
+
+
+**&nbsp;&nbsp;媒体查询:**
+
+```
+/* media */
+/* 横屏 */
+@media screen and (orientation:landscape){
+}
+/* 竖屏 */
+@media screen and (orientation:portrait){
+}
+/* 窗口宽度<960,设计宽度=768 */
+@media screen and (max-width:959px){
+}
+/* 窗口宽度<768,设计宽度=640 */
+@media screen and (max-width:767px){
+}
+/* 窗口宽度<640,设计宽度=480 */
+@media screen and (max-width:639px){
+}
+/* 窗口宽度<480,设计宽度=320 */
+@media screen and (max-width:479px){
+}
+/* windows UI 贴靠 */
+@media screen and (-ms-view-state:snapped){
+}
+/* 打印 */
+@media print{
+}
+```
