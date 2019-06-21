@@ -50,6 +50,21 @@
 ###### &nbsp;&nbsp;2.7、[webpack](./ToolsUseage/webpack/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*webpack的学习*
 
+###### &nbsp;&nbsp;2.8、[Git](./ToolsUseage/git/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*Git的学习*
+
+###### &nbsp;&nbsp;2.9、[计算机硬件](./ToolsUseage/computer/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*计算机的一些组装配置学习*
+
+###### &nbsp;&nbsp;2.10、[Jetbrain](./ToolsUseage/jetbrain/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*Jetbrains学习*
+
+我大学整理的window下一些用起来很舒服的软件，具体看楼下这图：
+![bug10](./imgs/bug10.png)
+
 #### 3、环境搭建
 
 >这里是阿涛啦童鞋整理的环境搭建笔记
@@ -70,9 +85,14 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*Docker的学习*
 
-###### &nbsp;&nbsp;3.5、[JDK](./EnvSet/jdk/README.md)
+###### &nbsp;&nbsp;3.5、[JDK](./EnvSet/Jdk/README.md)
 
 &nbsp;&nbsp; &nbsp;&nbsp;*JDK的学习*
+
+###### &nbsp;&nbsp;3.6、[centos](./EnvSet/centos/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*centos的学习*
+
 
 #### 4、网站整理
 
@@ -116,5 +136,22 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;[看世界](./Website/Comprehensive/seeWorld.md)
 
+#### 5、代码家
+
+>工作中用到或者看到的代码片段，下次看到要是忘了就看下自己的仓库巩固下，要是熟悉的话直接贴，把时间留给快乐不是蛮好的吗？
+
+###### &nbsp;&nbsp;5.1、[前端](./code/fe/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*前端部分的一些酷毙了的代码*
 
 
+
+#### 杂记
+
+```
+搞持续交付 = 版本控制系统(gitlab、 gitblit、github、gitee) + 持续集成工具(Jenkins) + 部署工具(Ansible、 SaltStack、 Chef) + 交付
+
+代码规范要稳：代码不规范，维护两行泪
+
+
+```
