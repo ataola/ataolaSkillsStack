@@ -34,3 +34,18 @@ java version "1.8.0_181"
 Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
 ```
+
+&nbsp;&nbsp;**OpenJDK的安装:**
+```
+yum search java | grep open 或者 yum -y list java*
+yum install -y java-1.8.0-openjdk*
+java -version
+```
+
+
+&nbsp;&nbsp;**运行一个jar包:**
+```
+java -jar ataola-server.jar
+nohup java -jar -Dserver.port=8090 ataola-server.jar > /dev/null 2>&1 &
+
+```

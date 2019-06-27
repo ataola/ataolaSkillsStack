@@ -1,0 +1,172 @@
+
+2019-05-09 10:00:01 Commons Daemon procrun stdout initialized
+2019-05-09 10:00:04 [INFO ] 
+  _____  _  _    _      _  _  _
+ |  __ \(_)| |  | |    | |(_)| |
+ | |  \/ _ | |_ | |__  | | _ | |_
+ | | __ | || __|| '_ \ | || || __|  http://gitblit.com
+ | |_\ \| || |_ | |_) || || || |_   @gitblit
+  \____/|_| \__||_.__/ |_||_| \__|  1.8.0
+
+2019-05-09 10:00:04 [INFO ] Running on Windows 10 (10.0)
+2019-05-09 10:00:04 [INFO ] Logging initialized @2221ms
+2019-05-09 10:00:05 [INFO ] Using JCE Standard Encryption Policy files, encryption key lengths will be limited
+2019-05-09 10:00:05 [INFO ] Setting up HTTPS transport on port 8443
+2019-05-09 10:00:05 [INFO ]    certificate alias = localhost
+2019-05-09 10:00:05 [INFO ]    keyStorePath   = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverKeyStore.jks
+2019-05-09 10:00:05 [INFO ]    trustStorePath = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverTrustStore.jks
+2019-05-09 10:00:05 [INFO ]    crlPath        = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\certs\caRevocationList.crl
+2019-05-09 10:00:05 [INFO ] Setting up HTTP transport on port 8090
+2019-05-09 10:00:05 [INFO ] Shutdown Monitor listening on port 8081
+2019-05-09 10:00:05 [INFO ] jetty-9.2.13.v20150730
+2019-05-09 10:00:05 [INFO ] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.IRuntimeManager]----
+2019-05-09 10:00:06 [INFO ] Basefolder  : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data
+2019-05-09 10:00:06 [INFO ] Settings    : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\gitblit.properties
+2019-05-09 10:00:06 [INFO ] JVM timezone: Asia/Shanghai (CST +0800)
+2019-05-09 10:00:06 [INFO ] App timezone: Asia/Shanghai (CST +0800)
+2019-05-09 10:00:06 [INFO ] JVM locale  : zh_CN
+2019-05-09 10:00:06 [INFO ] App locale  : <client>
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.INotificationManager]----
+2019-05-09 10:00:06 [WARN ] Mail service disabled.
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.IUserManager]----
+2019-05-09 10:00:06 [INFO ] ConfigUserService(D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\users.conf)
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.IAuthenticationManager]----
+2019-05-09 10:00:06 [INFO ] External authentication disabled.
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.transport.ssh.IPublicKeyManager]----
+2019-05-09 10:00:06 [INFO ] FileKeyManager (D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\ssh)
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.IRepositoryManager]----
+2019-05-09 10:00:06 [INFO ] Repositories folder : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository
+2019-05-09 10:00:06 [INFO ] Identifying repositories...
+2019-05-09 10:00:06 [INFO ] 0 repositories identified with calculated folder sizes in 20 msecs
+2019-05-09 10:00:06 [INFO ] Lucene will process indexed branches every 2 minutes.
+2019-05-09 10:00:06 [INFO ] Garbage Collector (GC) is disabled.
+2019-05-09 10:00:06 [INFO ] Mirror service is disabled.
+2019-05-09 10:00:06 [INFO ] Alias 'UTF8', UTF-9 & UTF-18 encodings as UTF-8 in JGit
+2019-05-09 10:00:06 [INFO ] Preparing 14 day commit cache. please wait...
+2019-05-09 10:00:06 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:00:06 [INFO ] built 14 day commit cache of 0 commits across 0 repositories in 1 msecs
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.IProjectManager]----
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.IFederationManager]----
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.tickets.ITicketService]----
+2019-05-09 10:00:06 [INFO ] NullTicketService started
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.IGitblit]----
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.IServicesManager]----
+2019-05-09 10:00:06 [INFO ] Federation passphrase is blank! This server can not be PULLED from.
+2019-05-09 10:00:06 [INFO ] Fanout PubSub service is disabled.
+2019-05-09 10:00:06 [INFO ] Git Daemon is listening on 0.0.0.0:9418
+2019-05-09 10:00:06 [INFO ] SSH Daemon (NIO2) is listening on 0.0.0.0:29418
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.IFilestoreManager]----
+2019-05-09 10:00:06 [INFO ] No filestore metadata file found
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] ----[com.gitblit.manager.IPluginManager]----
+2019-05-09 10:00:06 [INFO ] PF4J version 1.8.0 in 'deployment' mode
+2019-05-09 10:00:06 [INFO ] Enabled plugins: []
+2019-05-09 10:00:06 [INFO ] Disabled plugins: []
+2019-05-09 10:00:06 [INFO ] No plugins
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:06 [INFO ] All managers started.
+2019-05-09 10:00:06 [INFO ] 
+2019-05-09 10:00:07 [INFO ] [GitBlitWebApp] init: Wicket core library initializer
+2019-05-09 10:00:07 [INFO ] [GitBlitWebApp] init: Wicket extensions initializer
+2019-05-09 10:00:07 [INFO ] [GitBlitWebApp] Started Wicket version 1.4.22 in deployment mode
+2019-05-09 10:00:07 [INFO ] Started o.e.j.w.WebAppContext@16872c4d{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,AVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}
+2019-05-09 10:00:07 [INFO ] Started ServerConnector@2903c6ff{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-05-09 10:00:07 [INFO ] Started ServerConnector@61af1510{HTTP/1.1}{0.0.0.0:8090}
+2019-05-09 10:00:07 [INFO ] Started @5278ms
+2019-05-09 10:01:06 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:01:43 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp_zh_CN.properties
+2019-05-09 10:01:43 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp.properties
+2019-05-09 10:01:43 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application_zh_CN.properties
+2019-05-09 10:01:43 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application.properties
+2019-05-09 10:01:43 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-09 10:01:43 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-09 10:01:43 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-09 10:01:43 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-09 10:02:24 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:02:24 [INFO ] 0 repository models loaded for anonymous in 0 msecs
+2019-05-09 10:02:24 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:02:24 [INFO ] 0 repository models loaded for anonymous in 0 msecs
+2019-05-09 10:02:32 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:02:32 [INFO ] 0 repository models loaded for ataola in 0 msecs
+2019-05-09 10:02:32 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:02:32 [INFO ] 0 repository models loaded for ataola in 0 msecs
+2019-05-09 10:02:36 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:02:36 [INFO ] 0 repository models loaded for ataola in 0 msecs
+2019-05-09 10:03:06 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:05:06 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:05:32 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/new/gitblt-favicon.png', mountpath: 'new', urlPath: 'gitblt-favicon.png', expected 0 parameters was 1
+2019-05-09 10:05:32 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:05:32 [INFO ] 0 repository models loaded for ataola in 0 msecs
+2019-05-09 10:06:07 [INFO ] create repository wisdomCoures.git
+2019-05-09 10:07:43 [INFO ] 1 repository models loaded for ataola in 0 msecs
+2019-05-09 10:07:49 [INFO ] 1 repository models loaded for ataola in 0 msecs
+2019-05-09 10:11:45 [INFO ] 1 repository models loaded for ataola in 0 msecs
+2019-05-09 10:11:48 [INFO ] 1 repository models loaded for ataola in 0 msecs
+2019-05-09 10:11:56 [INFO ] 1 repository models loaded for ataola in 10 msecs
+2019-05-09 10:12:02 [INFO ] 1 repository models loaded for ataola in 0 msecs
+2019-05-09 10:12:05 [INFO ] 1 repository models loaded for ataola in 10 msecs
+2019-05-09 10:12:11 [INFO ] 1 repository models loaded for ataola in 0 msecs
+2019-05-09 10:12:20 [INFO ] 1 repository models loaded for ataola in 0 msecs
+2019-05-09 10:12:29 [INFO ] wisdomCoures.git commit cache cleared
+2019-05-09 10:12:29 [INFO ] Repository "wisdomCoures.git" deleted
+2019-05-09 10:12:29 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:12:29 [INFO ] 0 repository models loaded for ataola in 0 msecs
+2019-05-09 10:12:29 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:12:29 [INFO ] 0 repository models loaded for ataola in 0 msecs
+2019-05-09 10:12:45 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:12:45 [INFO ] 0 repository models loaded for ataola in 0 msecs
+2019-05-09 10:13:06 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-09 10:13:30 [INFO ] create repository wisdomCourse.git
+2019-05-09 11:18:22 [INFO ] 1 repository models loaded for anonymous in 0 msecs
+2019-05-09 11:18:26 [INFO ] ARF: authenticated ataola to wisdomCourse.git/info/refs?service=git-receive-pack (100)
+2019-05-09 11:18:27 [INFO ] ARF: authenticated ataola to wisdomCourse.git/git-receive-pack (100)
+2019-05-09 11:18:27 [INFO ] ARF: authenticated ataola to wisdomCourse.git/git-receive-pack (100)
+2019-05-09 11:18:28 [INFO ] ataola UPDATED refs/heads/master in wisdomCourse.git (from 6773d87233a5512035842dcfb363ddcffd71b189 to 4cbafab4eac81a15931e6cd18f6d74034ac6a3d6)
+2019-05-09 11:18:48 [INFO ] 1 repository models loaded for ataola in 0 msecs
+2019-05-09 11:18:48 [INFO ] incrementally added 1 commits to cache for wisdomCourse.git:refs/heads/master in 2 msecs
+2019-05-09 11:19:06 [INFO ] 1 repository models loaded for ataola in 0 msecs
+2019-05-09 13:05:12 [INFO ] 1 repository models loaded for admin in 2 msecs
+2019-05-09 13:05:25 [INFO ] 1 repository models loaded for admin in 2 msecs
+2019-05-10 12:59:37 [INFO ] 1 repository models loaded for admin in 5 msecs
+2019-05-10 12:59:50 [INFO ] 1 repository models loaded for anonymous in 2 msecs
+2019-05-10 12:59:56 [INFO ] 1 repository models loaded for ataola in 2 msecs
+2019-05-10 13:00:00 [INFO ] 1 repository models loaded for ataola in 2 msecs
+2019-05-10 13:00:02 [INFO ] 1 repository models loaded for ataola in 2 msecs
+2019-05-10 13:00:52 [INFO ] create repository pat.git
+2019-05-10 13:14:26 [INFO ] 2 repository models loaded for ataola in 3 msecs
+2019-05-10 13:14:27 [INFO ] 2 repository models loaded for ataola in 3 msecs
+2019-05-10 13:16:25 [INFO ] ARF: authenticated ataola to pat.git/info/refs?service=git-receive-pack (100)
+2019-05-10 13:16:25 [INFO ] ARF: authenticated ataola to pat.git/git-receive-pack (100)
+2019-05-10 13:16:25 [INFO ] ataola UPDATED refs/heads/master in pat.git (from a7d1dbfa6157586a274bd30089dd31d3eca06da5 to b49148ecc335d11c2476aa2faf4658df541b8742)
+2019-05-10 13:16:40 [INFO ] 2 repository models loaded for ataola in 4 msecs
+2019-05-10 13:16:40 [INFO ] incrementally added 1 commits to cache for pat.git:refs/heads/master in 1 msecs
+2019-05-10 13:17:15 [INFO ] 2 repository models loaded for ataola in 3 msecs
+2019-05-10 13:17:16 [INFO ] 2 repository models loaded for ataola in 3 msecs
+2019-05-10 13:17:17 [INFO ] 2 repository models loaded for ataola in 2 msecs
+2019-05-10 13:17:25 [INFO ] 2 repository models loaded for ataola in 3 msecs
+2019-05-10 13:17:26 [INFO ] 2 repository models loaded for ataola in 3 msecs
+2019-05-10 13:25:11 [INFO ] 2 repository models loaded for anonymous in 10 msecs
+Sending Shutdown Request to Gitblit
+2019-05-13 15:56:55 [INFO ] *****************************************************************
+2019-05-13 15:56:55 [INFO ] Stopping Gitblit
+2019-05-13 15:56:55 [INFO ] *****************************************************************
+2019-05-13 15:56:55 [INFO ] Stopped ServerConnector@2903c6ff{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-05-13 15:56:55 [INFO ] Stopped ServerConnector@61af1510{HTTP/1.1}{0.0.0.0:8090}
+2019-05-13 15:56:55 [INFO ] Gitblit context destroyed by servlet container.
+2019-05-13 15:56:56 [INFO ] Git Daemon stopping...
+2019-05-13 15:56:56 [INFO ] Git Daemon stopped.
+2019-05-13 15:56:56 [INFO ] SSH Daemon stopping...
+2019-05-13 15:56:56 [INFO ] Stopped o.e.j.w.WebAppContext@16872c4d{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,UNAVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}

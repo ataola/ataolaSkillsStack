@@ -25,6 +25,10 @@
  
 &nbsp;&nbsp; &nbsp;&nbsp;*基于npm的代码检查工作流*
 
+###### &nbsp;&nbsp;1.5、[SQL脚本](./ToolsUseage/Mysql/template.sql)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*SQL规范脚本*
+
 #### 2、工具使用
 
 >这里是阿涛啦童鞋整理的工具使用配置和规范
@@ -50,7 +54,7 @@
 ###### &nbsp;&nbsp;2.7、[webpack](./ToolsUseage/webpack/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*webpack的学习*
 
-###### &nbsp;&nbsp;2.8、[Git](./ToolsUseage/git/README.md)
+###### &nbsp;&nbsp;2.8、[Git+Gitlab+Jenkins+ansible](./ToolsUseage/git/README.md)
 
 &nbsp;&nbsp; &nbsp;&nbsp;*Git的学习*
 
@@ -61,6 +65,10 @@
 ###### &nbsp;&nbsp;2.10、[Jetbrain](./ToolsUseage/jetbrain/README.md)
 
 &nbsp;&nbsp; &nbsp;&nbsp;*Jetbrains学习*
+
+###### &nbsp;&nbsp;2.11、[Maven](./ToolsUseage/Maven/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*Maven学习*
 
 我大学整理的window下一些用起来很舒服的软件，具体看楼下这图：
 ![bug10](./imgs/bug10.png)
@@ -92,6 +100,14 @@
 ###### &nbsp;&nbsp;3.6、[centos](./EnvSet/centos/README.md)
 
 &nbsp;&nbsp; &nbsp;&nbsp;*centos的学习*
+
+###### &nbsp;&nbsp;3.7、[Node.JS](./EnvSet/Node.JS/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*Node.JS的学习*
+
+###### &nbsp;&nbsp;3.8、[Python](./EnvSet/Python/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*Python的学习*
 
 
 #### 4、网站整理
@@ -149,6 +165,7 @@
 >对于一些问题的思考总结
 
 [2019-06-25-成熟的Web平台](./note/20190625.txt)
+[2019-06-27-谈谈Web兼容](./note/20190627.txt)
 
 #### 7、前端三驾马车
 
@@ -163,5 +180,10 @@
 搞持续交付 = 版本控制系统(gitlab、 gitblit、github、gitee) + 持续集成工具(Jenkins) + 部署工具(Ansible、 SaltStack、 Chef) + 交付
 
 代码规范要稳：代码不规范，维护两行泪
+
+编程就是你一段时间不去碰，下次再见到它可能就需要一定时间去熟悉(这还是最好的情况)，特别
+是运维这块，做开发不太会去天天打交道，除非你哪天服务器驾崩了或者遇到啥错误对吧。那么，为何不养成一个好习惯，我们在起初就记录我们碰到的问题以及一些思考，下次即使遇见也会轻松很多。             
+        ......2019.06.27，于杭州滨江有感
+
 
 ```

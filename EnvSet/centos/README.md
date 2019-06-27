@@ -21,6 +21,32 @@ journalctl -xe
 查看服务对应端口：netstat -nlp
 树形查看： pstree
 
+#查看磁盘大小
+$df
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/dev/vda1       41151808 23906284  15132092  62% /
+devtmpfs          930492        0    930492   0% /dev
+tmpfs             941116       12    941104   1% /dev/shm
+tmpfs             941116     1836    939280   1% /run
+tmpfs             941116        0    941116   0% /sys/fs/cgroup
+tmpfs             188224        0    188224   0% /run/user/0
+
+#权限管理
+一个例子 给ataola用户组的deploy用户在/opt/app下可读权限， 给/opt/app下的文件用户组和用户可读写执行权限
+chown -R deploy:ataola /opt/app
+chmod 770 /opt/app
+
+#添加用户
+useradd deploy
+
+#用户登录
+su - deploy 
+
+#创建密钥
+ssh-keygen -t rsa
+
+
+
 #问题汇总
 
 Q1： 我的阿里学生机只有2G内存，跑起来有点卡，怎么让它不太卡？
@@ -102,5 +128,6 @@ systemctl enable sendmail
 ```
 Q1: 虚拟内存多大为好？
 
+Q2：邮件是不是可以伪造？
 
 ```

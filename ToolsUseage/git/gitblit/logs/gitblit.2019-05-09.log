@@ -1,0 +1,9 @@
+[2019-05-09 10:00:01] [info]  Commons Daemon procrun (1.0.10.0 64-bit) started
+[2019-05-09 10:00:01] [info]  Running 'gitblit' Service...
+[2019-05-09 10:00:01] [info]  Starting service...
+[2019-05-09 10:00:03] [info]  Service started in 1953 ms.
+[2019-05-13 15:56:55] [info]  Console SHUTDOWN event signaled
+[2019-05-13 15:56:55] [info]  Stopping service...
+[2019-05-13 15:56:56] [info]  Service stopped.
+[2019-05-13 15:56:56] [info]  Run service finished.
+[2019-05-13 15:56:56] [info]  Commons Daemon procrun finished

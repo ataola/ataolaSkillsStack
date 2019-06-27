@@ -1,0 +1,802 @@
+
+2019-05-31 10:45:03 Commons Daemon procrun stdout initialized
+2019-05-31 10:45:05 [INFO ] 
+  _____  _  _    _      _  _  _
+ |  __ \(_)| |  | |    | |(_)| |
+ | |  \/ _ | |_ | |__  | | _ | |_
+ | | __ | || __|| '_ \ | || || __|  http://gitblit.com
+ | |_\ \| || |_ | |_) || || || |_   @gitblit
+  \____/|_| \__||_.__/ |_||_| \__|  1.8.0
+
+2019-05-31 10:45:05 [INFO ] Running on Windows 10 (10.0)
+2019-05-31 10:45:06 [INFO ] Logging initialized @1963ms
+2019-05-31 10:45:06 [INFO ] Using JCE Standard Encryption Policy files, encryption key lengths will be limited
+2019-05-31 10:45:06 [INFO ] Setting up HTTPS transport on port 8443
+2019-05-31 10:45:06 [INFO ]    certificate alias = localhost
+2019-05-31 10:45:06 [INFO ]    keyStorePath   = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverKeyStore.jks
+2019-05-31 10:45:06 [INFO ]    trustStorePath = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverTrustStore.jks
+2019-05-31 10:45:06 [INFO ]    crlPath        = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\certs\caRevocationList.crl
+2019-05-31 10:45:06 [INFO ] Setting up HTTP transport on port 8090
+2019-05-31 10:45:07 [INFO ] Shutdown Monitor listening on port 8081
+2019-05-31 10:45:07 [INFO ] jetty-9.2.13.v20150730
+2019-05-31 10:45:08 [INFO ] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2019-05-31 10:45:09 [INFO ] 
+2019-05-31 10:45:09 [INFO ] ----[com.gitblit.manager.IRuntimeManager]----
+2019-05-31 10:45:09 [INFO ] Basefolder  : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data
+2019-05-31 10:45:09 [INFO ] Settings    : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\gitblit.properties
+2019-05-31 10:45:09 [INFO ] JVM timezone: Asia/Shanghai (CST +0800)
+2019-05-31 10:45:09 [INFO ] App timezone: Asia/Shanghai (CST +0800)
+2019-05-31 10:45:09 [INFO ] JVM locale  : zh_CN
+2019-05-31 10:45:09 [INFO ] App locale  : <client>
+2019-05-31 10:45:09 [INFO ] 
+2019-05-31 10:45:09 [INFO ] ----[com.gitblit.manager.INotificationManager]----
+2019-05-31 10:45:09 [WARN ] Mail service disabled.
+2019-05-31 10:45:09 [INFO ] 
+2019-05-31 10:45:09 [INFO ] ----[com.gitblit.manager.IUserManager]----
+2019-05-31 10:45:09 [INFO ] ConfigUserService(D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\users.conf)
+2019-05-31 10:45:09 [INFO ] 
+2019-05-31 10:45:09 [INFO ] ----[com.gitblit.manager.IAuthenticationManager]----
+2019-05-31 10:45:09 [INFO ] External authentication disabled.
+2019-05-31 10:45:09 [INFO ] 
+2019-05-31 10:45:09 [INFO ] ----[com.gitblit.transport.ssh.IPublicKeyManager]----
+2019-05-31 10:45:09 [INFO ] FileKeyManager (D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\ssh)
+2019-05-31 10:45:09 [INFO ] 
+2019-05-31 10:45:09 [INFO ] ----[com.gitblit.manager.IRepositoryManager]----
+2019-05-31 10:45:09 [INFO ] Repositories folder : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository
+2019-05-31 10:45:09 [INFO ] Identifying repositories...
+2019-05-31 10:45:39 [INFO ] 7 repositories identified with calculated folder sizes in 30,032 msecs
+2019-05-31 10:45:39 [INFO ] Lucene will process indexed branches every 2 minutes.
+2019-05-31 10:45:39 [INFO ] Garbage Collector (GC) is disabled.
+2019-05-31 10:45:39 [INFO ] Mirror service is disabled.
+2019-05-31 10:45:39 [INFO ] Alias 'UTF8', UTF-9 & UTF-18 encodings as UTF-8 in JGit
+2019-05-31 10:45:39 [INFO ] Preparing 14 day commit cache. please wait...
+2019-05-31 10:45:39 [INFO ]   cached 11 commits for ataola-layout.git:refs/heads/master
+2019-05-31 10:45:39 [INFO ]   cached 8 commits for ataolaSkillsStack.git:refs/heads/master
+2019-05-31 10:45:39 [INFO ]   cached 1 commits for domStudy.git:refs/heads/master
+2019-05-31 10:45:39 [INFO ]   cached 2 commits for FE-ComponentLibrary.git:refs/heads/master
+2019-05-31 10:45:39 [INFO ]   cached 5 commits for wisdomCourse.git:refs/heads/master
+2019-05-31 10:45:39 [INFO ]   cached 1 commits for ~ataola/domStudy.git:refs/heads/master
+2019-05-31 10:45:39 [INFO ] built 14 day commit cache of 28 commits across 6 repositories in 412 msecs
+2019-05-31 10:45:40 [INFO ] 
+2019-05-31 10:45:40 [INFO ] ----[com.gitblit.manager.IProjectManager]----
+2019-05-31 10:45:40 [INFO ] 
+2019-05-31 10:45:40 [INFO ] ----[com.gitblit.manager.IFederationManager]----
+2019-05-31 10:45:40 [INFO ] 
+2019-05-31 10:45:40 [INFO ] ----[com.gitblit.tickets.ITicketService]----
+2019-05-31 10:45:40 [INFO ] NullTicketService started
+2019-05-31 10:45:40 [INFO ] 
+2019-05-31 10:45:40 [INFO ] ----[com.gitblit.manager.IGitblit]----
+2019-05-31 10:45:40 [INFO ] 
+2019-05-31 10:45:40 [INFO ] ----[com.gitblit.manager.IServicesManager]----
+2019-05-31 10:45:40 [INFO ] Federation passphrase is blank! This server can not be PULLED from.
+2019-05-31 10:45:40 [INFO ] Fanout PubSub service is disabled.
+2019-05-31 10:45:40 [INFO ] Git Daemon is listening on 0.0.0.0:9418
+2019-05-31 10:45:40 [INFO ] SSH Daemon (NIO2) is listening on 0.0.0.0:29418
+2019-05-31 10:45:40 [INFO ] 
+2019-05-31 10:45:40 [INFO ] ----[com.gitblit.manager.IFilestoreManager]----
+2019-05-31 10:45:40 [INFO ] No filestore metadata file found
+2019-05-31 10:45:40 [INFO ] 
+2019-05-31 10:45:40 [INFO ] ----[com.gitblit.manager.IPluginManager]----
+2019-05-31 10:45:40 [INFO ] PF4J version 1.8.0 in 'deployment' mode
+2019-05-31 10:45:40 [INFO ] Enabled plugins: []
+2019-05-31 10:45:40 [INFO ] Disabled plugins: []
+2019-05-31 10:45:40 [INFO ] No plugins
+2019-05-31 10:45:40 [INFO ] 
+2019-05-31 10:45:40 [INFO ] All managers started.
+2019-05-31 10:45:40 [INFO ] 
+2019-05-31 10:45:40 [INFO ] [GitBlitWebApp] init: Wicket core library initializer
+2019-05-31 10:45:40 [INFO ] [GitBlitWebApp] init: Wicket extensions initializer
+2019-05-31 10:45:40 [INFO ] [GitBlitWebApp] Started Wicket version 1.4.22 in deployment mode
+2019-05-31 10:45:40 [INFO ] Started o.e.j.w.WebAppContext@31a3f4de{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,AVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}
+2019-05-31 10:45:40 [INFO ] Started ServerConnector@4b6d92e{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-05-31 10:45:40 [INFO ] Started ServerConnector@33899f7a{HTTP/1.1}{0.0.0.0:8090}
+2019-05-31 10:45:40 [INFO ] Started @36669ms
+2019-05-31 10:45:55 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp_zh_CN.properties
+2019-05-31 10:45:56 [INFO ] 7 repository models loaded for anonymous in 13 msecs
+2019-05-31 10:45:56 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp.properties
+2019-05-31 10:45:56 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application_zh_CN.properties
+2019-05-31 10:45:56 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application.properties
+2019-05-31 10:46:13 [INFO ] creating ssh session from /192.168.6.70:1914
+2019-05-31 10:46:14 [INFO ] loading ssh keystore for ataola
+2019-05-31 10:46:14 [INFO ] ataola has not added any public keys for ssh authentication
+2019-05-31 10:46:16 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from 0204163865257061ec91993691dd9002df6cdd8e to 14a9babfc21b99760abf72273415683322c52fba)
+2019-05-31 10:46:16 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-31 10:46:16 [INFO ] closed ssh session from /192.168.6.70:1914
+2019-05-31 10:50:19 [INFO ] 7 repository models loaded for anonymous in 10 msecs
+2019-05-31 11:10:16 [INFO ] 7 repository models loaded for anonymous in 30 msecs
+2019-05-31 11:10:16 [INFO ] incrementally added 1 commits to cache for ataolaSkillsStack.git:refs/heads/master in 2 msecs
+2019-05-31 11:10:18 [INFO ] 7 repository models loaded for anonymous in 6 msecs
+2019-05-31 11:34:09 [INFO ] creating ssh session from /192.168.6.70:1963
+2019-05-31 11:34:09 [INFO ] loading ssh keystore for ataola
+2019-05-31 11:34:09 [INFO ] ataola has not added any public keys for ssh authentication
+2019-05-31 11:34:11 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from 14a9babfc21b99760abf72273415683322c52fba to ee214a6bf7b5e110439df964993abb7b18893f4e)
+2019-05-31 11:34:11 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-31 11:34:11 [INFO ] closed ssh session from /192.168.6.70:1963
+2019-05-31 11:35:08 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ee214a6bf7b5e110439df964993abb7b18893f4e ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111609.png
+2019-05-31 11:35:26 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ee214a6bf7b5e110439df964993abb7b18893f4e ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111609.png
+2019-05-31 12:12:00 [INFO ] creating ssh session from /192.168.6.70:2011
+2019-05-31 12:12:00 [INFO ] loading ssh keystore for ataola
+2019-05-31 12:12:00 [INFO ] ataola has not added any public keys for ssh authentication
+2019-05-31 12:12:02 [WARN ] Failed login attempt for ataola, invalid credentials from unknown
+2019-05-31 12:12:02 [WARN ] could not authenticate ataola (/192.168.6.70:2011) for SSH using the supplied password
+2019-05-31 12:12:04 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from ee214a6bf7b5e110439df964993abb7b18893f4e to 7b7d2c52b78c700b87837c7841e01562ddb5760b)
+2019-05-31 12:12:04 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-31 12:12:04 [INFO ] closed ssh session from /192.168.6.70:2011
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111626.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111609.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111650.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111637.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111700.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111751.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111804.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111708.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111834.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111818.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111841.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111809.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111824.png
+2019-05-31 12:12:20 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111849.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111626.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111609.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111637.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111700.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111708.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111650.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111834.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111809.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111751.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111804.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111824.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111818.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111841.png
+2019-05-31 14:02:46 [ERROR] RawServlet Failed to load ataolaSkillsStack.git 7b7d2c52b78c700b87837c7841e01562ddb5760b ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111849.png
+2019-05-31 16:58:03 [INFO ] creating ssh session from /192.168.6.70:8708
+2019-05-31 16:58:03 [INFO ] loading ssh keystore for ataola
+2019-05-31 16:58:03 [INFO ] ataola has not added any public keys for ssh authentication
+2019-05-31 16:58:05 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from 7b7d2c52b78c700b87837c7841e01562ddb5760b to 9b7128efdc48e1cb574d72d807afbea804fa1127)
+2019-05-31 16:58:05 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-31 16:58:05 [INFO ] closed ssh session from /192.168.6.70:8708
+2019-06-03 08:36:09 [INFO ] 7 repository models loaded for anonymous in 7 msecs
+2019-06-03 08:36:09 [INFO ] incrementally added 3 commits to cache for ataolaSkillsStack.git:refs/heads/master in 1 msecs
+2019-06-03 08:36:17 [INFO ] 7 repository models loaded for ataola in 5 msecs
+2019-06-03 08:36:19 [INFO ] 7 repository models loaded for ataola in 5 msecs
+2019-06-03 08:36:28 [INFO ] 7 repository models loaded for ataola in 5 msecs
+2019-06-03 08:36:32 [INFO ] 7 repository models loaded for ataola in 5 msecs
+2019-06-03 08:36:32 [INFO ] loading ssh keystore for ataola
+2019-06-03 08:36:41 [INFO ] 7 repository models loaded for ataola in 4 msecs
+2019-06-03 08:37:02 [INFO ] 7 repository models loaded for ataola in 20 msecs
+2019-06-03 08:37:09 [INFO ] wisdomCourse.git commit cache cleared
+2019-06-03 08:37:09 [INFO ] Repository "wisdomCourse.git" deleted
+2019-06-03 08:37:09 [INFO ] 6 repository models loaded for ataola in 6 msecs
+2019-06-03 08:37:11 [INFO ] 6 repository models loaded for ataola in 5 msecs
+2019-06-03 08:39:18 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/info/refs?service=git-receive-pack (100)
+2019-06-03 08:39:18 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/git-receive-pack (100)
+2019-06-03 08:39:18 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from 9b7128efdc48e1cb574d72d807afbea804fa1127 to ec87c510b9798cd5949d58c53a1bf9937a64fbd7)
+2019-06-03 08:39:48 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/blob/ataolaSkillsStack.git/master/imgs/logo.jpg', mountpath: 'blob', urlPath: 'ataolaSkillsStack.git/master/imgs/logo.jpg', expected 3 parameters was 4
+2019-06-03 08:39:48 [ERROR] D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository\ataolaSkillsStack.git cant find {1} in tree {2}
+org.eclipse.jgit.errors.IncorrectObjectTypeException: Object 9730501f808a69eacc4014dddd60f6bb81e484e6 is not a blob.
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:150)
+	at org.eclipse.jgit.lib.ObjectDatabase.open(ObjectDatabase.java:173)
+	at org.eclipse.jgit.lib.Repository.open(Repository.java:277)
+	at com.gitblit.utils.JGitUtils.getByteContent(JGitUtils.java:791)
+	at com.gitblit.utils.JGitUtils.getStringContent(JGitUtils.java:817)
+	at com.gitblit.wicket.pages.BlobPage.<init>(BlobPage.java:148)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-03 08:39:56 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/blob/ataolaSkillsStack.git/master/imgs/logo.jpg', mountpath: 'blob', urlPath: 'ataolaSkillsStack.git/master/imgs/logo.jpg', expected 3 parameters was 4
+2019-06-03 08:39:56 [ERROR] D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository\ataolaSkillsStack.git cant find {1} in tree {2}
+org.eclipse.jgit.errors.IncorrectObjectTypeException: Object 9730501f808a69eacc4014dddd60f6bb81e484e6 is not a blob.
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:150)
+	at org.eclipse.jgit.lib.ObjectDatabase.open(ObjectDatabase.java:173)
+	at org.eclipse.jgit.lib.Repository.open(Repository.java:277)
+	at com.gitblit.utils.JGitUtils.getByteContent(JGitUtils.java:791)
+	at com.gitblit.utils.JGitUtils.getStringContent(JGitUtils.java:817)
+	at com.gitblit.wicket.pages.BlobPage.<init>(BlobPage.java:148)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-03 08:40:22 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/blob/ataolaSkillsStack.git/master/imgs/logo.jpg', mountpath: 'blob', urlPath: 'ataolaSkillsStack.git/master/imgs/logo.jpg', expected 3 parameters was 4
+2019-06-03 08:40:22 [ERROR] D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository\ataolaSkillsStack.git cant find {1} in tree {2}
+org.eclipse.jgit.errors.IncorrectObjectTypeException: Object 9730501f808a69eacc4014dddd60f6bb81e484e6 is not a blob.
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:150)
+	at org.eclipse.jgit.lib.ObjectDatabase.open(ObjectDatabase.java:173)
+	at org.eclipse.jgit.lib.Repository.open(Repository.java:277)
+	at com.gitblit.utils.JGitUtils.getByteContent(JGitUtils.java:791)
+	at com.gitblit.utils.JGitUtils.getStringContent(JGitUtils.java:817)
+	at com.gitblit.wicket.pages.BlobPage.<init>(BlobPage.java:148)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-03 08:41:03 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/blob/ataolaSkillsStack.git/master/imgs/logo.jpg', mountpath: 'blob', urlPath: 'ataolaSkillsStack.git/master/imgs/logo.jpg', expected 3 parameters was 4
+2019-06-03 08:41:03 [ERROR] D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository\ataolaSkillsStack.git cant find {1} in tree {2}
+org.eclipse.jgit.errors.IncorrectObjectTypeException: Object 9730501f808a69eacc4014dddd60f6bb81e484e6 is not a blob.
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:150)
+	at org.eclipse.jgit.lib.ObjectDatabase.open(ObjectDatabase.java:173)
+	at org.eclipse.jgit.lib.Repository.open(Repository.java:277)
+	at com.gitblit.utils.JGitUtils.getByteContent(JGitUtils.java:791)
+	at com.gitblit.utils.JGitUtils.getStringContent(JGitUtils.java:817)
+	at com.gitblit.wicket.pages.BlobPage.<init>(BlobPage.java:148)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-03 08:41:04 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/blob/ataolaSkillsStack.git/master/imgs/logo.jpg', mountpath: 'blob', urlPath: 'ataolaSkillsStack.git/master/imgs/logo.jpg', expected 3 parameters was 4
+2019-06-03 08:41:04 [ERROR] D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository\ataolaSkillsStack.git cant find {1} in tree {2}
+org.eclipse.jgit.errors.IncorrectObjectTypeException: Object 9730501f808a69eacc4014dddd60f6bb81e484e6 is not a blob.
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:150)
+	at org.eclipse.jgit.lib.ObjectDatabase.open(ObjectDatabase.java:173)
+	at org.eclipse.jgit.lib.Repository.open(Repository.java:277)
+	at com.gitblit.utils.JGitUtils.getByteContent(JGitUtils.java:791)
+	at com.gitblit.utils.JGitUtils.getStringContent(JGitUtils.java:817)
+	at com.gitblit.wicket.pages.BlobPage.<init>(BlobPage.java:148)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-03 08:41:06 [INFO ] 6 repository models loaded for ataola in 5 msecs
+2019-06-03 08:41:06 [INFO ] 6 repository models loaded for ataola in 7 msecs
+2019-06-03 08:41:06 [INFO ] incrementally added 1 commits to cache for ataolaSkillsStack.git:refs/heads/master in 1 msecs
+2019-06-03 08:53:23 [INFO ] 6 repository models loaded for ataola in 6 msecs
+2019-06-03 16:17:16 [INFO ] 6 repository models loaded for ataola in 5 msecs
+2019-06-03 16:17:20 [INFO ] 6 repository models loaded for ataola in 4 msecs
+2019-06-04 11:04:20 [INFO ] 6 repository models loaded for ataola in 11 msecs
+2019-06-04 11:04:23 [INFO ] 6 repository models loaded for ataola in 4 msecs
+2019-06-04 11:04:30 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/blob/ataolaSkillsStack.git/master/imgs/logo.jpg', mountpath: 'blob', urlPath: 'ataolaSkillsStack.git/master/imgs/logo.jpg', expected 3 parameters was 4
+2019-06-04 11:04:30 [ERROR] D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository\ataolaSkillsStack.git cant find {1} in tree {2}
+org.eclipse.jgit.errors.IncorrectObjectTypeException: Object 9730501f808a69eacc4014dddd60f6bb81e484e6 is not a blob.
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:150)
+	at org.eclipse.jgit.lib.ObjectDatabase.open(ObjectDatabase.java:173)
+	at org.eclipse.jgit.lib.Repository.open(Repository.java:277)
+	at com.gitblit.utils.JGitUtils.getByteContent(JGitUtils.java:791)
+	at com.gitblit.utils.JGitUtils.getStringContent(JGitUtils.java:817)
+	at com.gitblit.wicket.pages.BlobPage.<init>(BlobPage.java:148)
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-04 11:04:33 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/blob/ataolaSkillsStack.git/master/ToolsUseage/ColorTable/README.md', mountpath: 'blob', urlPath: 'ataolaSkillsStack.git/master/ToolsUseage/ColorTable/README.md', expected 3 parameters was 5
+2019-06-04 11:04:33 [ERROR] D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository\ataolaSkillsStack.git cant find {1} in tree {2}
+org.eclipse.jgit.errors.IncorrectObjectTypeException: Object 366fc0c2b6e7f7a69ca0f3d98341fc77f37cce45 is not a blob.
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:150)
+	at org.eclipse.jgit.lib.ObjectDatabase.open(ObjectDatabase.java:173)
+	at org.eclipse.jgit.lib.Repository.open(Repository.java:277)
+	at com.gitblit.utils.JGitUtils.getByteContent(JGitUtils.java:791)
+	at com.gitblit.utils.JGitUtils.getStringContent(JGitUtils.java:817)
+	at com.gitblit.wicket.pages.BlobPage.<init>(BlobPage.java:148)
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-04 11:04:51 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/blob/ataolaSkillsStack.git/master/ToolsUseage/ColorTable/README.md', mountpath: 'blob', urlPath: 'ataolaSkillsStack.git/master/ToolsUseage/ColorTable/README.md', expected 3 parameters was 5
+2019-06-04 11:04:51 [ERROR] D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository\ataolaSkillsStack.git cant find {1} in tree {2}
+org.eclipse.jgit.errors.IncorrectObjectTypeException: Object 366fc0c2b6e7f7a69ca0f3d98341fc77f37cce45 is not a blob.
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:150)
+	at org.eclipse.jgit.lib.ObjectDatabase.open(ObjectDatabase.java:173)
+	at org.eclipse.jgit.lib.Repository.open(Repository.java:277)
+	at com.gitblit.utils.JGitUtils.getByteContent(JGitUtils.java:791)
+	at com.gitblit.utils.JGitUtils.getStringContent(JGitUtils.java:817)
+	at com.gitblit.wicket.pages.BlobPage.<init>(BlobPage.java:148)
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-04 11:05:56 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/blob/ataolaSkillsStack.git/master/imgs/logo.jpg', mountpath: 'blob', urlPath: 'ataolaSkillsStack.git/master/imgs/logo.jpg', expected 3 parameters was 4
+2019-06-04 11:05:56 [ERROR] D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository\ataolaSkillsStack.git cant find {1} in tree {2}
+org.eclipse.jgit.errors.IncorrectObjectTypeException: Object 9730501f808a69eacc4014dddd60f6bb81e484e6 is not a blob.
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:150)
+	at org.eclipse.jgit.lib.ObjectDatabase.open(ObjectDatabase.java:173)
+	at org.eclipse.jgit.lib.Repository.open(Repository.java:277)
+	at com.gitblit.utils.JGitUtils.getByteContent(JGitUtils.java:791)
+	at com.gitblit.utils.JGitUtils.getStringContent(JGitUtils.java:817)
+	at com.gitblit.wicket.pages.BlobPage.<init>(BlobPage.java:148)
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-04 11:05:58 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/blob/ataolaSkillsStack.git/master/ToolsUseage/ColorTable/README.md', mountpath: 'blob', urlPath: 'ataolaSkillsStack.git/master/ToolsUseage/ColorTable/README.md', expected 3 parameters was 5
+2019-06-04 11:05:58 [ERROR] D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository\ataolaSkillsStack.git cant find {1} in tree {2}
+org.eclipse.jgit.errors.IncorrectObjectTypeException: Object 366fc0c2b6e7f7a69ca0f3d98341fc77f37cce45 is not a blob.
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:150)
+	at org.eclipse.jgit.lib.ObjectDatabase.open(ObjectDatabase.java:173)
+	at org.eclipse.jgit.lib.Repository.open(Repository.java:277)
+	at com.gitblit.utils.JGitUtils.getByteContent(JGitUtils.java:791)
+	at com.gitblit.utils.JGitUtils.getStringContent(JGitUtils.java:817)
+	at com.gitblit.wicket.pages.BlobPage.<init>(BlobPage.java:148)
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2019-06-04 11:06:11 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/docs/ataolaSkillsStack.git/imgs/logo.jpg', mountpath: 'docs', urlPath: 'ataolaSkillsStack.git/imgs/logo.jpg', expected 2 parameters was 3
+2019-06-04 11:06:11 [ERROR] Can't instantiate page using constructor public com.gitblit.wicket.pages.DocsPage(org.apache.wicket.PageParameters) and argument r = "ataolaSkillsStack.git" h = "imgs"
+org.apache.wicket.WicketRuntimeException: Can't instantiate page using constructor public com.gitblit.wicket.pages.DocsPage(org.apache.wicket.PageParameters) and argument r = "ataolaSkillsStack.git" h = "imgs"
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:212)
+	at org.apache.wicket.session.DefaultPageFactory.newPage(DefaultPageFactory.java:89)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.newPage(BookmarkablePageRequestTarget.java:305)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.getPage(BookmarkablePageRequestTarget.java:320)
+	at org.apache.wicket.request.target.component.BookmarkablePageRequestTarget.processEvents(BookmarkablePageRequestTarget.java:234)
+	at org.apache.wicket.request.AbstractRequestCycleProcessor.processEvents(AbstractRequestCycleProcessor.java:92)
+	at org.apache.wicket.RequestCycle.processEventsAndRespond(RequestCycle.java:1279)
+	at org.apache.wicket.RequestCycle.step(RequestCycle.java:1358)
+	at org.apache.wicket.RequestCycle.steps(RequestCycle.java:1465)
+	at org.apache.wicket.RequestCycle.request(RequestCycle.java:545)
+	at org.apache.wicket.protocol.http.WicketFilter.doGet(WicketFilter.java:486)
+	at org.apache.wicket.protocol.http.WicketFilter.doFilter(WicketFilter.java:319)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.EnforceAuthenticationFilter.doFilter(EnforceAuthenticationFilter.java:99)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.gitblit.servlet.ProxyFilter$1.doFilter(ProxyFilter.java:89)
+	at com.gitblit.servlet.ProxyFilter.doFilter(ProxyFilter.java:92)
+	at com.google.inject.servlet.FilterChainInvocation.doFilter(FilterChainInvocation.java:88)
+	at com.google.inject.servlet.ManagedFilterPipeline.dispatch(ManagedFilterPipeline.java:120)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:133)
+	at com.google.inject.servlet.GuiceFilter$1.call(GuiceFilter.java:130)
+	at com.google.inject.servlet.GuiceFilter$Context.call(GuiceFilter.java:203)
+	at com.google.inject.servlet.GuiceFilter.doFilter(GuiceFilter.java:130)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.wicket.session.DefaultPageFactory.createPage(DefaultPageFactory.java:188)
+	... 40 more
+Caused by: java.lang.NullPointerException
+	at com.gitblit.wicket.pages.RepositoryPage.getBestCommitId(RepositoryPage.java:485)
+	at com.gitblit.wicket.pages.DocsPage.<init>(DocsPage.java:65)
+	... 45 more
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111609.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111626.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111637.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111650.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111700.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111708.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111751.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111804.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111809.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111818.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111824.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111834.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111841.png
+2019-06-04 11:06:15 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111849.png
+2019-06-04 14:00:21 [INFO ] 6 repository models loaded for ataola in 7 msecs
+2019-06-04 14:00:25 [INFO ] 6 repository models loaded for ataola in 5 msecs
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111609.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111626.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111650.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111708.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111637.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111700.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111751.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111804.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111809.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111818.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111834.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111841.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111824.png
+2019-06-04 14:00:32 [ERROR] RawServlet Failed to load ataolaSkillsStack.git ec87c510b9798cd5949d58c53a1bf9937a64fbd7 ataolaSkillsStack.git/master/ToolsUseage!ColorTable!.!imgs!2019-05-31_111849.png

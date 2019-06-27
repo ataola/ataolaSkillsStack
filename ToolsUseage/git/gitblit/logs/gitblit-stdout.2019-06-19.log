@@ -1,0 +1,158 @@
+
+2019-06-19 14:12:10 Commons Daemon procrun stdout initialized
+2019-06-19 14:12:11 [INFO ] 
+  _____  _  _    _      _  _  _
+ |  __ \(_)| |  | |    | |(_)| |
+ | |  \/ _ | |_ | |__  | | _ | |_
+ | | __ | || __|| '_ \ | || || __|  http://gitblit.com
+ | |_\ \| || |_ | |_) || || || |_   @gitblit
+  \____/|_| \__||_.__/ |_||_| \__|  1.8.0
+
+2019-06-19 14:12:11 [INFO ] Running on Windows 10 (10.0)
+2019-06-19 14:12:11 [INFO ] Logging initialized @708ms
+2019-06-19 14:12:11 [INFO ] Using JCE Unlimited Strength Jurisdiction Policy files
+2019-06-19 14:12:11 [INFO ] Setting up HTTPS transport on port 8443
+2019-06-19 14:12:11 [INFO ]    certificate alias = localhost
+2019-06-19 14:12:11 [INFO ]    keyStorePath   = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverKeyStore.jks
+2019-06-19 14:12:11 [INFO ]    trustStorePath = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverTrustStore.jks
+2019-06-19 14:12:11 [INFO ]    crlPath        = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\certs\caRevocationList.crl
+2019-06-19 14:12:11 [INFO ] Setting up HTTP transport on port 8090
+2019-06-19 14:12:15 [INFO ] Shutdown Monitor listening on port 8081
+2019-06-19 14:12:15 [INFO ] jetty-9.2.13.v20150730
+2019-06-19 14:12:30 [INFO ] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2019-06-19 14:12:30 [INFO ] 
+2019-06-19 14:12:30 [INFO ] ----[com.gitblit.manager.IRuntimeManager]----
+2019-06-19 14:12:30 [INFO ] Basefolder  : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data
+2019-06-19 14:12:30 [INFO ] Settings    : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\gitblit.properties
+2019-06-19 14:12:30 [INFO ] JVM timezone: Asia/Shanghai (CST +0800)
+2019-06-19 14:12:30 [INFO ] App timezone: Asia/Shanghai (CST +0800)
+2019-06-19 14:12:30 [INFO ] JVM locale  : zh_CN
+2019-06-19 14:12:30 [INFO ] App locale  : <client>
+2019-06-19 14:12:30 [INFO ] 
+2019-06-19 14:12:30 [INFO ] ----[com.gitblit.manager.INotificationManager]----
+2019-06-19 14:12:30 [WARN ] Mail service disabled.
+2019-06-19 14:12:30 [INFO ] 
+2019-06-19 14:12:30 [INFO ] ----[com.gitblit.manager.IUserManager]----
+2019-06-19 14:12:30 [INFO ] ConfigUserService(D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\users.conf)
+2019-06-19 14:12:30 [INFO ] 
+2019-06-19 14:12:30 [INFO ] ----[com.gitblit.manager.IAuthenticationManager]----
+2019-06-19 14:12:30 [INFO ] External authentication disabled.
+2019-06-19 14:12:30 [INFO ] 
+2019-06-19 14:12:30 [INFO ] ----[com.gitblit.transport.ssh.IPublicKeyManager]----
+2019-06-19 14:12:30 [INFO ] FileKeyManager (D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\ssh)
+2019-06-19 14:12:30 [INFO ] 
+2019-06-19 14:12:30 [INFO ] ----[com.gitblit.manager.IRepositoryManager]----
+2019-06-19 14:12:30 [INFO ] Repositories folder : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository
+2019-06-19 14:12:30 [INFO ] Identifying repositories...
+2019-06-19 14:12:32 [INFO ] 8 repositories identified with calculated folder sizes in 1,760 msecs
+2019-06-19 14:12:32 [INFO ] Lucene will process indexed branches every 2 minutes.
+2019-06-19 14:12:32 [INFO ] Garbage Collector (GC) is disabled.
+2019-06-19 14:12:32 [INFO ] Mirror service is disabled.
+2019-06-19 14:12:32 [INFO ] Alias 'UTF8', UTF-9 & UTF-18 encodings as UTF-8 in JGit
+2019-06-19 14:12:32 [INFO ] Preparing 14 day commit cache. please wait...
+2019-06-19 14:12:33 [INFO ]   cached 8 commits for ataolaSkillsStack.git:refs/heads/master
+2019-06-19 14:12:33 [INFO ]   cached 1 commits for JSDS.git:refs/heads/master
+2019-06-19 14:12:33 [INFO ]   cached 1 commits for library.git:refs/heads/master
+2019-06-19 14:12:33 [INFO ] built 14 day commit cache of 10 commits across 3 repositories in 802 msecs
+2019-06-19 14:12:33 [INFO ] 
+2019-06-19 14:12:33 [INFO ] ----[com.gitblit.manager.IProjectManager]----
+2019-06-19 14:12:33 [INFO ] 
+2019-06-19 14:12:33 [INFO ] ----[com.gitblit.manager.IFederationManager]----
+2019-06-19 14:12:33 [INFO ] 
+2019-06-19 14:12:33 [INFO ] ----[com.gitblit.tickets.ITicketService]----
+2019-06-19 14:12:33 [INFO ] NullTicketService started
+2019-06-19 14:12:33 [INFO ] 
+2019-06-19 14:12:33 [INFO ] ----[com.gitblit.manager.IGitblit]----
+2019-06-19 14:12:33 [INFO ] 
+2019-06-19 14:12:33 [INFO ] ----[com.gitblit.manager.IServicesManager]----
+2019-06-19 14:12:33 [INFO ] Federation passphrase is blank! This server can not be PULLED from.
+2019-06-19 14:12:33 [INFO ] Fanout PubSub service is disabled.
+2019-06-19 14:12:33 [INFO ] Git Daemon is listening on 0.0.0.0:9418
+2019-06-19 14:12:33 [INFO ] SSH Daemon (NIO2) is listening on 0.0.0.0:29418
+2019-06-19 14:12:33 [INFO ] 
+2019-06-19 14:12:33 [INFO ] ----[com.gitblit.manager.IFilestoreManager]----
+2019-06-19 14:12:33 [INFO ] No filestore metadata file found
+2019-06-19 14:12:33 [INFO ] 
+2019-06-19 14:12:33 [INFO ] ----[com.gitblit.manager.IPluginManager]----
+2019-06-19 14:12:33 [INFO ] PF4J version 1.8.0 in 'deployment' mode
+2019-06-19 14:12:33 [INFO ] Enabled plugins: []
+2019-06-19 14:12:33 [INFO ] Disabled plugins: []
+2019-06-19 14:12:33 [INFO ] No plugins
+2019-06-19 14:12:33 [INFO ] 
+2019-06-19 14:12:33 [INFO ] All managers started.
+2019-06-19 14:12:33 [INFO ] 
+2019-06-19 14:12:34 [INFO ] [GitBlitWebApp] init: Wicket core library initializer
+2019-06-19 14:12:34 [INFO ] [GitBlitWebApp] init: Wicket extensions initializer
+2019-06-19 14:12:34 [INFO ] [GitBlitWebApp] Started Wicket version 1.4.22 in deployment mode
+2019-06-19 14:12:34 [INFO ] Started o.e.j.w.WebAppContext@3a94964{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,AVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}
+2019-06-19 14:12:34 [INFO ] Started ServerConnector@2289aca5{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-06-19 14:12:34 [INFO ] Started ServerConnector@76a36b71{HTTP/1.1}{0.0.0.0:8090}
+2019-06-19 14:12:34 [INFO ] Started @24059ms
+2019-06-19 14:31:45 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp_zh_CN.properties
+2019-06-19 14:31:45 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp.properties
+2019-06-19 14:31:45 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application_zh_CN.properties
+2019-06-19 14:31:45 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application.properties
+2019-06-19 14:31:45 [INFO ] 8 repository models loaded for ataola in 9 msecs
+2019-06-19 14:32:21 [INFO ] 8 repository models loaded for ataola in 15 msecs
+2019-06-19 14:32:22 [INFO ] 8 repository models loaded for ataola in 12 msecs
+2019-06-19 15:25:04 [INFO ] 8 repository models loaded for ataola in 60 msecs
+2019-06-19 15:25:06 [INFO ] 8 repository models loaded for ataola in 8 msecs
+2019-06-19 15:25:07 [INFO ] 8 repository models loaded for ataola in 9 msecs
+2019-06-19 15:25:08 [INFO ] 8 repository models loaded for ataola in 9 msecs
+2019-06-19 15:25:09 [INFO ] 8 repository models loaded for ataola in 11 msecs
+2019-06-19 15:25:10 [INFO ] 8 repository models loaded for ataola in 13 msecs
+2019-06-19 15:25:12 [INFO ] 8 repository models loaded for ataola in 7 msecs
+2019-06-19 15:25:17 [INFO ] 8 repository models loaded for ataola in 9 msecs
+2019-06-19 16:56:38 [INFO ] 8 repository models loaded for anonymous in 11 msecs
+2019-06-19 16:57:02 [INFO ] 8 repository models loaded for anonymous in 0 msecs
+2019-06-19 16:57:35 [INFO ] 8 repository models loaded for $anonymous in 8 msecs
+2019-06-19 16:57:37 [INFO ] 8 repository models loaded for anonymous in 13 msecs
+2019-06-19 16:58:05 [INFO ] 8 repository models loaded for anonymous in 8 msecs
+2019-06-19 17:00:07 [INFO ] 8 repository models loaded for anonymous in 9 msecs
+2019-06-19 17:00:16 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-19 17:38:00 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-19 17:38:03 [INFO ] 8 repository models loaded for anonymous in 12 msecs
+2019-06-19 17:44:56 [INFO ] 8 repository models loaded for anonymous in 0 msecs
+2019-06-19 17:45:04 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/info/refs?service=git-receive-pack (100)
+2019-06-19 17:45:04 [INFO ] 8 repository models loaded for anonymous in 6 msecs
+2019-06-19 17:45:04 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/git-receive-pack (100)
+2019-06-19 17:45:05 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from 3c6656342c55cf3e5dc7828bccc6d81e974c25c8 to 10dc0d47d3474d90334a75a4f6ae817bd86746fc)
+2019-06-19 17:50:12 [ERROR] 无法载入版本库 imgs for anonymous
+2019-06-19 17:50:12 [INFO ] 8 repository models loaded for anonymous in 16 msecs
+2019-06-19 17:50:12 [INFO ] incrementally added 1 commits to cache for ataolaSkillsStack.git:refs/heads/master in 2 msecs
+2019-06-19 17:50:15 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.26:8090/docs/EnvSet/jdk/README.md', mountpath: 'docs', urlPath: 'EnvSet/jdk/README.md', expected 2 parameters was 3
+2019-06-19 17:50:15 [ERROR] 无法载入版本库 EnvSet for anonymous
+2019-06-19 17:50:15 [INFO ] 8 repository models loaded for anonymous in 7 msecs
+2019-06-19 17:50:56 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.26:8090/docs/EnvSet/jdk/README.md', mountpath: 'docs', urlPath: 'EnvSet/jdk/README.md', expected 2 parameters was 3
+2019-06-19 17:50:56 [ERROR] 无法载入版本库 EnvSet for anonymous
+2019-06-19 17:50:56 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-20 09:23:24 [INFO ] 8 repository models loaded for anonymous in 14 msecs
+2019-06-20 09:23:27 [INFO ] 8 repository models loaded for anonymous in 6 msecs
+2019-06-20 09:25:23 [INFO ] 8 repository models loaded for anonymous in 30 msecs
+2019-06-20 09:26:07 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-20 09:26:16 [INFO ] 8 repository models loaded for anonymous in 0 msecs
+2019-06-20 09:26:25 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-20 09:26:35 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-20 09:26:48 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-20 09:26:57 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-20 09:27:05 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-20 10:59:17 [INFO ] 8 repository models loaded for anonymous in 78 msecs
+2019-06-20 10:59:25 [INFO ] 8 repository models loaded for anonymous in 28 msecs
+2019-06-21 17:14:48 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-21 17:14:48 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/info/refs?service=git-receive-pack (100)
+2019-06-21 17:14:49 [INFO ] 8 repository models loaded for anonymous in 0 msecs
+2019-06-21 17:14:49 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/git-receive-pack (100)
+2019-06-21 17:14:49 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/git-receive-pack (100)
+2019-06-21 17:14:50 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from 10dc0d47d3474d90334a75a4f6ae817bd86746fc to d4fee0a17ff8318209c22037185e6544cfdfc74b)
+2019-06-25 13:07:03 [INFO ] 8 repository models loaded for anonymous in 20 msecs
+2019-06-25 13:07:03 [INFO ] incrementally added 1 commits to cache for ataolaSkillsStack.git:refs/heads/master in 21 msecs
+2019-06-25 13:07:03 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/info/refs?service=git-receive-pack (100)
+2019-06-25 13:07:04 [INFO ] 8 repository models loaded for anonymous in 10 msecs
+2019-06-25 13:07:04 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/git-receive-pack (100)
+2019-06-25 13:07:04 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from d4fee0a17ff8318209c22037185e6544cfdfc74b to 51f81e8aed83e4b6d0eccd7609850ad80d5cd324)
+2019-06-26 18:07:48 [INFO ] 8 repository models loaded for anonymous in 9 msecs
+2019-06-26 18:07:48 [INFO ] incrementally added 1 commits to cache for ataolaSkillsStack.git:refs/heads/master in 37 msecs
+2019-06-26 18:07:48 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/info/refs?service=git-receive-pack (100)
+2019-06-26 18:07:48 [INFO ] 8 repository models loaded for anonymous in 17 msecs
+2019-06-26 18:07:49 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/git-receive-pack (100)
+2019-06-26 18:07:49 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from 51f81e8aed83e4b6d0eccd7609850ad80d5cd324 to 355d35b5f173c5d5b6cbeb5d24fc3f41b8a2d0e8)

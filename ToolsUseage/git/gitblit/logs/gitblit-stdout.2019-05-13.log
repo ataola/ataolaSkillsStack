@@ -1,0 +1,175 @@
+
+2019-05-13 17:02:29 Commons Daemon procrun stdout initialized
+2019-05-13 17:02:31 [INFO ] 
+  _____  _  _    _      _  _  _
+ |  __ \(_)| |  | |    | |(_)| |
+ | |  \/ _ | |_ | |__  | | _ | |_
+ | | __ | || __|| '_ \ | || || __|  http://gitblit.com
+ | |_\ \| || |_ | |_) || || || |_   @gitblit
+  \____/|_| \__||_.__/ |_||_| \__|  1.8.0
+
+2019-05-13 17:02:31 [INFO ] Running on Windows 10 (10.0)
+2019-05-13 17:02:31 [INFO ] Logging initialized @1838ms
+2019-05-13 17:02:31 [INFO ] Using JCE Standard Encryption Policy files, encryption key lengths will be limited
+2019-05-13 17:02:31 [INFO ] Setting up HTTPS transport on port 8443
+2019-05-13 17:02:31 [INFO ]    certificate alias = localhost
+2019-05-13 17:02:31 [INFO ]    keyStorePath   = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverKeyStore.jks
+2019-05-13 17:02:31 [INFO ]    trustStorePath = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverTrustStore.jks
+2019-05-13 17:02:31 [INFO ]    crlPath        = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\certs\caRevocationList.crl
+2019-05-13 17:02:32 [INFO ] Setting up HTTP transport on port 8090
+2019-05-13 17:02:32 [INFO ] Shutdown Monitor listening on port 8081
+2019-05-13 17:02:32 [INFO ] jetty-9.2.13.v20150730
+2019-05-13 17:02:33 [INFO ] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2019-05-13 17:02:33 [INFO ] 
+2019-05-13 17:02:33 [INFO ] ----[com.gitblit.manager.IRuntimeManager]----
+2019-05-13 17:02:33 [INFO ] Basefolder  : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data
+2019-05-13 17:02:33 [INFO ] Settings    : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\gitblit.properties
+2019-05-13 17:02:33 [INFO ] JVM timezone: Asia/Shanghai (CST +0800)
+2019-05-13 17:02:33 [INFO ] App timezone: Asia/Shanghai (CST +0800)
+2019-05-13 17:02:33 [INFO ] JVM locale  : zh_CN
+2019-05-13 17:02:33 [INFO ] App locale  : <client>
+2019-05-13 17:02:33 [INFO ] 
+2019-05-13 17:02:33 [INFO ] ----[com.gitblit.manager.INotificationManager]----
+2019-05-13 17:02:33 [WARN ] Mail service disabled.
+2019-05-13 17:02:33 [INFO ] 
+2019-05-13 17:02:33 [INFO ] ----[com.gitblit.manager.IUserManager]----
+2019-05-13 17:02:33 [INFO ] ConfigUserService(D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\users.conf)
+2019-05-13 17:02:33 [INFO ] 
+2019-05-13 17:02:33 [INFO ] ----[com.gitblit.manager.IAuthenticationManager]----
+2019-05-13 17:02:33 [INFO ] External authentication disabled.
+2019-05-13 17:02:33 [INFO ] 
+2019-05-13 17:02:33 [INFO ] ----[com.gitblit.transport.ssh.IPublicKeyManager]----
+2019-05-13 17:02:33 [INFO ] FileKeyManager (D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\ssh)
+2019-05-13 17:02:33 [INFO ] 
+2019-05-13 17:02:33 [INFO ] ----[com.gitblit.manager.IRepositoryManager]----
+2019-05-13 17:02:33 [INFO ] Repositories folder : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository
+2019-05-13 17:02:33 [INFO ] Identifying repositories...
+2019-05-13 17:02:53 [INFO ] 2 repositories identified with calculated folder sizes in 20,005 msecs
+2019-05-13 17:02:53 [INFO ] Lucene will process indexed branches every 2 minutes.
+2019-05-13 17:02:53 [INFO ] Garbage Collector (GC) is disabled.
+2019-05-13 17:02:54 [INFO ] Mirror service is disabled.
+2019-05-13 17:02:54 [INFO ] Alias 'UTF8', UTF-9 & UTF-18 encodings as UTF-8 in JGit
+2019-05-13 17:02:54 [INFO ] Preparing 14 day commit cache. please wait...
+2019-05-13 17:02:54 [INFO ]   cached 2 commits for pat.git:refs/heads/master
+2019-05-13 17:02:54 [INFO ]   cached 2 commits for wisdomCourse.git:refs/heads/master
+2019-05-13 17:02:54 [INFO ] built 14 day commit cache of 4 commits across 2 repositories in 31 msecs
+2019-05-13 17:02:54 [INFO ] 
+2019-05-13 17:02:54 [INFO ] ----[com.gitblit.manager.IProjectManager]----
+2019-05-13 17:02:54 [INFO ] 
+2019-05-13 17:02:54 [INFO ] ----[com.gitblit.manager.IFederationManager]----
+2019-05-13 17:02:54 [INFO ] 
+2019-05-13 17:02:54 [INFO ] ----[com.gitblit.tickets.ITicketService]----
+2019-05-13 17:02:54 [INFO ] NullTicketService started
+2019-05-13 17:02:54 [INFO ] 
+2019-05-13 17:02:54 [INFO ] ----[com.gitblit.manager.IGitblit]----
+2019-05-13 17:02:54 [INFO ] 
+2019-05-13 17:02:54 [INFO ] ----[com.gitblit.manager.IServicesManager]----
+2019-05-13 17:02:54 [INFO ] Federation passphrase is blank! This server can not be PULLED from.
+2019-05-13 17:02:54 [INFO ] Fanout PubSub service is disabled.
+2019-05-13 17:02:54 [INFO ] Git Daemon is listening on 0.0.0.0:9418
+2019-05-13 17:02:54 [INFO ] SSH Daemon (NIO2) is listening on 0.0.0.0:29418
+2019-05-13 17:02:54 [INFO ] 
+2019-05-13 17:02:54 [INFO ] ----[com.gitblit.manager.IFilestoreManager]----
+2019-05-13 17:02:54 [INFO ] No filestore metadata file found
+2019-05-13 17:02:54 [INFO ] 
+2019-05-13 17:02:54 [INFO ] ----[com.gitblit.manager.IPluginManager]----
+2019-05-13 17:02:54 [INFO ] PF4J version 1.8.0 in 'deployment' mode
+2019-05-13 17:02:54 [INFO ] Enabled plugins: []
+2019-05-13 17:02:54 [INFO ] Disabled plugins: []
+2019-05-13 17:02:54 [INFO ] No plugins
+2019-05-13 17:02:54 [INFO ] 
+2019-05-13 17:02:54 [INFO ] All managers started.
+2019-05-13 17:02:54 [INFO ] 
+2019-05-13 17:02:54 [INFO ] [GitBlitWebApp] init: Wicket core library initializer
+2019-05-13 17:02:54 [INFO ] [GitBlitWebApp] init: Wicket extensions initializer
+2019-05-13 17:02:54 [INFO ] [GitBlitWebApp] Started Wicket version 1.4.22 in deployment mode
+2019-05-13 17:02:54 [INFO ] Started o.e.j.w.WebAppContext@1000d54d{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,AVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}
+2019-05-13 17:02:54 [INFO ] Started ServerConnector@704641e3{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-05-13 17:02:54 [INFO ] Started ServerConnector@2f00f851{HTTP/1.1}{0.0.0.0:8090}
+2019-05-13 17:02:54 [INFO ] Started @25236ms
+2019-05-13 17:03:02 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp_zh_CN.properties
+2019-05-13 17:03:02 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp.properties
+2019-05-13 17:03:02 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application_zh_CN.properties
+2019-05-13 17:03:02 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application.properties
+2019-05-13 17:03:02 [INFO ] 2 repository models loaded for ataola in 5 msecs
+2019-05-13 17:03:12 [INFO ] ARF: authenticated ataola to wisdomCourse.git/info/refs?service=git-receive-pack (100)
+2019-05-13 17:03:13 [INFO ] ARF: authenticated ataola to wisdomCourse.git/git-receive-pack (100)
+2019-05-13 17:03:13 [INFO ] ARF: authenticated ataola to wisdomCourse.git/git-receive-pack (100)
+2019-05-13 17:03:14 [INFO ] ataola UPDATED refs/heads/master in wisdomCourse.git (from 4cbafab4eac81a15931e6cd18f6d74034ac6a3d6 to 5f1a990419b08fd76962c6fc18f37caa6df6947e)
+2019-05-13 17:03:26 [INFO ] 2 repository models loaded for ataola in 5 msecs
+2019-05-17 08:13:35 [INFO ] 2 repository models loaded for ataola in 9 msecs
+2019-05-17 08:13:35 [INFO ] incrementally added 1 commits to cache for wisdomCourse.git:refs/heads/master in 2 msecs
+2019-05-17 08:13:39 [INFO ] 2 repository models loaded for ataola in 2 msecs
+2019-05-17 11:30:22 [INFO ] ARF: authenticated ataola to wisdomCourse.git/info/refs?service=git-receive-pack (100)
+2019-05-17 11:30:22 [INFO ] ARF: authenticated ataola to wisdomCourse.git/git-receive-pack (100)
+2019-05-17 11:30:22 [INFO ] ataola UPDATED refs/heads/master in wisdomCourse.git (from 5f1a990419b08fd76962c6fc18f37caa6df6947e to a5582439e4d745eb23189b8626aac790f8269f68)
+2019-05-17 11:30:41 [INFO ] 2 repository models loaded for ataola in 7 msecs
+2019-05-17 11:30:41 [INFO ] incrementally added 1 commits to cache for wisdomCourse.git:refs/heads/master in 1 msecs
+2019-05-17 11:30:46 [INFO ] 2 repository models loaded for ataola in 1 msecs
+2019-05-17 11:31:07 [INFO ] 2 repository models loaded for ataola in 2 msecs
+2019-05-17 14:22:09 [INFO ] ARF: authenticated ataola to wisdomCourse.git/info/refs?service=git-receive-pack (100)
+2019-05-17 14:22:09 [INFO ] ARF: authenticated ataola to wisdomCourse.git/git-receive-pack (100)
+2019-05-17 14:22:09 [INFO ] ataola UPDATED refs/heads/master in wisdomCourse.git (from a5582439e4d745eb23189b8626aac790f8269f68 to 8779ed675545ee8bb79fc77ae18dbf4777463b54)
+2019-05-17 14:22:22 [INFO ] 2 repository models loaded for anonymous in 5 msecs
+2019-05-17 14:22:22 [INFO ] incrementally added 1 commits to cache for wisdomCourse.git:refs/heads/master in 1 msecs
+2019-05-17 14:22:24 [INFO ] 2 repository models loaded for anonymous in 2 msecs
+2019-05-17 15:12:51 [INFO ] 2 repository models loaded for anonymous in 4 msecs
+2019-05-17 15:13:01 [INFO ] 2 repository models loaded for ataola in 4 msecs
+2019-05-17 15:13:10 [INFO ] 2 repository models loaded for ataola in 2 msecs
+2019-05-17 15:13:11 [INFO ] loading ssh keystore for ataola
+2019-05-17 15:13:39 [INFO ] loading ssh keystore for ataola
+2019-05-17 15:13:50 [INFO ] 2 repository models loaded for ataola in 3 msecs
+2019-05-17 15:13:56 [INFO ] 2 repository models loaded for ataola in 2 msecs
+2019-05-17 15:41:15 [INFO ] 2 repository models loaded for ataola in 3 msecs
+2019-05-17 15:41:19 [INFO ] 2 repository models loaded for ataola in 2 msecs
+2019-05-17 15:42:55 [INFO ] create repository ataola-layout.git
+2019-05-17 15:43:21 [INFO ] creating ssh session from /192.168.6.70:12123
+2019-05-17 15:43:39 [INFO ] loading ssh keystore for ataola
+2019-05-17 15:43:39 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-17 15:43:39 [INFO ] closed ssh session from /192.168.6.70:12123
+2019-05-17 16:07:54 [INFO ] creating ssh session from /192.168.6.70:12437
+2019-05-17 16:07:54 [INFO ] loading ssh keystore for ataola
+2019-05-17 16:07:56 [INFO ] ataola UPDATED refs/heads/master in ataola-layout.git (from 69e5bccb67d69d5d26bcf73e219ecf1ada3894c5 to f510bfcadef7502fbf4e2d5e5d9ef8d16e2bfc27)
+2019-05-17 16:07:56 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-17 16:07:56 [INFO ] closed ssh session from /192.168.6.70:12437
+2019-05-17 16:10:09 [INFO ] 3 repository models loaded for ataola in 23 msecs
+2019-05-17 16:10:11 [INFO ] 3 repository models loaded for ataola in 2 msecs
+2019-05-17 16:14:53 [INFO ] creating ssh session from /192.168.6.70:12760
+2019-05-17 16:14:53 [INFO ] ataola UPDATED refs/heads/master in ataola-layout.git (from f510bfcadef7502fbf4e2d5e5d9ef8d16e2bfc27 to f09e860694f8b324e7711dcc2b8852be4e2864c0)
+2019-05-17 16:14:54 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-17 16:14:54 [INFO ] closed ssh session from /192.168.6.70:12760
+2019-05-17 16:16:52 [INFO ] creating ssh session from /192.168.6.70:12798
+2019-05-17 16:16:52 [INFO ] ataola UPDATED refs/heads/master in ataola-layout.git (from f09e860694f8b324e7711dcc2b8852be4e2864c0 to 4cc7cfd43c0b9c8489d4b66b65536930cf307430)
+2019-05-17 16:16:52 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-17 16:16:52 [INFO ] closed ssh session from /192.168.6.70:12798
+2019-05-17 16:23:24 [INFO ] creating ssh session from /192.168.6.70:12871
+2019-05-17 16:23:24 [INFO ] ataola UPDATED refs/heads/master in ataola-layout.git (from 4cc7cfd43c0b9c8489d4b66b65536930cf307430 to 0d484c82becfd1114c141e5f6ddb7f612fc7d173)
+2019-05-17 16:23:24 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-17 16:23:24 [INFO ] closed ssh session from /192.168.6.70:12871
+2019-05-17 16:24:07 [INFO ] creating ssh session from /192.168.6.70:12913
+2019-05-17 16:24:07 [INFO ] ataola UPDATED refs/heads/master in ataola-layout.git (from 0d484c82becfd1114c141e5f6ddb7f612fc7d173 to 504d7c009fd31fac33cfb8b0846bf1eec1f39085)
+2019-05-17 16:24:07 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-17 16:24:07 [INFO ] closed ssh session from /192.168.6.70:12913
+2019-05-17 16:36:55 [INFO ] creating ssh session from /192.168.6.70:12958
+2019-05-17 16:36:55 [INFO ] ataola UPDATED refs/heads/master in ataola-layout.git (from 504d7c009fd31fac33cfb8b0846bf1eec1f39085 to 452309143001305a7da3b313d201c9463bdc3d96)
+2019-05-17 16:36:55 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-17 16:36:55 [INFO ] closed ssh session from /192.168.6.70:12958
+2019-05-17 16:38:42 [INFO ] creating ssh session from /192.168.6.70:13018
+2019-05-17 16:38:42 [INFO ] ataola UPDATED refs/heads/master in ataola-layout.git (from 452309143001305a7da3b313d201c9463bdc3d96 to 1e12021438188f4b1c5f0d651db170996d9aa82c)
+2019-05-17 16:38:42 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-17 16:38:42 [INFO ] closed ssh session from /192.168.6.70:13018
+2019-05-17 16:50:18 [INFO ] creating ssh session from /192.168.6.70:13112
+2019-05-17 16:50:18 [INFO ] ataola UPDATED refs/heads/master in ataola-layout.git (from 1e12021438188f4b1c5f0d651db170996d9aa82c to bce6c882b5cf7945cfc8ca9f22df460b47b5bec8)
+2019-05-17 16:50:18 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-05-17 16:50:18 [INFO ] closed ssh session from /192.168.6.70:13112
+Sending Shutdown Request to Gitblit
+2019-05-20 09:47:16 [INFO ] *****************************************************************
+2019-05-20 09:47:16 [INFO ] Stopping Gitblit
+2019-05-20 09:47:16 [INFO ] *****************************************************************
+2019-05-20 09:47:16 [INFO ] Stopped ServerConnector@704641e3{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-05-20 09:47:16 [INFO ] Stopped ServerConnector@2f00f851{HTTP/1.1}{0.0.0.0:8090}
+2019-05-20 09:47:16 [INFO ] Gitblit context destroyed by servlet container.
+2019-05-20 09:47:16 [INFO ] Git Daemon stopping...
+2019-05-20 09:47:16 [INFO ] Git Daemon stopped.
+2019-05-20 09:47:16 [INFO ] SSH Daemon stopping...
+2019-05-20 09:47:16 [INFO ] Stopped o.e.j.w.WebAppContext@1000d54d{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,UNAVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}

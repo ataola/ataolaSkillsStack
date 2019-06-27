@@ -1,0 +1,264 @@
+
+2019-05-08 13:38:14 Commons Daemon procrun stdout initialized
+2019-05-08 13:38:14 [INFO ] 
+  _____  _  _    _      _  _  _
+ |  __ \(_)| |  | |    | |(_)| |
+ | |  \/ _ | |_ | |__  | | _ | |_
+ | | __ | || __|| '_ \ | || || __|  http://gitblit.com
+ | |_\ \| || |_ | |_) || || || |_   @gitblit
+  \____/|_| \__||_.__/ |_||_| \__|  1.8.0
+
+2019-05-08 13:38:14 [INFO ] Running on Windows 10 (10.0)
+2019-05-08 13:38:14 [INFO ] Logging initialized @325ms
+2019-05-08 13:38:14 [INFO ] Using JCE Standard Encryption Policy files, encryption key lengths will be limited
+2019-05-08 13:38:14 [INFO ] Setting up HTTPS transport on port 8443
+2019-05-08 13:38:14 [INFO ]    certificate alias = localhost
+2019-05-08 13:38:14 [INFO ]    keyStorePath   = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverKeyStore.jks
+2019-05-08 13:38:14 [INFO ]    trustStorePath = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverTrustStore.jks
+2019-05-08 13:38:14 [INFO ]    crlPath        = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\certs\caRevocationList.crl
+2019-05-08 13:38:14 [INFO ] Setting up HTTP transport on port 8090
+2019-05-08 13:38:14 [INFO ] Shutdown Monitor listening on port 8081
+2019-05-08 13:38:14 [INFO ] jetty-9.2.13.v20150730
+2019-05-08 13:38:16 [INFO ] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.IRuntimeManager]----
+2019-05-08 13:38:16 [INFO ] Basefolder  : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data
+2019-05-08 13:38:16 [INFO ] Settings    : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\gitblit.properties
+2019-05-08 13:38:16 [INFO ] JVM timezone: Asia/Shanghai (CST +0800)
+2019-05-08 13:38:16 [INFO ] App timezone: Asia/Shanghai (CST +0800)
+2019-05-08 13:38:16 [INFO ] JVM locale  : zh_CN
+2019-05-08 13:38:16 [INFO ] App locale  : <client>
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.INotificationManager]----
+2019-05-08 13:38:16 [WARN ] Mail service disabled.
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.IUserManager]----
+2019-05-08 13:38:16 [INFO ] ConfigUserService(D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\users.conf)
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.IAuthenticationManager]----
+2019-05-08 13:38:16 [INFO ] External authentication disabled.
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.transport.ssh.IPublicKeyManager]----
+2019-05-08 13:38:16 [INFO ] FileKeyManager (D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\ssh)
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.IRepositoryManager]----
+2019-05-08 13:38:16 [INFO ] Repositories folder : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository
+2019-05-08 13:38:16 [INFO ] Identifying repositories...
+2019-05-08 13:38:16 [INFO ] 0 repositories identified with calculated folder sizes in 10 msecs
+2019-05-08 13:38:16 [INFO ] Lucene will process indexed branches every 2 minutes.
+2019-05-08 13:38:16 [INFO ] Garbage Collector (GC) is disabled.
+2019-05-08 13:38:16 [INFO ] Mirror service is disabled.
+2019-05-08 13:38:16 [INFO ] Alias 'UTF8', UTF-9 & UTF-18 encodings as UTF-8 in JGit
+2019-05-08 13:38:16 [INFO ] Preparing 14 day commit cache. please wait...
+2019-05-08 13:38:16 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:38:16 [INFO ] built 14 day commit cache of 0 commits across 0 repositories in 1 msecs
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.IProjectManager]----
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.IFederationManager]----
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.tickets.ITicketService]----
+2019-05-08 13:38:16 [INFO ] NullTicketService started
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.IGitblit]----
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.IServicesManager]----
+2019-05-08 13:38:16 [INFO ] Federation passphrase is blank! This server can not be PULLED from.
+2019-05-08 13:38:16 [INFO ] Fanout PubSub service is disabled.
+2019-05-08 13:38:16 [INFO ] Git Daemon is listening on 0.0.0.0:9418
+2019-05-08 13:38:16 [INFO ] SSH Daemon (NIO2) is listening on 0.0.0.0:29418
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.IFilestoreManager]----
+2019-05-08 13:38:16 [INFO ] No filestore metadata file found
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] ----[com.gitblit.manager.IPluginManager]----
+2019-05-08 13:38:16 [INFO ] PF4J version 1.8.0 in 'deployment' mode
+2019-05-08 13:38:16 [INFO ] Enabled plugins: []
+2019-05-08 13:38:16 [INFO ] Disabled plugins: []
+2019-05-08 13:38:16 [INFO ] No plugins
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] All managers started.
+2019-05-08 13:38:16 [INFO ] 
+2019-05-08 13:38:16 [INFO ] [GitBlitWebApp] init: Wicket core library initializer
+2019-05-08 13:38:16 [INFO ] [GitBlitWebApp] init: Wicket extensions initializer
+2019-05-08 13:38:16 [INFO ] [GitBlitWebApp] Started Wicket version 1.4.22 in deployment mode
+2019-05-08 13:38:16 [INFO ] Started o.e.j.w.WebAppContext@46a953cf{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,AVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}
+2019-05-08 13:38:17 [INFO ] Started ServerConnector@37af1f93{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-05-08 13:38:17 [INFO ] Started ServerConnector@778d82e9{HTTP/1.1}{0.0.0.0:8090}
+2019-05-08 13:38:17 [INFO ] Started @2782ms
+2019-05-08 13:39:06 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp_zh_CN.properties
+2019-05-08 13:39:06 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:39:06 [INFO ] 0 repository models loaded for anonymous in 1 msecs
+2019-05-08 13:39:06 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:39:06 [INFO ] 0 repository models loaded for anonymous in 1 msecs
+2019-05-08 13:39:06 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp.properties
+2019-05-08 13:39:06 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application_zh_CN.properties
+2019-05-08 13:39:06 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application.properties
+2019-05-08 13:39:16 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:40:17 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:40:17 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:17 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:17 [INFO ] 0 repository models loaded for admin in 0 msecs
+2019-05-08 13:40:22 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:22 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:22 [INFO ] loading ssh keystore for admin
+2019-05-08 13:40:22 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:22 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:34 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:34 [INFO ] 0 repository models loaded for admin in 0 msecs
+2019-05-08 13:40:34 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:34 [INFO ] 0 repository models loaded for admin in 0 msecs
+2019-05-08 13:40:35 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:35 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:35 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:35 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:35 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:40:35 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:36 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:40:36 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:36 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:36 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:38 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:38 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:40 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:40:40 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:40 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:40 [INFO ] 0 repository models loaded for admin in 0 msecs
+2019-05-08 13:40:40 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:40 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:42 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:40:42 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:42 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:40:42 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:42 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:42 [INFO ] 0 repository models loaded for admin in 0 msecs
+2019-05-08 13:40:42 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:40:42 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:40:47 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:41:16 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:42:09 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:42:22 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:42:39 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:42:48 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:43:16 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:43:30 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:43:43 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:43:48 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:43:52 [INFO ] 0 repositories identified with calculated folder sizes in 1 msecs
+2019-05-08 13:43:52 [INFO ] 0 repository models loaded for admin in 1 msecs
+2019-05-08 13:43:52 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:43:52 [INFO ] 0 repository models loaded for admin in 0 msecs
+Sending Shutdown Request to Gitblit
+2019-05-08 13:44:05 [INFO ] *****************************************************************
+2019-05-08 13:44:05 [INFO ] Stopping Gitblit
+2019-05-08 13:44:05 [INFO ] *****************************************************************
+2019-05-08 13:44:05 [INFO ] Stopped ServerConnector@37af1f93{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-05-08 13:44:05 [INFO ] Stopped ServerConnector@778d82e9{HTTP/1.1}{0.0.0.0:8090}
+2019-05-08 13:44:05 [INFO ] Gitblit context destroyed by servlet container.
+2019-05-08 13:44:05 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:44:05 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:44:05 [INFO ] Git Daemon stopping...
+2019-05-08 13:44:05 [INFO ] Git Daemon stopped.
+2019-05-08 13:44:05 [INFO ] SSH Daemon stopping...
+2019-05-08 13:44:05 [INFO ] Stopped o.e.j.w.WebAppContext@46a953cf{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,UNAVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}
+
+2019-05-08 13:46:34 Commons Daemon procrun stdout initialized
+2019-05-08 13:46:34 [INFO ] 
+  _____  _  _    _      _  _  _
+ |  __ \(_)| |  | |    | |(_)| |
+ | |  \/ _ | |_ | |__  | | _ | |_
+ | | __ | || __|| '_ \ | || || __|  http://gitblit.com
+ | |_\ \| || |_ | |_) || || || |_   @gitblit
+  \____/|_| \__||_.__/ |_||_| \__|  1.8.0
+
+2019-05-08 13:46:34 [INFO ] Running on Windows 10 (10.0)
+2019-05-08 13:46:34 [INFO ] Logging initialized @290ms
+2019-05-08 13:46:34 [INFO ] Using JCE Standard Encryption Policy files, encryption key lengths will be limited
+2019-05-08 13:46:34 [INFO ] Setting up HTTPS transport on port 8443
+2019-05-08 13:46:34 [INFO ]    certificate alias = localhost
+2019-05-08 13:46:34 [INFO ]    keyStorePath   = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverKeyStore.jks
+2019-05-08 13:46:34 [INFO ]    trustStorePath = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverTrustStore.jks
+2019-05-08 13:46:34 [INFO ]    crlPath        = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\certs\caRevocationList.crl
+2019-05-08 13:46:34 [INFO ] Setting up HTTP transport on port 8090
+2019-05-08 13:46:34 [INFO ] Shutdown Monitor listening on port 8081
+2019-05-08 13:46:34 [INFO ] jetty-9.2.13.v20150730
+2019-05-08 13:46:35 [INFO ] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.manager.IRuntimeManager]----
+2019-05-08 13:46:35 [INFO ] Basefolder  : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data
+2019-05-08 13:46:35 [INFO ] Settings    : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\gitblit.properties
+2019-05-08 13:46:35 [INFO ] JVM timezone: Asia/Shanghai (CST +0800)
+2019-05-08 13:46:35 [INFO ] App timezone: Asia/Shanghai (CST +0800)
+2019-05-08 13:46:35 [INFO ] JVM locale  : zh_CN
+2019-05-08 13:46:35 [INFO ] App locale  : <client>
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.manager.INotificationManager]----
+2019-05-08 13:46:35 [WARN ] Mail service disabled.
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.manager.IUserManager]----
+2019-05-08 13:46:35 [INFO ] ConfigUserService(D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\users.conf)
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.manager.IAuthenticationManager]----
+2019-05-08 13:46:35 [INFO ] External authentication disabled.
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.transport.ssh.IPublicKeyManager]----
+2019-05-08 13:46:35 [INFO ] FileKeyManager (D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\ssh)
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.manager.IRepositoryManager]----
+2019-05-08 13:46:35 [INFO ] Repositories folder : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository
+2019-05-08 13:46:35 [INFO ] Identifying repositories...
+2019-05-08 13:46:35 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:46:35 [INFO ] Lucene will process indexed branches every 2 minutes.
+2019-05-08 13:46:35 [INFO ] Garbage Collector (GC) is disabled.
+2019-05-08 13:46:35 [INFO ] Mirror service is disabled.
+2019-05-08 13:46:35 [INFO ] Alias 'UTF8', UTF-9 & UTF-18 encodings as UTF-8 in JGit
+2019-05-08 13:46:35 [INFO ] Preparing 14 day commit cache. please wait...
+2019-05-08 13:46:35 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:46:35 [INFO ] built 14 day commit cache of 0 commits across 0 repositories in 1 msecs
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.manager.IProjectManager]----
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.manager.IFederationManager]----
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.tickets.ITicketService]----
+2019-05-08 13:46:35 [INFO ] NullTicketService started
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.manager.IGitblit]----
+2019-05-08 13:46:35 [INFO ] 
+2019-05-08 13:46:35 [INFO ] ----[com.gitblit.manager.IServicesManager]----
+2019-05-08 13:46:35 [INFO ] Federation passphrase is blank! This server can not be PULLED from.
+2019-05-08 13:46:35 [INFO ] Fanout PubSub service is disabled.
+2019-05-08 13:46:35 [INFO ] Git Daemon is listening on 0.0.0.0:9418
+2019-05-08 13:46:36 [INFO ] SSH Daemon (NIO2) is listening on 0.0.0.0:29418
+2019-05-08 13:46:36 [INFO ] 
+2019-05-08 13:46:36 [INFO ] ----[com.gitblit.manager.IFilestoreManager]----
+2019-05-08 13:46:36 [INFO ] No filestore metadata file found
+2019-05-08 13:46:36 [INFO ] 
+2019-05-08 13:46:36 [INFO ] ----[com.gitblit.manager.IPluginManager]----
+2019-05-08 13:46:36 [INFO ] PF4J version 1.8.0 in 'deployment' mode
+2019-05-08 13:46:36 [INFO ] Enabled plugins: []
+2019-05-08 13:46:36 [INFO ] Disabled plugins: []
+2019-05-08 13:46:36 [INFO ] No plugins
+2019-05-08 13:46:36 [INFO ] 
+2019-05-08 13:46:36 [INFO ] All managers started.
+2019-05-08 13:46:36 [INFO ] 
+2019-05-08 13:46:36 [INFO ] [GitBlitWebApp] init: Wicket core library initializer
+2019-05-08 13:46:36 [INFO ] [GitBlitWebApp] init: Wicket extensions initializer
+2019-05-08 13:46:36 [INFO ] [GitBlitWebApp] Started Wicket version 1.4.22 in deployment mode
+2019-05-08 13:46:36 [INFO ] Started o.e.j.w.WebAppContext@46a953cf{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,AVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}
+2019-05-08 13:46:36 [INFO ] Started ServerConnector@668e74e0{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-05-08 13:46:36 [INFO ] Started ServerConnector@37af1f93{HTTP/1.1}{0.0.0.0:8090}
+2019-05-08 13:46:36 [INFO ] Started @2077ms
+Sending Shutdown Request to Gitblit
+2019-05-08 13:46:37 [INFO ] *****************************************************************
+2019-05-08 13:46:37 [INFO ] Stopping Gitblit
+2019-05-08 13:46:37 [INFO ] *****************************************************************
+2019-05-08 13:46:37 [INFO ] Stopped ServerConnector@668e74e0{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-05-08 13:46:37 [INFO ] Stopped ServerConnector@37af1f93{HTTP/1.1}{0.0.0.0:8090}
+2019-05-08 13:46:37 [INFO ] Gitblit context destroyed by servlet container.
+2019-05-08 13:46:37 [INFO ] 0 repositories identified with calculated folder sizes in 0 msecs
+2019-05-08 13:46:37 [INFO ] 0 repositories identified with calculated folder sizes in 10 msecs
+2019-05-08 13:46:37 [INFO ] Git Daemon stopping...
+2019-05-08 13:46:37 [INFO ] Git Daemon stopped.
+2019-05-08 13:46:37 [INFO ] SSH Daemon stopping...
+2019-05-08 13:46:37 [INFO ] Stopped o.e.j.w.WebAppContext@46a953cf{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,UNAVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}

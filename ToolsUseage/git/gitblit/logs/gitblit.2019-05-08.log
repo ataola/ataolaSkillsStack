@@ -1,0 +1,20 @@
+[2019-05-08 12:34:57] [info]  Commons Daemon procrun (1.0.10.0 64-bit) started
+[2019-05-08 12:34:57] [info]  Service gitblit name gitblit
+[2019-05-08 12:34:57] [info]  Service 'gitblit' installed
+[2019-05-08 12:34:57] [info]  Commons Daemon procrun finished
+[2019-05-08 13:38:13] [info]  Commons Daemon procrun (1.0.10.0 64-bit) started
+[2019-05-08 13:38:14] [info]  Running 'gitblit' Service...
+[2019-05-08 13:38:14] [info]  Starting service...
+[2019-05-08 13:38:15] [info]  Service started in 1150 ms.
+[2019-05-08 13:44:04] [info]  Stopping service...
+[2019-05-08 13:44:05] [info]  Service stopped.
+[2019-05-08 13:44:05] [info]  Run service finished.
+[2019-05-08 13:44:05] [info]  Commons Daemon procrun finished
+[2019-05-08 13:46:34] [info]  Commons Daemon procrun (1.0.10.0 64-bit) started
+[2019-05-08 13:46:34] [info]  Running 'gitblit' Service...
+[2019-05-08 13:46:34] [info]  Starting service...
+[2019-05-08 13:46:35] [info]  Service started in 1080 ms.
+[2019-05-08 13:46:37] [info]  Stopping service...
+[2019-05-08 13:46:38] [info]  Service stopped.
+[2019-05-08 13:46:38] [info]  Run service finished.
+[2019-05-08 13:46:38] [info]  Commons Daemon procrun finished

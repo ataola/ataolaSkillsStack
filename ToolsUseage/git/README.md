@@ -1,6 +1,6 @@
 ## Git
 
-> Git的学习
+> Git的学习,懒得再建一个目录，jenkins放这里好了，windows上有gitblit感觉都没啥好写的，把配置文件丢文件夹吧，不得不说gitlab不管是颜值还是功能都完胜它，但gitblit也还可以的。
 
 &nbsp;&nbsp;**安装配置：**
 
@@ -10,8 +10,6 @@ cd /opt
 wget -O git-src.zip https://github.com/git/git/archive/master.zip
 unzip git-src.zip
 cd git-src
-
-// 这一步要花些时间，耐心等待
 make prefix=/usr/local all
 make prefix=/usr/local install
 ln -fs /usr/local/bin/git* /usr/bin/
@@ -33,6 +31,10 @@ ssh-keygen -t rsa -C "asdasdasd@qq.com"
 ```
 #安装Gitla依赖b组件
 yum -y install curl policycoreutils openssh-server openssh-clients postfix
+
+#配置YUM仓库
+curl ‐sS https://packages.gitlab.com/install/repositories/gitlab/gitlabce/
+script.rpm.sh | sudo bash
 
 #启动postfix邮件服务
 
@@ -234,7 +236,115 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 插件地址
 http://updates.jenkins-ci.org/download/plugins/   
 
+有意思的是，jenkins也支持安装一些软件，这使得它那个用户需要用root
 ```
+&nbsp;&nbsp;**Jenkins插件的安装（Node.JS）：**
+```
+"系统管理" ==> "管理插件" ==> "可选插件" ==> 搜索 "Nodejs" ==> 直接安装 ==> systemctl restart jenkins | 或者直接网页上点重启
+```
+
+&nbsp;&nbsp;**Jenkins插件的安装（Maven）：**
+```
+"系统管理" ==> "管理插件" ==> "可选插件" ==> "过滤输入框中输入搜索关键字" ==> "Maven Integration" | "Pipeline Maven Integration" ==> "直接安装" ==> systemctl restart jenkins | 或者直接网页上点重启
+```
+
+&nbsp;&nbsp;**Jenkins环境配置（Node.JS）：**
+```
+"系统管理" ==> "全局工具设置" ==> " NodeJS 安装" ==> NodeJS别名: node-v12.4.0 ==> 安装目录: /opt/node-v12.4.0-linux-x64 ==> 取消自动安装 ==> 保存
+```
+
+&nbsp;&nbsp;**Jenkins环境配置（OPENJDK）：**
+```
+"系统管理" ==> "全局工具设置" ==> " NodeJS 安装" ==> NodeJS别名: openjdk1.8 ==> JAVA_HOME: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0xxxx ==> 取消自动安装 ==> 保存
+```
+
+
+&nbsp;&nbsp;**jenkins部署nodejs前端项目：**
+```
+任务名称:  jenkins_01_node_blog
+构建一个自由风格的软件项目
+Git URL 凭据
+构建环境
+勾选: Provide Node & npm bin/ folder to PATH
+构建 执行shell
+export JENKINS_PROJECT_PATH=`pwd`
+export PROJECT_PATH="/opt/app/node_blog"
+cd node_blog
+cnpm install
+npm run build
+保存
+构建
+结果:成功!
+mkdir node_blog
+chown -R deploy:deploy /opt/app
+chmod 777 /opt/app
+构建 执行shell
+rm -rf $PROJECT_PATH/*
+cp -r $JENKINS_PROJECT_PATH/node_blog/dist/* $PROJECT_PATH/
+
+```
+
+&nbsp;&nbsp;**jenkins构建Maven项目：**
+```
+任务名称:  jenkins_02_maven_blog
+构建一个maven项目
+Git URL 凭据
+
+Build:
+Root POM: helloworld-java-maven/pom.xml
+Goal and options: clean package       (如果有测试类需要加 -D maven.test.skip=true)
+
+Post Steps:
+选择: Run only if build succeeds
+
+执行Shell:
+export JENKINS_PROJECT_PATH=`pwd`
+export PROJECT_PATH="/opt/app"
+if [ -f $PROJECT_PATH/spring-server.jar ];
+then
+rm -f $PROJECT_PATH/spring-server.jar
+echo "[STEP1] delete jar success ..."
+else
+echo "[STEP1] spring-server.jar not exist ..."
+fi
+cp $JENKINS_PROJECT_PATH/dinnerserver/spring/target/spring-server.jar $PROJECT_PATH/
+echo "[STEP2] copy jenkins jar success ..."
+java_process=`ps -ef | grep spring-server.jar | grep -v grep | wc -l`
+java_process_pid=`ps -ef | grep spring-server.jar | grep -v grep | awk '{print $2}'`
+echo $java_process
+echo $java_process_pid
+if [ $java_process == 0 ];
+then
+echo "[STEP3] no spring-server.jar process running"
+else
+sudo kill -9 ${java_process_pid}
+echo "[STEP3] spring-server.jar process killed"
+fi
+nohup java -jar -Dserver.port=8090 /opt/app/spring-server.jar > /dev/null 2>&1 &
+echo "[STEP4] start new spring-server.jar process success ..."
+echo "[INFO] build finished..."
+
+保存
+立即构建
+
+```
+
+&nbsp;&nbsp;**ansible：**
+```
+#想省事一点的办法：
+yum install ansible
+
+#不太省事的：
+yum -y install python-jinja2 PyYAML python-paramiko python-babel python-crypto
+tar xf ansible-1.5.4.tar.gz
+cd ansible-1.5.4
+python setup.py build
+python setup.py install
+mkdir /etc/ansible
+cp -r examples/* /etc/ansible
+```
+
+
 
 
 &nbsp;&nbsp;**问题汇总：**

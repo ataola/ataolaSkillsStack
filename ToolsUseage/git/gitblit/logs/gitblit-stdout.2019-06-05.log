@@ -1,0 +1,200 @@
+
+2019-06-05 14:15:31 Commons Daemon procrun stdout initialized
+2019-06-05 14:15:32 [INFO ] 
+  _____  _  _    _      _  _  _
+ |  __ \(_)| |  | |    | |(_)| |
+ | |  \/ _ | |_ | |__  | | _ | |_
+ | | __ | || __|| '_ \ | || || __|  http://gitblit.com
+ | |_\ \| || |_ | |_) || || || |_   @gitblit
+  \____/|_| \__||_.__/ |_||_| \__|  1.8.0
+
+2019-06-05 14:15:32 [INFO ] Running on Windows 10 (10.0)
+2019-06-05 14:15:32 [INFO ] Logging initialized @881ms
+2019-06-05 14:15:33 [INFO ] Using JCE Standard Encryption Policy files, encryption key lengths will be limited
+2019-06-05 14:15:33 [INFO ] Setting up HTTPS transport on port 8443
+2019-06-05 14:15:33 [INFO ]    certificate alias = localhost
+2019-06-05 14:15:33 [INFO ]    keyStorePath   = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverKeyStore.jks
+2019-06-05 14:15:33 [INFO ]    trustStorePath = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\serverTrustStore.jks
+2019-06-05 14:15:33 [INFO ]    crlPath        = D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\certs\caRevocationList.crl
+2019-06-05 14:15:33 [INFO ] Setting up HTTP transport on port 8090
+2019-06-05 14:15:34 [INFO ] Shutdown Monitor listening on port 8081
+2019-06-05 14:15:34 [INFO ] jetty-9.2.13.v20150730
+2019-06-05 14:15:35 [INFO ] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2019-06-05 14:15:35 [INFO ] 
+2019-06-05 14:15:35 [INFO ] ----[com.gitblit.manager.IRuntimeManager]----
+2019-06-05 14:15:35 [INFO ] Basefolder  : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data
+2019-06-05 14:15:35 [INFO ] Settings    : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\gitblit.properties
+2019-06-05 14:15:35 [INFO ] JVM timezone: Asia/Shanghai (CST +0800)
+2019-06-05 14:15:35 [INFO ] App timezone: Asia/Shanghai (CST +0800)
+2019-06-05 14:15:35 [INFO ] JVM locale  : zh_CN
+2019-06-05 14:15:35 [INFO ] App locale  : <client>
+2019-06-05 14:15:35 [INFO ] 
+2019-06-05 14:15:35 [INFO ] ----[com.gitblit.manager.INotificationManager]----
+2019-06-05 14:15:35 [WARN ] Mail service disabled.
+2019-06-05 14:15:35 [INFO ] 
+2019-06-05 14:15:35 [INFO ] ----[com.gitblit.manager.IUserManager]----
+2019-06-05 14:15:35 [INFO ] ConfigUserService(D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\users.conf)
+2019-06-05 14:15:35 [INFO ] 
+2019-06-05 14:15:35 [INFO ] ----[com.gitblit.manager.IAuthenticationManager]----
+2019-06-05 14:15:35 [INFO ] External authentication disabled.
+2019-06-05 14:15:35 [INFO ] 
+2019-06-05 14:15:35 [INFO ] ----[com.gitblit.transport.ssh.IPublicKeyManager]----
+2019-06-05 14:15:35 [INFO ] FileKeyManager (D:\ataola_workspace\server\gitblit\gitblit-1.8.0\data\ssh)
+2019-06-05 14:15:35 [INFO ] 
+2019-06-05 14:15:35 [INFO ] ----[com.gitblit.manager.IRepositoryManager]----
+2019-06-05 14:15:35 [INFO ] Repositories folder : D:\ataola_workspace\server\gitblit\gitblit-1.8.0\ataola_workspaceservergitblitGitRepository
+2019-06-05 14:15:35 [INFO ] Identifying repositories...
+2019-06-05 14:15:48 [INFO ] 6 repositories identified with calculated folder sizes in 12,372 msecs
+2019-06-05 14:15:48 [INFO ] Lucene will process indexed branches every 2 minutes.
+2019-06-05 14:15:48 [INFO ] Garbage Collector (GC) is disabled.
+2019-06-05 14:15:48 [INFO ] Mirror service is disabled.
+2019-06-05 14:15:48 [INFO ] Alias 'UTF8', UTF-9 & UTF-18 encodings as UTF-8 in JGit
+2019-06-05 14:15:48 [INFO ] Preparing 14 day commit cache. please wait...
+2019-06-05 14:15:48 [INFO ]   cached 13 commits for ataolaSkillsStack.git:refs/heads/master
+2019-06-05 14:15:48 [INFO ]   cached 1 commits for domStudy.git:refs/heads/master
+2019-06-05 14:15:48 [INFO ]   cached 2 commits for FE-ComponentLibrary.git:refs/heads/master
+2019-06-05 14:15:48 [INFO ]   cached 1 commits for ~ataola/domStudy.git:refs/heads/master
+2019-06-05 14:15:48 [INFO ] built 14 day commit cache of 17 commits across 4 repositories in 190 msecs
+2019-06-05 14:15:48 [INFO ] 
+2019-06-05 14:15:48 [INFO ] ----[com.gitblit.manager.IProjectManager]----
+2019-06-05 14:15:48 [INFO ] 
+2019-06-05 14:15:48 [INFO ] ----[com.gitblit.manager.IFederationManager]----
+2019-06-05 14:15:48 [INFO ] 
+2019-06-05 14:15:48 [INFO ] ----[com.gitblit.tickets.ITicketService]----
+2019-06-05 14:15:48 [INFO ] NullTicketService started
+2019-06-05 14:15:48 [INFO ] 
+2019-06-05 14:15:48 [INFO ] ----[com.gitblit.manager.IGitblit]----
+2019-06-05 14:15:48 [INFO ] 
+2019-06-05 14:15:48 [INFO ] ----[com.gitblit.manager.IServicesManager]----
+2019-06-05 14:15:48 [INFO ] Federation passphrase is blank! This server can not be PULLED from.
+2019-06-05 14:15:48 [INFO ] Fanout PubSub service is disabled.
+2019-06-05 14:15:48 [INFO ] Git Daemon is listening on 0.0.0.0:9418
+2019-06-05 14:15:48 [INFO ] SSH Daemon (NIO2) is listening on 0.0.0.0:29418
+2019-06-05 14:15:48 [INFO ] 
+2019-06-05 14:15:48 [INFO ] ----[com.gitblit.manager.IFilestoreManager]----
+2019-06-05 14:15:48 [INFO ] No filestore metadata file found
+2019-06-05 14:15:48 [INFO ] 
+2019-06-05 14:15:48 [INFO ] ----[com.gitblit.manager.IPluginManager]----
+2019-06-05 14:15:48 [INFO ] PF4J version 1.8.0 in 'deployment' mode
+2019-06-05 14:15:48 [INFO ] Enabled plugins: []
+2019-06-05 14:15:48 [INFO ] Disabled plugins: []
+2019-06-05 14:15:48 [INFO ] No plugins
+2019-06-05 14:15:48 [INFO ] 
+2019-06-05 14:15:48 [INFO ] All managers started.
+2019-06-05 14:15:48 [INFO ] 
+2019-06-05 14:15:49 [INFO ] [GitBlitWebApp] init: Wicket core library initializer
+2019-06-05 14:15:49 [INFO ] [GitBlitWebApp] init: Wicket extensions initializer
+2019-06-05 14:15:49 [INFO ] [GitBlitWebApp] Started Wicket version 1.4.22 in deployment mode
+2019-06-05 14:15:49 [INFO ] Started o.e.j.w.WebAppContext@16e7b402{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,AVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}
+2019-06-05 14:15:49 [INFO ] Started ServerConnector@288ca5f0{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-06-05 14:15:49 [INFO ] Started ServerConnector@4068102e{HTTP/1.1}{0.0.0.0:8090}
+2019-06-05 14:15:49 [INFO ] Started @17479ms
+2019-06-05 14:15:49 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp_zh_CN.properties
+2019-06-05 14:15:49 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar!/com/gitblit/wicket/GitBlitWebApp.properties
+2019-06-05 14:15:49 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application_zh_CN.properties
+2019-06-05 14:15:49 [INFO ] Loading properties files from jar:file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/ext/wicket-1.4.22.jar!/org/apache/wicket/Application.properties
+2019-06-05 14:15:50 [INFO ] 6 repository models loaded for ataola in 12 msecs
+2019-06-05 15:28:16 [INFO ] creating ssh session from /192.168.6.70:1977
+2019-06-05 15:28:16 [INFO ] loading ssh keystore for ataola
+2019-06-05 15:28:16 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-05 15:28:18 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-05 15:28:18 [INFO ] closed ssh session from /192.168.6.70:1977
+2019-06-05 15:28:36 [INFO ] 6 repository models loaded for anonymous in 16 msecs
+2019-06-05 15:28:41 [INFO ] 6 repository models loaded for anonymous in 5 msecs
+2019-06-05 15:28:51 [INFO ] 6 repository models loaded for anonymous in 5 msecs
+2019-06-05 15:29:05 [INFO ] creating ssh session from /192.168.6.70:2014
+2019-06-05 15:29:05 [INFO ] loading ssh keystore for ataola
+2019-06-05 15:29:05 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-05 15:29:08 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-05 15:29:08 [INFO ] closed ssh session from /192.168.6.70:2014
+2019-06-05 15:30:13 [INFO ] creating ssh session from /192.168.6.70:2045
+2019-06-05 15:30:13 [INFO ] loading ssh keystore for ataola
+2019-06-05 15:30:13 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-05 15:30:16 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-05 15:30:16 [INFO ] closed ssh session from /192.168.6.70:2045
+2019-06-05 15:31:33 [INFO ] creating ssh session from /192.168.6.70:2084
+2019-06-05 15:31:33 [INFO ] loading ssh keystore for ataola
+2019-06-05 15:31:33 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-05 15:31:36 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-05 15:31:36 [INFO ] closed ssh session from /192.168.6.70:2084
+2019-06-05 15:32:43 [INFO ] creating ssh session from /192.168.6.70:2115
+2019-06-05 15:32:43 [INFO ] loading ssh keystore for ataola
+2019-06-05 15:32:43 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-05 15:32:46 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-05 15:32:46 [INFO ] closed ssh session from /192.168.6.70:2115
+2019-06-05 15:34:26 [INFO ] creating ssh session from /192.168.6.70:2146
+2019-06-05 15:34:26 [INFO ] loading ssh keystore for ataola
+2019-06-05 15:34:26 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-05 15:34:28 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-05 15:34:28 [INFO ] closed ssh session from /192.168.6.70:2146
+2019-06-05 15:36:18 [INFO ] creating ssh session from /192.168.6.70:2177
+2019-06-05 15:36:18 [INFO ] loading ssh keystore for ataola
+2019-06-05 15:36:18 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-05 15:36:20 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from ec87c510b9798cd5949d58c53a1bf9937a64fbd7 to a70bd81cfbf0b5e5b709f62eae089d4b0abeda9e)
+2019-06-05 15:36:20 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-05 15:36:20 [INFO ] closed ssh session from /192.168.6.70:2177
+2019-06-05 15:36:52 [INFO ] Found more URL path parts then expected, these will be ignored. Url: 'http://192.168.6.70:8090/tree/ataolaSkillsStack.git/master/EnvSet/nginx', mountpath: 'tree', urlPath: 'ataolaSkillsStack.git/master/EnvSet/nginx', expected 3 parameters was 4
+2019-06-05 15:36:54 [INFO ] 6 repository models loaded for anonymous in 4 msecs
+2019-06-05 15:40:25 [INFO ] creating ssh session from /192.168.6.70:2220
+2019-06-05 15:40:25 [INFO ] loading ssh keystore for ataola
+2019-06-05 15:40:25 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-05 15:40:27 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from a70bd81cfbf0b5e5b709f62eae089d4b0abeda9e to 281f5fee52b7ace81b1e24070873564370defc67)
+2019-06-05 15:40:27 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-05 15:40:27 [INFO ] closed ssh session from /192.168.6.70:2220
+2019-06-06 08:47:46 [INFO ] creating ssh session from /192.168.6.70:2302
+2019-06-06 08:47:46 [INFO ] loading ssh keystore for ataola
+2019-06-06 08:47:46 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-06 08:47:48 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from 281f5fee52b7ace81b1e24070873564370defc67 to d2404fb50d03288b59c3a5bd16928a84c9a82af4)
+2019-06-06 08:47:49 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-06 08:47:49 [INFO ] closed ssh session from /192.168.6.70:2302
+2019-06-06 16:57:35 [INFO ] creating ssh session from /192.168.6.70:3332
+2019-06-06 16:57:36 [INFO ] loading ssh keystore for ataola
+2019-06-06 16:57:36 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-06 16:57:38 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from d2404fb50d03288b59c3a5bd16928a84c9a82af4 to 0f83ef130fbe43d3e4ae41408b6e626468bb141c)
+2019-06-06 16:57:38 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-06 16:57:38 [INFO ] closed ssh session from /192.168.6.70:3332
+2019-06-10 15:30:40 [INFO ] 6 repository models loaded for anonymous in 7 msecs
+2019-06-10 15:30:40 [INFO ] incrementally added 5 commits to cache for ataolaSkillsStack.git:refs/heads/master in 2 msecs
+2019-06-10 15:30:47 [INFO ] 6 repository models loaded for ataola in 9 msecs
+2019-06-10 15:30:50 [INFO ] 6 repository models loaded for ataola in 6 msecs
+2019-06-10 15:31:14 [INFO ] create repository JSDS.git
+2019-06-11 13:44:23 [INFO ] creating ssh session from /192.168.6.70:7338
+2019-06-11 13:44:23 [INFO ] loading ssh keystore for ataola
+2019-06-11 13:44:23 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-11 13:44:25 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from 0f83ef130fbe43d3e4ae41408b6e626468bb141c to c358067923003d890265f9388d4c212446e7fa2d)
+2019-06-11 13:44:25 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-11 13:44:25 [INFO ] closed ssh session from /192.168.6.70:7338
+2019-06-11 16:57:01 [INFO ] creating ssh session from /192.168.6.70:7404
+2019-06-11 16:57:01 [INFO ] loading ssh keystore for ataola
+2019-06-11 16:57:01 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-11 16:57:04 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from c358067923003d890265f9388d4c212446e7fa2d to 27ae6f277e024b6873463f09b9354e0b05861922)
+2019-06-11 16:57:04 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-11 16:57:04 [INFO ] closed ssh session from /192.168.6.70:7404
+2019-06-12 08:43:37 [INFO ] 7 repository models loaded for ataola in 11 msecs
+2019-06-12 08:43:37 [INFO ] incrementally added 2 commits to cache for ataolaSkillsStack.git:refs/heads/master in 2 msecs
+2019-06-12 08:43:42 [INFO ] 7 repository models loaded for ataola in 5 msecs
+2019-06-12 08:45:17 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/info/refs?service=git-receive-pack (100)
+2019-06-12 08:45:18 [INFO ] ARF: authenticated ataola to ataolaSkillsStack.git/git-receive-pack (100)
+2019-06-12 08:45:18 [INFO ] ataola UPDATED refs/heads/master in ataolaSkillsStack.git (from 27ae6f277e024b6873463f09b9354e0b05861922 to 3c6656342c55cf3e5dc7828bccc6d81e974c25c8)
+2019-06-12 08:46:26 [INFO ] Repository cache manually reset
+2019-06-12 08:46:26 [INFO ] 7 repositories identified with calculated folder sizes in 148 msecs
+2019-06-12 08:46:26 [INFO ] 7 repository models loaded for ataola in 152 msecs
+2019-06-12 08:46:55 [INFO ] creating ssh session from /192.168.6.70:7827
+2019-06-12 08:46:55 [INFO ] loading ssh keystore for ataola
+2019-06-12 08:46:55 [INFO ] ataola has not added any public keys for ssh authentication
+2019-06-12 08:46:58 [INFO ] onExecute: RootDispatcher exits with: 0
+2019-06-12 08:46:58 [INFO ] closed ssh session from /192.168.6.70:7827
+2019-06-12 08:47:06 [INFO ] 7 repository models loaded for ataola in 8 msecs
+2019-06-12 08:47:26 [INFO ] create repository library.git
+2019-06-12 08:48:40 [INFO ] 8 repository models loaded for ataola in 5 msecs
+Sending Shutdown Request to Gitblit
+2019-06-17 08:47:08 [INFO ] *****************************************************************
+2019-06-17 08:47:08 [INFO ] Stopping Gitblit
+2019-06-17 08:47:08 [INFO ] *****************************************************************
+2019-06-17 08:47:08 [INFO ] Stopped ServerConnector@288ca5f0{SSL-HTTP/1.1}{0.0.0.0:8443}
+2019-06-17 08:47:08 [INFO ] Stopped ServerConnector@4068102e{HTTP/1.1}{0.0.0.0:8090}
+2019-06-17 08:47:08 [INFO ] Gitblit context destroyed by servlet container.
+2019-06-17 08:47:08 [INFO ] Git Daemon stopping...
+2019-06-17 08:47:08 [INFO ] Git Daemon stopped.
+2019-06-17 08:47:08 [INFO ] SSH Daemon stopping...
+2019-06-17 08:47:08 [INFO ] Stopped o.e.j.w.WebAppContext@16e7b402{/,file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/data/temp/webapp/,UNAVAILABLE}{file:/D:/ataola_workspace/server/gitblit/gitblit-1.8.0/gitblit.jar}

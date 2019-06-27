@@ -1,0 +1,30 @@
+创建实例:
+# virtualenv -p /usr/local/bin/python3.6 .py3-a2.5-env 
+
+# cd /home/deploy/.py3-a2.5-env 
+
+# cd ~
+
+# git clone http://github.com/ansible/ansible.git 
+
+# source /home/deploy/.py3-a2.5-env/bin/activate 
+
+# pip install paramiko PyYAML jinja2
+
+# mv ansible .py3-a2.5-env/ 
+
+# cd .py3-a2.5-env/ansible/ 
+
+# git checkout stable-2.5
+
+# source /home/deploy/.py3-a2.5-env/ansible/hacking/env-setup -q 
+
+验证 ansible
+# ansible --version 
+
+# ansible-playbook --version 
+
+pwd：
+/home/deploy/.py3-a2.5-env/ansible
+
+----------------------------------------------------------------------------------
