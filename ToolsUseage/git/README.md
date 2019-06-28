@@ -380,6 +380,10 @@ Q5: 如何给github的仓库设置专属页面？
 
 A5: gh-page
 
+Q6:Github仓库那个有一些类似 building 的绿色小图标是啥？
+
+A6: 是Istanbul ，https://istanbul.js.org/，提高代码可信度，让别人敢用认为可靠。 
+
 ```
 
 |记录类型	| 主机记录 |	记录值 |

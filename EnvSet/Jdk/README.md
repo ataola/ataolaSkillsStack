@@ -49,3 +49,20 @@ java -jar ataola-server.jar
 nohup java -jar -Dserver.port=8090 ataola-server.jar > /dev/null 2>&1 &
 
 ```
+
+
+&nbsp;&nbsp;**问题拓展:**
+```
+Q1：在windows上每次都要点击我的电脑，然后管理，然后环境变量啥的不麻烦吗，能不能和Linux一样简洁，巧几个命令就好了？
+
+A1: 当然是可以的啦，具体看楼下
+    输入path,查看Path的环境变量
+    输入 set path=XXX, 设置环境变量(这个是有坑的，它会清掉以前的环境变量，所以你用楼下这个)
+    set path=%path%;XXX
+    还是有坑的，他只在你打开的这个cmd有效
+    有永久的用setx，具体如下
+    setx path "%path%;XXX" /m
+
+题外话：windows最怕的就是被垃圾广告网站写入注册表，然后每次都打开垃圾的360.cn、2345和hao123这种剧毒无比的网站，其次是在非管理员用户下，删除某些文件夹删不掉，这是痛点，自带的杀毒有的时候也会误判。像Linux就不会这样，不过window主打的就是电脑好用，click，click，click这样，而Linux是tab tab tab这样。
+
+```

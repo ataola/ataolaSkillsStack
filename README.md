@@ -1,5 +1,6 @@
 # ataolaSkillsStack
 阿涛啦的成长技术栈（开源部分）持续更新中 :rocket: :rocket: :rocket:
+微信公众号：搜 ==> <font color="red">ataola</font> | <font color="green">阿涛啦</font> 都可以, 欢迎您的到来， 谢谢！
 
 <div align="center">
 <img src="./imgs/logo.jpg" width="200" height="200">
@@ -66,9 +67,13 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*Jetbrains学习*
 
-###### &nbsp;&nbsp;2.11、[Maven](./ToolsUseage/Maven/README.md)
+###### &nbsp;&nbsp;2.11、[构建工具](./ToolsUseage/buildTools/README.md)
 
-&nbsp;&nbsp; &nbsp;&nbsp;*Maven学习*
+&nbsp;&nbsp; &nbsp;&nbsp;*构建工具学习*
+
+###### &nbsp;&nbsp;2.12、[Vim](./ToolsUseage/vim/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*vim学习*
 
 我大学整理的window下一些用起来很舒服的软件，具体看楼下这图：
 ![bug10](./imgs/bug10.png)
@@ -173,6 +178,12 @@
 >如今这个时代，上古程序员早已为你铺好道路，学框架省时省力效率高，当然知道其原理和底层实现还是很重要的，因为面试官老问啊，你找工作要用，但更重要的还是一种思维的学习，方法的沉淀。
 
 ###### &nbsp;&nbsp; [Vue](./frame/vue/README.md)
+
+#### 8、移动端
+
+>在已有页面设计的基础上，真机调试是少不了的
+
+###### &nbsp;&nbsp; [真机调试](./mobie/realPhone/README.md)
 
 
 #### 杂记

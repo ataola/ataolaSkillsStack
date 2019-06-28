@@ -332,3 +332,12 @@ orange <span style="width:30px;height:10px;background-color:orange;display:inlin
 
 ![网易](./imgs/2019-05-31_111849.png)
 
+
+**补充-PPT课件色系** <br/>
+
+牛客：
+<span style="width:30px;height:10px;background-color:#3D485D;display:inline-block"></span>
+<span style="width:30px;height:10px;background-color:#E93C1C;display:inline-block"></span>
+<span style="width:30px;height:10px;background-color:#373639;display:inline-block"></span>
+<span style="width:30px;height:10px;background-color:#DCDCDC;display:inline-block"></span>
+
