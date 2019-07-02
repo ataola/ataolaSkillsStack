@@ -25,6 +25,8 @@ iPad Pro 12.9-inch: 1024*1366(Dpr:2)
 
 意思一下好了，后面就不放了。。。。。。
 
+后续: 坑爹啊，VSCode用div可以显示出来的在markdown里面，但是github就显示不出来，上次在颜色那节已经体验过了，哈哈哈，用vscode或者typora预览吧。
+
 &nbsp;&nbsp;**Google的Nexus:**
 ```
 # Google的安卓标准

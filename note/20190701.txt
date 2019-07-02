@@ -1,0 +1,34 @@
+G1: 看了好多网站，他们加载JS是这样写的，有啥好处呢?
+document.write("<script src='https://libs.baidu.com/jquery/1.11.1/jquery.min.js'><\/script>");
+
+G2：我严重怀疑360的浏览器内置了啥？？？
+
+一个奇怪的现象，就是例如你打开一个网站的js脚本，Google chrome 打开它会乱码中文， 但是360的浏览器没有
+同样的打开GitHub用google chrome会有一些东西加载不出来， 但是 360就没有这个问题
+前段时间用360打开掘金死活打不开，这段时间居然由可以了，很迷
+360的备份剧毒无比，你是没有权限删你自己的云上的标签的
+
+G3: 以后要是开源啥JS脚本就像这样写附注
+
+/**
+ * XXX.js - 说明
+ *
+ * @copyright XXXXX
+ * @license MIT
+ * @constructor
+ * @see https://github.com/XXX/YYY
+ * @see http://XXX.github.io/YYY/ZZZ.html
+ * @example
+ * var AAA = require("event-lite");
+ *
+ * function MyClass() {...}             // your class
+ *
+ * AAA.mixin(MyClass.prototype);  // import event methods
+ *
+ * var obj = new MyClass();
+ * obj.on("foo", function() {...});     // add event listener
+ * obj.once("bar", function() {...});   // add one-time event listener
+ * obj.emit("foo");                     // dispatch event
+ * obj.emit("bar");                     // dispatch another event
+ * obj.off("foo");                      // remove event listener
+ */

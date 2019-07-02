@@ -159,6 +159,11 @@ charset = utf-8
 indent_style = tab
 indent_size = 2
 ```
+&nbsp;&nbsp;**基础知识：**
+
+[Vue-router](./Vue-router.md)
+
+
 
 &nbsp;&nbsp;**总结思考:**
 ```
