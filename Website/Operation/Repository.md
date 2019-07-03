@@ -143,6 +143,9 @@ http://mirror.lzu.edu.cn/
 #中国科学技术大学
 http://mirrors.ustc.edu.cn/
 
+#大连东软信息学院网络中心(可以下eclipse) 
+http://mirrors.neusoft.edu.cn/
+
 ```
 
 #### 工具下载

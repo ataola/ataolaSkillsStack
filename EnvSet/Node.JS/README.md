@@ -18,10 +18,24 @@ ln -s /opt/node-v12.4.0-linux-x64/bin/npm /usr/local/bin/npm
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 ln -s /opt/node-v12.4.0-linux-x64/bin/cnpm /usr/local/bin/cnpm
 
-#npm切换源工具
+#npm - 切换源工具
 npm install -g nrm --registry=https://registry.npm.taobao.org
 nrm ls
 
 #pm2 - 强大的管理程序
 npm install -g pm2 --registry=https://registry.npm.taobao.org
+
+#n - npm切换版本工具
+npm i n -g
+
+#nvm - node版本工具
+推荐官方的安装方法：
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+nvm install node(默认是最新的稳定版)
+
+
 ```

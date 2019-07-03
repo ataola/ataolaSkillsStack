@@ -189,6 +189,8 @@
 
 ###### &nbsp;&nbsp; [移动端屏幕尺寸](./mobie/iPhoneSize/README.md)
 
+###### &nbsp;&nbsp; [Android Studio + Gradle + SDK +Flutter一把梭](./mobie/AndroidFlutter/README.md)
+
 #### 9、学习成长
 
 >一些非技术相关的学习成长

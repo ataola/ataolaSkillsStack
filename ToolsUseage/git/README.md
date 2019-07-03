@@ -344,7 +344,173 @@ mkdir /etc/ansible
 cp -r examples/* /etc/ansible
 ```
 
+&nbsp;&nbsp;**SourceTree：**
+```
+#很久以前，我记得我电脑里装过一下这个软件，由于现在的工作环境是内网无网络的，所以安装这个遇到一些麻烦，Git命令还行吧，但是装这个软件的初衷是让我自己更好地理解Git，因为这个软件的一些图形化看起来比较直观，印象会深一点，但是效率和逼格还是命令行高。
 
+# windows V3.1.3测试通过
+
+$坑1
+WIN + E 打开资源管理器，搜索 “%LocalAppData%\Atlassian”，
+进入SourceTree目录 ==> 修改accounts.json || 创建accounts.json
+贴：
+[
+    {
+        "$id": "1",
+        "$type": "SourceTree.Api.Host.Identity.Model.IdentityAccount, SourceTree.Api.Host.Identity",
+        "Authenticate": true,
+        "HostInstance": {
+            "$id": "2",
+            "$type": "SourceTree.Host.Atlassianaccount.AtlassianAccountInstance, SourceTree.Host.AtlassianAccount",
+            "Host": {
+                "$id": "3",
+                "$type": "SourceTree.Host.Atlassianaccount.AtlassianAccountHost, SourceTree.Host.AtlassianAccount",
+                "Id": "atlassian account"
+            },
+            "BaseUrl": "https://id.atlassian.com/"
+        },
+        "Credentials": {
+            "$id": "4",
+            "$type": "SourceTree.Model.BasicAuthCredentials, SourceTree.Api.Account",
+            "Username": "",
+            "Email": null
+        },
+        "IsDefault": false
+    }
+]
+
+$坑2
+重复楼上坑1第一步，算了我还是写下吧
+WIN + E 打开资源管理器，搜索 “%LocalAppData%\Atlassian”，
+点进去SourceTree.exe_Url_2aezkvg2urwo2ahyhhgmgsh34im05wgm(每台机器不一样)
+再点进去3.1.3.3158
+修改：user.config：
+贴：
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <userSettings>
+        <SourceTree.Properties.Settings>
+            <setting name="MainWindowWidth" serializeAs="String">
+                <value>1201</value>
+            </setting>
+            <setting name="MainWindowHeight" serializeAs="String">
+                <value>800</value>
+            </setting>
+            <setting name="MainWindowState" serializeAs="String">
+                <value>Maximized</value>
+            </setting>
+            <setting name="MainWindowLeft" serializeAs="String">
+                <value>40</value>
+            </setting>
+            <setting name="MainWindowTop" serializeAs="String">
+                <value>40</value>
+            </setting>
+            <setting name="GitWhichOne" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="DefaultFullName" serializeAs="String">
+                <value>ataola</value>
+            </setting>
+            <setting name="DefaultEmail" serializeAs="String">
+                <value>zhengjiangtao@supcon.com</value>
+            </setting>
+            <setting name="LastOpenTabIndex" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="AnonymousID" serializeAs="String">
+                <value>f5fe3979-40ef-47d9-acd3-2203ad2b1cd2</value>
+            </setting>
+            <setting name="DiffTool" serializeAs="String">
+                <value>-1</value>
+            </setting>
+            <setting name="MergeTool" serializeAs="String">
+                <value>-1</value>
+            </setting>
+            <setting name="AgreedToEULA" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="AgreedToEULAVersion" serializeAs="String">
+                <value>20160201</value>
+            </setting>
+            <setting name="FirstLaunch" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="SSHClientType" serializeAs="String">
+                <value>PuTTY</value>
+            </setting>
+            <setting name="ProxyServerMode" serializeAs="String">
+                <value>OperatingSystem</value>
+            </setting>
+            <setting name="HgWhichOne" serializeAs="String">
+                <value>-1</value>
+            </setting>
+            <setting name="EnableGitSupport" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="EnableHgSupport" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="HgPostPullAction" serializeAs="String">
+                <value>Update</value>
+            </setting>
+            <setting name="FirstLaunchSinceHgAdded" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="MainWindowScreenDeviceName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Language" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="AnalyticsHasAgreed" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="OfferToCreateBookmarks" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="IsURIAssociated" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="GitSystemPath" serializeAs="String">
+                <value>D:\Program Files\Git</value>
+            </setting>
+            <setting name="HgSystemPath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="SidebarIsOpen" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="AnalyticsLastUploadDate" serializeAs="String">
+                <value>07/03/2019 14:06:26</value>
+            </setting>
+            <setting name="MergeCustomArgs" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="DiffCustomArgs" serializeAs="String">
+                <value>\"$LOCAL\" \"$REMOTE\"</value>
+            </setting>
+            <setting name="DiffCustomCmd" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="MergeCustomCmd" serializeAs="String">
+                <value />
+            </setting>
+        </SourceTree.Properties.Settings>
+    </userSettings>
+</configuration>
+
+
+这样它就可以不用登录了，填坑第一部分完毕
+
+这里提一下 %LocalAppData%，这个是写到环境变量上的，默认就是你的用户文件夹
+
+我的本意是想让SourceTree登录到我的内网服务器的GIT上，然后同步仓库，这样我就少了很多事，我反正后面没搞起来，只能一个一个用，这里就用这样吧，用它来观察GIT的工作流
+
+避免每次提交输入密码：
+ssh-keygen -t rsa -C "your eamil"
+公钥贴到服务器上
+
+```
 
 
 &nbsp;&nbsp;**问题汇总：**

@@ -20,6 +20,8 @@
 
 [JSON转表格](http://json2table.com/#)
 
+[paste.ubuntu 贴代码问问题这样搞](https://paste.ubuntu.com/)
+
 #### 图像压缩
 
 [squoosh](https://squoosh.app/)

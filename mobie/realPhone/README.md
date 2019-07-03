@@ -12,3 +12,9 @@ bigo！！！
 #伪真机调试
 微信开发者工具啊
 ```
+
+
+&nbsp;&nbsp;**参考鸣谢:**
+```
+https://developers.google.cn/web/tools/chrome-devtools/remote-debugging/
+```

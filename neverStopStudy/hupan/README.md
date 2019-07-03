@@ -4,5 +4,6 @@
 
 &nbsp;&nbsp;**[2019-07-02-欣赏build to last，而不是build to sell(杰克马老师)](./note/01.md)**
 
+&nbsp;&nbsp;**[2019-07-03-《湖畔三板斧》开课，我们会教些什么(杰克马老师)](./note/02.md)**
 
 
