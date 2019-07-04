@@ -180,3 +180,14 @@ VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
 #同样的，要是有保留两位小数的例子，那么你用AVERAGE函数算好后，再用ROUND函数，如ROUND(某单元，2)
 ```
 
+&nbsp;&nbsp;**场景十七：** 合并前两个的内容到第三个框？
+
+```
+第三个框先输入等于号，然后输入地址符&,再带上它的名字，如楼下这样：
+
+A1  A2  A3
+江  涛  =&A1-&A2
+那么答案就是 江-涛
+```
+
+

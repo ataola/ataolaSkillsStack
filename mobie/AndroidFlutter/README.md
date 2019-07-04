@@ -4,7 +4,7 @@
 
 &nbsp;&nbsp;**Android Studio的故事:**
 ```
-#先说下背景吧，以前上学的时候因为穷，买的电脑是AMD的CPU便宜点，然后就各种搞起来累（这个和不能搞还是有区别的），像什么黑苹果，Android模拟器啥的。但是ataola选手是个能折腾的人，印象里我记得当年我玩黑苹果的时候，AMD是可以搞的，不过我不想在真机上搞，就安装了Vmware，最开始是找到一个镜像是Mountain Lion的，后面我觉得那个版本太老了，就去找了个国外大神的OSX 10.12的 EL Caption，刚开始还很新鲜，觉得好玩，后来就是一个午后，我对着电脑思考，有什么用呢，CPU不行跑起来如果运行大点的程序就有点卡，难道就只是为了好看？ 后面就把它删了，当我第二次思考的时候，我把我移动硬盘的所有关于OSX的原版镜像删了，三个原因，一个是因为我的买不起苹果电脑，第二个是找我修苹果电脑的妹子少了，第三个是我要放其他素材。关于Android的话，最开始我是装了Android studio 模拟器不起来，然后我就装了那个Generation 模拟器勉勉强强能跑，但是卡成翔。用eclipse的话，可以用arm的，但是也是卡成翔，然后学校对我们计算机教安卓也就和达内py一下，期末压缩到两个星期教完，做了个啥播放器，放在我忘了，李恩哲老师讲的还行，但是就我现在来讲，我特么都不知道学了干啥。公司刚好有android的需求，但是是内网，就是你只能断网完成一切，遂开始折腾，记录我这个瞎搞的青春。
+#先说下背景吧，以前上学的时候因为穷，买的电脑是AMD的CPU便宜点，然后就各种搞起来累（这个和不能搞还是有区别的），像什么黑苹果，Android模拟器啥的。但是ataola选手是个能折腾的人，印象里我记得当年我玩黑苹果的时候，AMD是可以搞的，不过我不想在真机上搞，就安装了Vmware，最开始是找到一个镜像是Mountain Lion的，后面我觉得那个版本太老了，就去找了个国外大神的OSX 10.12的 EL Caption，刚开始还很新鲜，觉得好玩，后来就是一个午后，我对着电脑思考，有什么用呢，CPU不行跑起来如果运行大点的程序就有点卡，难道就只是为了好看？ 后面就把它删了，当我第二次思考的时候，我把我移动硬盘的所有关于OSX的原版镜像删了，三个原因，一个是因为我的买不起苹果电脑，第二个是找我修苹果电脑的妹子少了，第三个是我要放其他素材。关于Android的话，最开始我是装了Android studio 模拟器不起来，然后我就装了那个Genymotion 模拟器勉勉强强能跑，但是卡成翔。用eclipse的话，可以用arm的，但是也是卡成翔，然后学校对我们计算机教安卓也就和达内py一下，期末压缩到两个星期教完，做了个啥播放器，放在我忘了，李恩哲老师讲的还行，但是就我现在来讲，我特么都不知道学了干啥。公司刚好有android的需求，但是是内网，就是你只能断网完成一切，遂开始折腾，记录我这个瞎搞的青春。
 
 安装方式： 
     解压版（推荐）
@@ -43,7 +43,7 @@ bigo !!!
 
 还是环境配置：
 ANDROID_HOME：D:\Android\androidSDK\android-sdk-windows
-path: %ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools
+path: %ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;%ANDROID_HOME%\build-tools
 ```
 
 &nbsp;&nbsp;**Flutter（1.5.4）的故事:**
@@ -88,4 +88,10 @@ Doctor summary (to see all details, run flutter doctor -v):
 C:\Users\ataola>
 
 上次马老师都说了，失败大部分人都不一样，但成功大部分都一样，所以放个失败思考下。
+```
+
+&nbsp;&nbsp;**一些网址:**
+```
+JB离线插件市场: https://plugins.jetbrains.com/
+VS Code 插件市场： https://marketplace.visualstudio.com/
 ```

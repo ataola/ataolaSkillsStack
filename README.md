@@ -1,5 +1,5 @@
 # ataolaSkillsStack
-阿涛啦的成长技术栈（开源部分）持续更新中 :rocket: :rocket: :rocket:
+阿涛啦的成长技术栈（学习笔记开源部分）持续更新中 :rocket: :rocket: :rocket:
 微信公众号：搜 ==> <font color="red">ataola</font> | <font color="green">阿涛啦</font> 都可以, 欢迎您的到来， 谢谢！
 
 <div align="center">
@@ -46,8 +46,8 @@
 ###### &nbsp;&nbsp;2.4、[Jmeter](./ToolsUseage/Jmeter/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*做测试用的 点点点工具*
 
-###### &nbsp;&nbsp;2.5、[Excel](./ToolsUseage/Excel/README.md)
-&nbsp;&nbsp; &nbsp;&nbsp;*以具体的示例来重学Excel，这样记得会深刻一点，愿景是在有一定编码能力的基础上，提高图表数据处理能力。*
+###### &nbsp;&nbsp;2.5、[Excel-001](./ToolsUseage/Excel/README.md)
+&nbsp;&nbsp; &nbsp;&nbsp;*以具体的示例来重学Excel，这样记得会深刻一点，愿景是在有一定编码能力的基础上，提高图表数据处理能力。如果学有余力会搞VBA，也是蛮牛逼的*
 
 ###### &nbsp;&nbsp;2.6、[npm script](./ToolsUseage/npm/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*npm script的学习*
@@ -191,11 +191,15 @@
 
 ###### &nbsp;&nbsp; [Android Studio + Gradle + SDK +Flutter一把梭](./mobie/AndroidFlutter/README.md)
 
+###### &nbsp;&nbsp; [你必须要知道的Android](./mobie/YourMustKnowAndroid/README.md)
+
 #### 9、学习成长
 
 >一些非技术相关的学习成长
 
 ###### &nbsp;&nbsp; [湖畔大学课堂](./neverStopStudy/hupan/README.md)
+
+###### &nbsp;&nbsp; [在职研究生调研](./neverStopStudy/On-the-job-postgraduate-student/README.md)
 
 
 #### 杂记
