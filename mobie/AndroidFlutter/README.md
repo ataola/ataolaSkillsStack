@@ -90,6 +90,50 @@ C:\Users\ataola>
 上次马老师都说了，失败大部分人都不一样，但成功大部分都一样，所以放个失败思考下。
 ```
 
+&nbsp;&nbsp;**用夜神模拟器启动:**
+```
+#是这样子的，我那个家里的电脑不是inter的cpu，所以Android studio就装不了，然后我是vscode + flutter + android sdk搞的，上个星期还能跑demo，因为我在单位遇到过android-licenses unknow的问题，网上的答案大致是flutter doctor --android-licenses，然后your sdk\tools\bin\sdkmanager --update,然后我是执行楼上的它给我返回楼下的，执行楼下的，它返回楼上的，后来就不折腾了，卸载吧，这里记录下连接夜神的步骤
+
+D:\Program Files\yesheng\Nox\bin
+
+
+adb version
+
+D:\Program Files\yesheng\Nox\bin
+
+
+c) 2019 Microsoft Corporation。保留所有权利。
+
+C:\Users\ataola>adb devices
+List of devices attached
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+
+
+C:\Users\ataola>adb connect 127.0.0.1:62001
+already connected to 127.0.0.1:62001
+
+C:\Users\ataola>adb version
+Android Debug Bridge version 1.0.36
+Revision 0e9850346394-android
+
+C:\Users\ataola>nox_adb version
+Android Debug Bridge version 1.0.36
+Revision 0e9850346394-android
+
+C:\Users\ataola>
+
+
+
+建立连接： adb connect 127.0.0.1:62001    （夜神模拟器默认端口）
+
+查看连接：adb devices
+
+nox_adb.exe connect 127.0.0.1:62001
+
+```
+
+
 &nbsp;&nbsp;**一些网址:**
 ```
 JB离线插件市场: https://plugins.jetbrains.com/

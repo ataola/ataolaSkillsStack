@@ -1,5 +1,32 @@
 ## Mysql
 
+&nbsp;&nbsp;**Mysql安装**
+```
+PS D:\zjtEnviroment\mysql-8.0.13-winx64\bin> mysqld --initialize --user=mysql --console                                 2019-06-30T05:16:30.348673Z 0 [System] [MY-013169] [Server] D:\zjtEnviroment\mysql-8.0.13-winx64\bin\mysqld.exe (mysqld 8.0.13) initializing of server in progress as process 9448
+2019-06-30T05:16:30.382712Z 0 [Warning] [MY-013242] [Server] --character-set-server: 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+2019-06-30T05:17:13.748803Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: #OjioKtjr5#R
+2019-06-30T05:17:41.968582Z 0 [System] [MY-013170] [Server] D:\zjtEnviroment\mysql-8.0.13-winx64\bin\mysqld.exe (mysqld 8.0.13) initializing of server has completed
+PS D:\zjtEnviroment\mysql-8.0.13-winx64\bin> 
+
+PS D:\zjtEnviroment\mysql-8.0.13-winx64\bin> mysqld -install                                                            Service successfully installed.
+PS D:\zjtEnviroment\mysql-8.0.13-winx64\bin>  
+
+-- 修改密码为用不过期
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY '#OjioKtjr5#RZJT' PASSWORD EXPIRE NEVER; 
+Query OK, 0 rows affected (0.02 sec)
+
+-- 修改密码并指定加密规则为mysql_native_password
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '#OjioKtjr5#RZJT';
+Query OK, 0 rows affected (0.01 sec)
+
+-- 刷新权限
+mysql> flush privileges;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql>
+
+```
+
 &nbsp;&nbsp;**Mysql配置文件阉割版**
 ```
 # ./mysql/my.cnf

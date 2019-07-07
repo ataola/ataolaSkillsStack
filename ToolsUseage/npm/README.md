@@ -61,3 +61,50 @@ npm run eslint
 
 #多条命令：https://github.com/mysticatea/npm-run-all/blob/HEAD/docs/npm-run-all.md
 ```
+
+&nbsp;&nbsp;**我的node配置：**
+```
+root: C:\Users\ataola\AppData\Roaming\nvm
+path: C:\Program Files\nodejs
+node_mirror: https://npm.taobao.org/mirrors/node/
+npm_mirror: https://npm.taobao.org/mirrors/npm/
+
+
+C:\Users\ataola>nrm ls
+
+* npm ---- https://registry.npmjs.org/
+  cnpm --- http://r.cnpmjs.org/
+  taobao - https://registry.npm.taobao.org/
+  nj ----- https://registry.nodejitsu.com/
+  npmMirror  https://skimdb.npmjs.com/registry/
+  edunpm - http://registry.enpmjs.org/
+
+
+
+C:\Users\ataola>nrm use taobao
+                         verb config Skipping project config: C:\Users\ataola/.npmrc. (matches userconfig)
+
+   Registry has been set to: https://registry.npm.taobao.org/
+
+
+C:\Users\ataola>
+
+
+C:\Users\ataola>npm config list
+; cli configs
+metrics-registry = "https://registry.npm.taobao.org/"
+scope = ""
+user-agent = "npm/6.9.0 node/v12.4.0 win32 x64"
+
+; userconfig C:\Users\ataola\.npmrc
+home = "https://npm.taobao.org"
+registry = "https://registry.npm.taobao.org/"
+
+; node bin location = C:\Program Files\nodejs\node.exe
+; cwd = C:\Users\ataola
+; HOME = C:\Users\ataola
+; "npm config ls -l" to show all defaults.
+
+
+C:\Users\ataola>
+```

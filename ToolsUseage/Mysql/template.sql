@@ -1,11 +1,11 @@
-DROP DATABASE IF EXIST `test`
-CREATE DATABASE `test`
+DROP DATABASE IF EXISTS test
+CREATE DATABASE test
 
 -- ----------------------------
 -- Table structure for t_user
 -- ----------------------------
-DROP TABLE IF EXISTS `t_user`;
-CREATE TABLE `t_user` (
+DROP TABLE IF EXISTS t_user;
+CREATE TABLE t_user (
   `id` SMALLINT(5) UNSIGNED NOT NULL AUTO_INCREMENT,
   `username` VARCHAR(255) DEFAULT NULL,
   `first_name` VARCHAR(45) NOT NULL,
