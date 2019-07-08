@@ -193,6 +193,8 @@
 
 ###### &nbsp;&nbsp; [你必须要知道的Android](./mobie/YourMustKnowAndroid/README.md)
 
+###### &nbsp;&nbsp; [Android Studio + Flutter断网宇宙终极解决方案](./mobie/AndroidFlutter/02.md)
+
 #### 9、学习成长
 
 >一些非技术相关的学习成长

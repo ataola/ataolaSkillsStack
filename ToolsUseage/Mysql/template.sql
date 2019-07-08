@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS test
-CREATE DATABASE test
-
+DROP DATABASE IF EXISTS test;
+CREATE DATABASE test;
+USE test;
 -- ----------------------------
 -- Table structure for t_user
 -- ----------------------------
@@ -15,5 +15,5 @@ CREATE TABLE t_user (
   `email` VARCHAR(40) DEFAULT NULL,
   `address` VARCHAR(255) DEFAULT NULL,
   `last_update` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=613 DEFAULT CHARSET=UTF8;

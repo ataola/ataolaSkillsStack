@@ -137,6 +137,7 @@ Google USB Driver
 Google Web Driver
 Inter x86 Emulator Accelerator(HAXM Installer)
 
+system-images这个文件夹很大的，一般不需要的就不要下了，不是说占地方，万一电脑想不开崩了重装你也保不住啊，而且也不用。
 至此，与Android初次会面，一回生，二回熟，三回我们是个老朋友！
 ```
 
