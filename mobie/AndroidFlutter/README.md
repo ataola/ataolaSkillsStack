@@ -139,3 +139,16 @@ nox_adb.exe connect 127.0.0.1:62001
 JB离线插件市场: https://plugins.jetbrains.com/
 VS Code 插件市场： https://marketplace.visualstudio.com/
 ```
+
+
+&nbsp;&nbsp;**一些问题**
+```
+#关于使用本地的Gradle引用：
+distributionUrl=file:///C:/Users/ataola/.gradle/wrapper/dists/gradle-5.1.1-all.zip 像这样搞
+
+#关于引入项目有可能sdk的问题
+sdk.dir=D\:\\Android\\sdk\\android-sdk_r24.1.2-windows 这样搞
+
+
+
+```
