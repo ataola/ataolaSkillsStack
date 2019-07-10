@@ -19,3 +19,17 @@
 
 * [MDN](https://developer.mozilla.org/zh-CN/)
 
+* [overapi](http://overapi.com/)
+
+* [w3cplus](https://www.w3cplus.com/)
+
+#### 视频教程
+
+* [实验楼](https://www.shiyanlou.com/courses/)
+
+#### 组织会议
+
+* [jsconf](https://jsconfchina.com/)
+
+* [前端圈](https://fequan.com/)
+

@@ -30,6 +30,10 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*SQL规范脚本*
 
+###### &nbsp;&nbsp;1.6、[JSON接口规范](./ToolsUseage/JSON/template.json)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*给个模板，照着造轮子，大致是这样的，剩下的同志们自行脑补，这里举成功的例子，失败的请反推，JSON的话就是注释这块不是很友好，其他都挺好*
+
 #### 2、工具使用
 
 >这里是阿涛啦童鞋整理的工具使用配置和规范
@@ -137,6 +141,8 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*数据库部分相关学习网站*
 
+&nbsp;&nbsp; &nbsp;&nbsp;**[Redis](./database/redis/README.md)**
+
 ###### &nbsp;&nbsp;4.4、运维
 
 &nbsp;&nbsp; &nbsp;&nbsp;*运维部分相关学习网站*
@@ -157,6 +163,13 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;[看世界](./Website/Comprehensive/seeWorld.md)
 
+###### &nbsp;&nbsp;4.6、测试
+
+&nbsp;&nbsp; &nbsp;&nbsp;*测试相关学习网站*
+
+&nbsp;&nbsp; &nbsp;&nbsp;**[测试相关学习站点](./Test/README.md)**
+
+
 #### 5、代码家
 
 >工作中用到或者看到的代码片段，下次看到要是忘了就看下自己的仓库巩固下，要是熟悉的话直接贴，把时间留给快乐不是蛮好的吗？
@@ -174,6 +187,8 @@
 [2019-06-27-谈谈Web兼容](./note/20190627.txt)
 
 [2019-07-01-打开浏览器的一些发现](./note/20190701.txt)
+
+[2019-07-10-我是这样考虑接口的](./note/20190710.txt)
 
 #### 7、前端三驾马车
 

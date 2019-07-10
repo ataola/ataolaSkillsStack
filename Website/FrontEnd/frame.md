@@ -12,6 +12,8 @@
 
 [jquery mobie](http://jquerymobile.com/)
 
+[JQuery源代码查看工具](https://www.html.cn/tool/jQuerySourceViewer/)
+
 **Jquery  EasyUI**
 
 [Jquery EasyUI中文网](http://www.jeasyui.net/)
@@ -146,4 +148,20 @@
 
 [Jest](https://jestjs.io/zh-Hans/)
 
+**typeScript**
+
+[TypeScript中文网](https://www.tslang.cn/index.html)
+
+[typeorm](https://github.com/typeorm/typeorm)
+
+[TypeScript官网](https://www.typescriptlang.org/index.html)
+
+[TypeScript入门教程](https://ts.xcatliu.com/)
+
+[TypeScript-New-Handbook](https://github.com/microsoft/TypeScript-New-Handbook)
+
+
+**Javascript 语法**
+
+[阮一峰的ES6](http://javascript.ruanyifeng.com/)
 

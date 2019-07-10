@@ -7,6 +7,10 @@
 ```
 http://nodejs.cn/api/
 https://webpack.docschina.org/api/node
+http://cnode1.rssing.com/chan-68517434/all_p351.html
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+http://eloquentjavascript.net/
+
 ```
 
 &nbsp;&nbsp;**七天学会Node.JS:**
@@ -33,4 +37,16 @@ https://libraries.io/
 ```
 nyc https://github.com/istanbuljs/nyc
 istanbul https://istanbul.js.org
+```
+
+&nbsp;&nbsp;**一些资料：**
+https://www.npmjs.com/get-npm
+https://npm.taobao.org/
+
+&nbsp;&nbsp;**运行：**
+http://www.hubwiz.com/class/543b2e7788dba02718b5a4bd
+
+&nbsp;&nbsp;**狼叔的Node.js：**
+```
+https://i5ting.github.io/How-to-learn-node-correctly/
 ```

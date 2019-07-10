@@ -1,0 +1,11 @@
+{
+    "code": 0,
+    "status": 200,
+    "msg": "SUCCESS",
+    "data": {
+        "username": "ataola",
+        "age": "22",
+        "address": "杭州",
+        "role": "VIP"
+    }
+}

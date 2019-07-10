@@ -22,6 +22,16 @@
 
 [paste.ubuntu 贴代码问问题这样搞](https://paste.ubuntu.com/)
 
+[codepen](https://codepen.io)
+
+[w3cschoolIDE](https://www.w3cschool.cn/webide)
+
+#### 知识图谱
+
+[processon](https://www.processon.com/popular)
+
+
+
 #### 图像压缩
 
 [squoosh](https://squoosh.app/)
@@ -50,7 +60,7 @@
 
 #### 科学上网
 
-[zjcqoo](https://zjcqoo.github.io)
+~~[zjcqoo](https://zjcqoo.github.io)~~
 
 #### 图片素材
 
@@ -70,3 +80,14 @@
 
 [iconmonstr](https://iconmonstr.com/)
 
+#### 逼格高的不行的傻瓜式图像处理网站（干货，每一个都是一种狂浪）
+
+[抖音风格图像生成器](https://photomosh.com/)
+
+[双色图像生成器](https://duotone.shapefactory.co/)
+
+[镜像炫光生成器](http://weavesilk.com/)
+
+[体素生成器](https://demo.marpi.pl/biomes/)
+
+[图像体素化生成器](https://pissang.github.io/voxelize-image/)
