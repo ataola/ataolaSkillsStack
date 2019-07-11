@@ -11,7 +11,7 @@
 
 #### 电子书下载
 
-* [bookSet](https://bookset.me/)(强烈推荐)
+* ~~[bookSet](https://bookset.me/)(强烈推荐)~~ 挂
 
 
 
@@ -27,9 +27,17 @@
 
 * [实验楼](https://www.shiyanlou.com/courses/)
 
+* [1ke](http://1ke.co/login)
+
 #### 组织会议
 
 * [jsconf](https://jsconfchina.com/)
 
 * [前端圈](https://fequan.com/)
+
+#### Linux
+
+[linuxtools](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html)
+
+
 

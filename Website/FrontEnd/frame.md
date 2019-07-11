@@ -83,6 +83,10 @@
 
 [echarts库](https://gallery.echartsjs.com/explore.html#sort=rank~timeframe=all~author=all)
 
+**x-chart**
+
+[x-chart](https://github.com/yugasun/x-chart)
+
 **ionic**
 
 [ionic](https://ionicframework.com/)
@@ -164,4 +168,21 @@
 **Javascript 语法**
 
 [阮一峰的ES6](http://javascript.ruanyifeng.com/)
+
+[阮一峰的ES6](http://es6.ruanyifeng.com/#docs/class)
+
+[es6图](https://es6katas.org/)
+
+[JavaScript 数据结构和算法](https://etianqq.gitbooks.io/javascript-data-structures/content/)
+
+**Node.js**
+
+[How-to-learn-node-correctly](https://i5ting.github.io/How-to-learn-node-correctly/)
+
+[nodeschool](https://nodeschool.io/zh-cn/#workshoppers)
+
+**有点意思**
+
+[javascript-puzzlers](http://javascript-puzzlers.herokuapp.com/)
+
 

@@ -10,6 +10,9 @@ https://webpack.docschina.org/api/node
 http://cnode1.rssing.com/chan-68517434/all_p351.html
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 http://eloquentjavascript.net/
+http://www.nodeclass.com/
+https://cnodejs.org/
+
 
 ```
 
