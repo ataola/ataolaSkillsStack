@@ -176,7 +176,11 @@
 
 >工作中用到或者看到的代码片段，下次看到要是忘了就看下自己的仓库巩固下，要是熟悉的话直接贴，把时间留给快乐不是蛮好的吗？
 
-###### &nbsp;&nbsp;5.1、[前端](./code/fe/README.md)
+###### &nbsp;&nbsp;5.1、[基础知识](./code/jc/README.md)
+
+###### &nbsp;&nbsp;5.2、[前端](./code/fe/README.md)
+
+###### &nbsp;&nbsp;5.3、[算法](./code/algorithm/README.md)
 
 &nbsp;&nbsp; &nbsp;&nbsp;*前端部分的一些酷毙了的代码*
 
@@ -191,6 +195,8 @@
 [2019-07-01-打开浏览器的一些发现](./note/20190701.txt)
 
 [2019-07-10-我是这样考虑接口的](./note/20190710.txt)
+
+[2019-07-12-关于命名规范](./note/20190712.txt)
 
 #### 7、前端三驾马车
 
@@ -222,6 +228,17 @@
 
 ###### &nbsp;&nbsp; [在职研究生调研](./neverStopStudy/On-the-job-postgraduate-student/README.md)
 
+#### 10、后端技术
+
+>后端技术学习笔记
+
+###### &nbsp;&nbsp; [Node.JS](./backEnd/nodejs/README.md)
+
+#### 11、有空一题
+
+>巧了，为了防止老年痴呆，我也开始搞每日一题，但我可能做不到每日，如果下一年能够比上一年有些进步，那便是蛮开心的事
+
+###### &nbsp;&nbsp; [江涛的题库](./tiku/README.md)
 
 #### 杂记
 

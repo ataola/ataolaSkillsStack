@@ -39,3 +39,16 @@ nvm install node(默认是最新的稳定版)
 
 
 ```
+
+&nbsp;&nbsp;**Node.JS的windows安装:**
+```
+#有啥好讲的，it click ,next 就走。。。。。。
+
+默认设置
+
+NODE_PATH: %AppData%\npm\node_modules ;
+
+npm路径: C:\Users\your username\AppData\Roaming\npm
+
+
+```
