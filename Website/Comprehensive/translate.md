@@ -1,4 +1,4 @@
-## 翻译
+## 翻译和语言学习
 
 > 有时候需要看英文文档，有些单词不会，一般情况下我用谷歌 百度 有道这三个
 
@@ -21,4 +21,14 @@
 [glosbe](https://glosbe.com/)
 
 [搜狗翻译](https://fanyi.sogou.com/)
+
+
+
+#### 放开我，我要学日语
+
+[一份极好的学日语教程](https://j-nihongo.com/)
+
+[日本文学](https://yatanavi.org/textserch/index.php)
+
+[日本有关书籍和资料的统计数据](http://124.33.215.236/db_select.html)
 

@@ -44,6 +44,8 @@
 
 [免费代理IP](https://www.xicidaili.com/)
 
+[JSLinux](https://bellard.org/jslinux/)
+
 #### 知识图谱
 
 [processon](https://www.processon.com/popular)
@@ -203,6 +205,8 @@
 
 [AnyPaper](https://ifish.fun/paper/search)
 
+[盒子学术](http://scholar.hezibuluo.com/)
+
 #### 生活相关
 
 [绍兴交警](https://sxg.122.gov.cn/m/login)
@@ -223,6 +227,7 @@
 
 [外链转换工具](https://link.hhtjim.com/)
 
+[中国表情包大全](https://github.com/zhaoolee/ChineseBQB)
 
 
 ##### 网盘搜索

@@ -13,7 +13,7 @@
 
 * ~~[bookSet](https://bookset.me/)(强烈推荐)~~ 挂
 
-
+* [devfreebooks](https://devfreebooks.github.io/)
 
 #### 文档
 
@@ -22,6 +22,10 @@
 * [overapi](http://overapi.com/)
 
 * [w3cplus](https://www.w3cplus.com/)
+
+* [简单教程](https://www.twle.cn/)
+
+* [echarts术语表手册](https://echarts.apache.org/zh/cheat-sheet.html)
 
 #### 视频教程
 

@@ -30,9 +30,15 @@ http://111jx.xyz/?url=
 
 [中国高校全景VR图](http://v3.720yun.com/activity/university/map)
 
+[中国传统村落](http://mob.visualbusiness.cn/village_list/index.html?from=groupmessage)
 
+[数字丝绸之路](http://dsr.nii.ac.jp/)
 
 #### 放开我，我在学外语啊
 
 [The-Economist](https://github.com/nailperry-zd/The-Economist)
+
+#### 设计艺术
+
+[designbombs](https://www.designbombs.com/)
 
