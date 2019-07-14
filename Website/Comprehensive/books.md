@@ -7,7 +7,7 @@
 
 * [异步社区](https://www.epubit.com/)
 
-
+* [优质kindle书籍](https://sobooks.cc/)
 
 #### 电子书下载
 
@@ -26,6 +26,8 @@
 * [简单教程](https://www.twle.cn/)
 
 * [echarts术语表手册](https://echarts.apache.org/zh/cheat-sheet.html)
+
+[Mocha中文文档](https://segmentfault.com/a/1190000011362879)
 
 #### 视频教程
 

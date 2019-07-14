@@ -79,6 +79,10 @@
 
 &nbsp;&nbsp; &nbsp;&nbsp;*vim学习*
 
+###### &nbsp;&nbsp;2.13、[windows](./ToolsUseage/windows/README.md)
+
+&nbsp;&nbsp; &nbsp;&nbsp;*windows学习*
+
 我大学整理的window下一些用起来很舒服的软件，具体看楼下这图：
 ![bug10](./imgs/bug10.png)
 

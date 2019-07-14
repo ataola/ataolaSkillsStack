@@ -27,3 +27,41 @@ GRADLE_HOME：D:\Program Files (x86)\gradle-3.5
 Path: %GRADLE_HOME%\bin\;
 gradle -v
 ```
+
+&nbsp;&nbsp;**Maven配置阿里云：**
+```
+<mirrors>
+
+    <mirror> 
+    <id>alimaven</id> 
+    <name>aliyun maven</name> 
+    <url>http://maven.aliyun.com/nexus/content/groups/public/</url> 
+    <mirrorOf>central</mirrorOf> 
+    </mirror> 
+    
+  </mirrors>
+```
+&nbsp;&nbsp;**Gradle配置阿里云：**
+```
+在 build.gradle 文件内修改 / 添加 repositories 配置
+repositories {
+    maven {
+        url "http://maven.aliyun.com/nexus/content/groups/public"
+    }
+}
+
+全局配置修改找到 your $home/.gradle/init.gradle 
+
+allprojects {
+    repositories {
+        maven {
+            url "http://maven.aliyun.com/nexus/content/groups/public"
+        }
+    }
+}
+
+
+
+```
+
+

@@ -1,6 +1,6 @@
 ## npm script
 
-> 一些关于 npm script的学习与配置
+> 一些关于 npm script的学习与配置,官网：https://www.npmjs.com
 
 &nbsp;&nbsp;**npm init的配置：**
 ```
@@ -107,4 +107,53 @@ registry = "https://registry.npm.taobao.org/"
 
 
 C:\Users\ataola>
+```
+
+&nbsp;&nbsp;**npm一些命令：**
+```
+升级包（npm为例）
+npm i npm -g
+
+安装最新版
+
+npm i npm@latest -g
+
+安装指定版本
+
+npm i npm@6.6.6 -g
+
+查看当前版本
+npm -v
+
+dependencies
+npm install lodash --save
+
+devDependencies
+npm install lodash --save-dev
+
+简写是 -S  -D
+
+安装非npm包，仅在GitHub仓库有
+
+指定安装某个版本
+npm install git+ssh://git@github.com:npm/npm.git#v1.0.27
+直接安装
+npm install git+https://isaacs@github.com/npm/npm.git
+指定安装某个版本
+npm install git://github.com/npm/npm.git#v1.0.27
+
+卸载好像uninstall remove都可以，区别后面有机会再了解了
+
+查看全局安装模块
+npm list -g --depth=0
+
+npmrc文件：https://docs.npmjs.com/files/npmrc
+项目配置文件: /path/to/my/project/.npmrc
+用户配置文件: $HOME/.npmrc/
+全局配置文件：$PREFIX/etc/npmrc
+npm 内置的配置文件：/path/to/npm/npmrc
+查看配置参数： npm config ls -l
+
+
+
 ```

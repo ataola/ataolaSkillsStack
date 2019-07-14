@@ -131,3 +131,27 @@ Q1: 虚拟内存多大为好？
 Q2：邮件是不是可以伪造？
 
 ```
+
+emmmmm,我有点懒，懒得再去开一个Ubuntu专题了，Ubuntu也塞到这里。
+
+&nbsp;&nbsp;**zsh,命令行最亮的仔（Ubuntu):**
+```
+apt install zsh -y
+chsh -s /bin/zsh
+如果楼上失败，看楼下
+sudo vim /etc/passwd
+root:x:0:0:root:/root:/usr/bin/bash
+
+apt install git -y
+安装
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+卸载
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/uninstall.sh)"
+
+主题
+https://ohmyz.sh
+https://github.com/robbyrussell/oh-my-zsh
+
+拉风的配置看简书这个人写的：https://www.jianshu.com/p/2c9cc1eb2548
+```
+
