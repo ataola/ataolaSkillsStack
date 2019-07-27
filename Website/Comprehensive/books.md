@@ -46,4 +46,25 @@
 [linuxtools](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html)
 
 
+#### 拉风的zeal
+```
+#mac下是dash，win和linux下是zeal
 
+安装直接跳过
+
+受网络影响，不一定能很开心的安装相应文档，受墙的影响不一定很有脾气的等待那么长时间
+那么，我们能做点什么？
+
+zeal官网：https://zealdocs.org/
+
+文档地址：https://kapeli.com/dash
+
+add feed
+
+https://raw.githubusercontent.com/famalgosner/ros.org.docset/master/ROS.xml
+
+<entry>
+    <version>0.0.3</version>
+    <url>https://github.com/famalgosner/ros.org.docset/releases/download/0.0.3/ROS.tgz</url>
+</entry>
+```

@@ -155,3 +155,27 @@ https://github.com/robbyrussell/oh-my-zsh
 拉风的配置看简书这个人写的：https://www.jianshu.com/p/2c9cc1eb2548
 ```
 
+&nbsp;&nbsp;**遇到的一些问题（Ubuntu):**
+```
+Q1:问题的背景是，我装了那个Ubuntu，但是那个时候是断开网络的，所以可能一些依赖没有，然后
+后面，我又有网络了，尴尬的是装什么什么都装不上，更新了阿里云的源装个vim是这样子的
+
+ataola@ubuntu:~$ sudo apt-get update
+Reading package lists... Done
+E: Could not get lock /var/lib/apt/lists/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock directory /var/lib/apt/lists/
+ataola@ubuntu:~$ 
+
+A1: 看到这个问题，你就应该清楚知道是被锁了，谁锁的删谁 sudo rm /var/lib/apt/lists/lock
+
+类似的还有这位
+python@ubuntu:~$ sudo apt install docker.io
+[sudo] python 的密码： 
+E: 无法获得锁 /var/lib/dpkg/lock - open (11: 资源暂时不可用)
+E: 无法锁定管理目录(/var/lib/dpkg/)，是否有其他进程正占用它？
+python@ubuntu:~$ 
+
+sudo rm /var/lib/dpkg/lock
+
+
+```
