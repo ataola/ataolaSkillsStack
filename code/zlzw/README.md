@@ -34,17 +34,10 @@
 **效果展示：** 这里的话就意思下，后期是会把垃圾桶换成真的模型的,也就是把背景色换成图片，使得更为应景。这里适配了绝大对数屏幕尺寸，真机调试的话，我用的是我自己的手机，其他是模拟器调试的。
 
 
-![login](./img/2.jpg)
-![level 1](./img/3.jpg)
-![level 2](./img/5.jpg)
-![level 2 2](./img/6.jpg)
-![level 3](./img/1.png)
-![ok](./img/4.jpg)
-![login](./img/2.jpg)
-![level 1](./img/3.jpg)
-![level 2](./img/5.jpg)
-![level 2 2](./img/6.jpg)
-![level 3](./img/1.png)
-![ok](./img/4.jpg)
-
+<img src="./img/2.jpg" width="200" height="400"/>
+<img src="./img/3.jpg" width="200" height="400"/>
+<img src="./img/5.jpg" width="200" height="400"/>
+<img src="./img/6.jpg" width="200" height="400"/>
+<img src="./img/1.png" width="200" height="400"/>
+<img src="./img/4.jpg" width="200" height="400"/>
 
