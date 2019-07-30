@@ -19,7 +19,7 @@
 
 **项目描述：** 为了响应杭州市政府以及各机关组织的“垃圾分类”的宣传活动，让大家能够更好地了解垃圾分类的知识，树立良好地行为规范，公司领导决定做一个垃圾分类答题的小游戏，于是故事由此展开。
 
-**大致内容：** 这有点难为我一个实习生了，领导就给了一个idea，啥原型也没有，就口述，然后就扔给我做了，那这边首先说下我的做法吧。
+**大致内容：** 
 
 第一步：整体思路规划，这里是使用Mindmanager进行项目整体设计，主要包含三大块内容，前端和后端和数据库。
 
@@ -34,5 +34,5 @@
 **效果展示：** 这里的话就意思下，后期是会把垃圾桶换成真的模型的,也就是把背景色换成图片，使得更为应景。这里适配了绝大对数屏幕尺寸，真机调试的话，我用的是我自己的手机，其他是模拟器调试的。
 
 
-<img src="./img/2.jpg" width="200" height="400" /><img src="./img/3.jpg" width="200" height="400" /><img src="./img/5.jpg" width="200" height="400" /><img src="./img/6.jpg" width="200" height="400" /><img src="./img/1.png" width="200" height="400" /><img src="./img/4.jpg" width="200" height="400" />
+<img src="./img/2.jpg" width="200" height="400" /><img src="./img/3.jpg" width="200" height="400" /><img src="./img/2019-07-30_102824.png" width="200" height="400" /><img src="./img/6.jpg" width="200" height="400" /><img src="./img/1.png" width="200" height="400" /><img src="./img/4.jpg" width="200" height="400" />
 
