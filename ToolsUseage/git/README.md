@@ -511,7 +511,37 @@ ssh-keygen -t rsa -C "your eamil"
 公钥贴到服务器上
 
 ```
+&nbsp;&nbsp;**Ansible：**
+```
+这个是一个基于Python的，为了保证不互相影响。
 
+pip install virtualenv
+
+useradd deploy && su -deploy
+
+virtualenv -p /usr/local/bin/python3 .py3-a2.5-env
+cd home/deploy/.py2-a2.5-env
+git clone https://github.com/ansible/ansible.git
+cd ansible && git checkout stable-2.5
+source /home/deploy/.py3-a2.5-env/bin/active
+pip install paramiko PyYAML jinja2
+source /home/deploy/.py3-a2.5-env/ansible/hacking/env-setup -q
+ansible --version
+
+#关闭防火墙
+systemctl stop firewalld
+#禁用防火墙
+systemctl disable firewalld
+
+vim /etc/sysconfig/selinux
+SELINUX = disable
+reboot 
+getenforce
+
+
+
+
+```
 
 &nbsp;&nbsp;**问题汇总：**
 ```
