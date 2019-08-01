@@ -45,6 +45,10 @@ su - deploy
 #创建密钥
 ssh-keygen -t rsa
 
+#修改用户登录的端口
+vim /etc/ssh/sshd_config
+Port 10086
+sytemctl restart sshd
 
 
 #问题汇总

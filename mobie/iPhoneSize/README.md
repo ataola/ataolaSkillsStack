@@ -4,7 +4,7 @@
 
 &nbsp;&nbsp;**iPhone和iPad的故事:**
 ```
-# 已经没有iPhone4了，谁会那么想不开用iPhone，淘汰了！，iPhone5勉勉强强可以
+# 已经没有iPhone4了，谁会那么想不开用iPhone4，淘汰了！，iPhone5勉勉强强可以
 
 iPhone5: 320*568(Dpr:2) 
 iPhone6: 375*667(Dpr:2)

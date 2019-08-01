@@ -1,0 +1,24 @@
+{
+  "useTaobaoRegistry": false,
+  "packageManager": "npm",
+  "latestVersion": "3.8.4",
+  "lastChecked": 1561630018297,
+  "presets": {
+    "vue_template_20190627": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "standard",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "router": true,
+      "routerHistoryMode": false,
+      "vuex": true,
+      "cssPreprocessor": "less"
+    }
+  }
+}
