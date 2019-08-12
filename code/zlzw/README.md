@@ -2,10 +2,6 @@
 
 > 大学时期也做过一些些项目，但是很遗憾，不能很好地展示给面试官，所以这里定性，我的大学没啥作品。后来有了这个意识，一方面是为了自己以后的求职，给求职交一份参考卷，能够让面试官更好地了解我，踏实做事；另一方面也是对自己的知识储备的一个巩固吧。
 
-这里简单放一个我以前自己经营的微信公众号吧。
-<img src="./img/wx1.jpg" width="200" height="800" /><img src="./img/wx2.jpg" width="200" height="600" /><img src="./img/wx3.jpg" width="200" height="400" /><img src="./img/wx4.jpg" width="200" height="400" /><img src="./img/wx5.jpg" width="200" height="400" /><img src="./img/wx6.jpg" width="200" height="400" /><img src="./img/wx7.jpg" width="200" height="400" /><img src="./img/wx8.jpg" width="200" height="400" /><img src="./img/wx9.jpg" width="200" height="400" />
-
-
 
 这里时间只给个区间，主要是记开发吧，像什么维护修bug啥的就不放了，还有一些简单页也不放了，自己玩玩好了。
 
@@ -41,3 +37,8 @@
 
 <img src="./img/1.jpg" width="200" height="400" /><img src="./img/2.jpg" width="200" height="400" /><img src="./img/3.jpg" width="200" height="400" /><img src="./img/4.png" width="200" height="400" /><img src="./img/5.jpg" width="200" height="400" /><img src="./img/7.jpg" width="200" height="400" />
 
+
+
+
+这里简单放一个我以前自己经营的微信公众号吧。(补)
+<img src="./img/wx1.jpg" width="200" height="800" /><img src="./img/wx2.jpg" width="200" height="600" /><img src="./img/wx3.jpg" width="200" height="400" /><img src="./img/wx4.jpg" width="200" height="400" /><img src="./img/wx5.jpg" width="200" height="400" /><img src="./img/wx6.jpg" width="200" height="400" /><img src="./img/wx7.jpg" width="200" height="400" /><img src="./img/wx8.jpg" width="200" height="400" /><img src="./img/wx9.jpg" width="200" height="400" />
