@@ -28,4 +28,10 @@ A3:计算机上安装了 Microsoft Visual C++ 2005 可再发行组件时，Msdia
 Q4:有时候开发遇到windows文件名过长，而Linux、Mac就没有这个问题
 A4:Windows 中文件路径的长度不能大于 260 个字符
 
+Q5：window 打开后 80端口被占用？
+
+A5: 起先以为是IIS引起的，后来发现不是它，这个锅还得MS SQL背，解决的办法是，
+win + r ==> ReportServer(SQL Server Reporting Services (MSSQLSERVER)) 把它关了或者禁止，我是改成了手动。
+
+
 ```
