@@ -16,3 +16,11 @@
 **输出描述:** 如果数组中存在 item，则返回元素在数组中的位置，否则返回 -1
 
 [题解](tijie/01.md)
+
+#### No.2: [数组求和](https://www.nowcoder.com/practice/cc3ce199461c4c4cb8f63db61d7eba30?tpId=6&tqId=10950&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 计算给定数组 arr 中所有元素的总和
+
+**输入描述：** 数组中的元素均为 Number 类型
+
+[题解](tijie/02.md)
