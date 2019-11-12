@@ -25,7 +25,7 @@
 
 [题解](tijie/02.md)
 
-#### No.3: 移除数组中的元素
+#### No.3: [移除数组中的元素](https://www.nowcoder.com/practice/edbc7496a36e433c89d298b9256af856?tpId=6&tqId=10951&tPage=1&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述：** 移除数组 arr 中的所有值与 item 相等的元素。不要直接修改数组 arr，结果返回新的数组
 
