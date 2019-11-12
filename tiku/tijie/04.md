@@ -1,0 +1,147 @@
+## 解题思路
+
+我的思路是遍历一遍，然后如果相等的话就用splice去处理，这里我们不考虑遍历的种种形式，因为这个在之前已经介绍过了，昨天seejie童鞋的正则让我印象深刻，这里想拿来试试，最后我们总结下哪些数组的API可以改变原有的数组。
+
+* arr.splice()
+
+* arr.reverse()
+
+* arr.sort()
+
+* arr.push()
+
+* arr.pop()
+
+* arr.shift()
+
+* arr.unshift()
+
+
+## 我的答案
+
+我用遍历发现我没有通过，但是我觉得我的代码逻辑没问题，而且本地测试也通过了，我的代码如下：
+
+```js
+function removeWithoutCopy(arr, item) {
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] === item) {
+            arr.splice(i, 1);
+            i--;
+        }
+    }
+
+    return arr;
+}
+
+```
+您的代码已保存
+运行超时:您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
+case通过率为50.00%
+
+然后我就想到用正则,发现还是不行，这里不行我大概知道是，可能空格会对产生的数组有影响，即一个空格也算是一个元素
+
+```js
+function removeWithoutCopy(arr, item) {
+    return arr.join('').replace(new RegExp(item, 'g'), '').split('').map(x => parseInt(x));
+}
+```
+您的代码已保存
+答案错误:您提交的程序没有通过所有的测试用例
+case通过率为50.00%
+
+接着我就来分析下，为什么会出现这样的错误呢？ 第一种方法的算法复杂度是O(n^2),
+所有它是运行超时似乎也应景，因为splice()是O(n),那到底咋整呢？这题是否是故意不让我们用splice(),后来发现是我想多了。
+
+通过在Webstorm上面debug，我发现它的i是undefined的，所以把let改成var就能够通过了，或者在最外面定义let i。
+
+运行时间：1399ms，占用内存：79632k
+
+这里适不适合用forEach呢，很显然不适合，应为涉及到删除，数组下标会有问题
+
+## 牛客取经
+
+看看大佬们的解法
+
+**codebread**
+
+哇，这个是真的6，把数组看成是队列，等于item元素直接删除，不等于的，先push再删除。
+
+```js
+function removeWithoutCopy(arr, item) {
+    var n = arr.length;
+    for (var i = 0; i < n; i++) {
+        if (arr[0] !== item)
+            arr.push(arr[0]);
+        arr.shift();
+
+    }
+    return arr;
+}
+
+```
+运行时间：1853ms，占用内存：77824k
+
+
+**bing0117**
+
+这里是多次调用indexof()，比较占空间
+
+```js
+function removeWithoutCopy(arr, item) {
+    while(arr.indexOf(item) != -1){
+        arr.splice(arr.indexOf(item),1);
+    }
+    return arr;
+}
+```
+运行时间：1495ms，占用内存：77872k
+
+**HenryLulu**
+
+这个可以是可以就比较占空间
+
+```js
+function removeWithoutCopy(arr, item) {
+    for(var i in arr){
+        while(arr[i]==item){
+            arr.splice(i,1);
+        }
+    }
+    return arr;
+}
+```
+运行时间：1478ms,占用内存：100096k
+
+**Silence_JK**
+
+这个想法也很好
+
+```js
+function removeWithoutCopy(arr, item) {
+    for(var i=0;i<arr.length;i++){
+        var a=arr.indexOf(item);
+        arr.splice(a,1);
+    }
+    return arr;
+}
+```
+运行时间：1637ms,占用内存：77848k
+
+**T1mLee**
+
+这位大哥的递归,想法也很棒
+
+```js
+function removeWithoutCopy(arr, item) {
+    let indexOfItem = arr.indexOf(item)
+    if (indexOfItem !== -1) {
+        arr.splice(indexOfItem, 1)
+        removeWithoutCopy(arr, item)
+    }
+    return arr
+}
+```
+
+运行时间：1443ms,占用内存：77892k
+
+
