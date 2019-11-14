@@ -38,8 +38,15 @@
 [题解](tijie/04.md)
 
 
-#### [添加元素](https://www.nowcoder.com/practice/3c7905cea3264ddaac4bf637ab3a19f9?tpId=6&tqId=10953&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.5:[添加元素](https://www.nowcoder.com/practice/3c7905cea3264ddaac4bf637ab3a19f9?tpId=6&tqId=10953&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述：** 在数组 arr 末尾添加元素 item。不要直接修改数组 arr，结果返回新的数组
 
 [题解](tijie/05.md)
+
+
+#### No.6: [删除数组的最后一个元素](https://www.nowcoder.com/practice/df4b0b7a459447538351c4c7008b34e7?tpId=6&tqId=10954&tPage=1&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 删除数组 arr 最后一个元素。不要直接修改数组 arr，结果返回新的数组
+
+[题解](tijie/06.md)
