@@ -122,3 +122,8 @@ ABBBBBBBBBA
 
 [题解](tijie/11.md)
 
+#### No.12: [计数](https://www.nowcoder.com/practice/628339bd8e6e440590ad86caa7ac6849?tpId=6&tqId=10959&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 统计数组 arr 中值等于 item 的元素出现的次数
+
+[题解](tijie/12.md)
