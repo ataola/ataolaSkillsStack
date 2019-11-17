@@ -127,3 +127,9 @@ ABBBBBBBBBA
 **题目描述：** 统计数组 arr 中值等于 item 的元素出现的次数
 
 [题解](tijie/12.md)
+
+#### No.13: [查找重复元素](https://www.nowcoder.com/practice/871a468deecf453589ea261835d6b78b?tpId=6&tqId=10960&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 找出数组 arr 中重复出现过的元素
+
+[题解](tijie/13.md)
