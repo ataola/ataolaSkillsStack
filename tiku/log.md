@@ -153,3 +153,10 @@ ABBBBBBBBBA
 **题目描述：** 给定的 js 代码中存在全局变量，请修复
 
 [题解](tijie/16.md)
+
+
+#### No.17: [正确的函数定义](https://www.nowcoder.com/practice/a5de760a7cf24c0e890eb02eed34bc02?tpId=6&tqId=10964&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 请修复给定的 js 代码中，函数定义存在的问题
+
+[题解](tijie/17.md)
