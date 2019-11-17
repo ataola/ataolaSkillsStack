@@ -103,3 +103,9 @@ ABBBBBBBBBA
 **题目描述：** 在数组 arr 开头添加元素 item。不要直接修改数组 arr，结果返回新的数组
 
 [题解](tijie/08.md)
+
+#### No.9: [删除数组的第一个元素](https://www.nowcoder.com/practice/0323822699da497b8822898e90025882?tpId=6&tqId=10956&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 删除数组 arr 第一个元素。不要直接修改数组 arr，结果返回新的数组
+
+[题解](tijie/09.md)
