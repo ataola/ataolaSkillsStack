@@ -115,3 +115,10 @@ ABBBBBBBBBA
 **题目描述：** 合并数组 arr1 和数组 arr2。不要直接修改数组 arr，结果返回新的数组
 
 [题解](tijie/10.md)
+
+#### No.11: [添加元素](https://www.nowcoder.com/practice/941bcfa5b87940869fda681c1597fd3a?tpId=6&tqId=10958&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 在数组 arr 的 index 处添加元素 item。不要直接修改数组 arr，结果返回新的数组
+
+[题解](tijie/11.md)
+
