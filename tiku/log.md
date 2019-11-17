@@ -97,3 +97,9 @@ ABBBBBBBBBA
 
 [题解](tijie/07.md)
 
+
+#### No.8: [添加元素](https://www.nowcoder.com/practice/93994cb28b1c4ec5ad7da4f9c33ebfbe?tpId=6&tqId=10955&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 在数组 arr 开头添加元素 item。不要直接修改数组 arr，结果返回新的数组
+
+[题解](tijie/08.md)
