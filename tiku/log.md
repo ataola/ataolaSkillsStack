@@ -109,3 +109,9 @@ ABBBBBBBBBA
 **题目描述：** 删除数组 arr 第一个元素。不要直接修改数组 arr，结果返回新的数组
 
 [题解](tijie/09.md)
+
+#### No.10: [数组合并](https://www.nowcoder.com/practice/ba9ee11affbd44539a4104d7f098f06b?tpId=6&tqId=10957&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 合并数组 arr1 和数组 arr2。不要直接修改数组 arr，结果返回新的数组
+
+[题解](tijie/10.md)
