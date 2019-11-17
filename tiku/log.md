@@ -133,3 +133,10 @@ ABBBBBBBBBA
 **题目描述：** 找出数组arr中重复出现过的元素
 
 [题解](tijie/13.md)
+
+
+#### [求二次方](https://www.nowcoder.com/practice/b7a8647e33d84f5c88acdd7c81a85fdf?tpId=6&tqId=10961&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 为数组 arr 中的每个元素求二次方。不要直接修改数组 arr，结果返回新的数组
+
+[题解](tijie/14.md)
