@@ -135,8 +135,14 @@ ABBBBBBBBBA
 [题解](tijie/13.md)
 
 
-#### [求二次方](https://www.nowcoder.com/practice/b7a8647e33d84f5c88acdd7c81a85fdf?tpId=6&tqId=10961&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.14: [求二次方](https://www.nowcoder.com/practice/b7a8647e33d84f5c88acdd7c81a85fdf?tpId=6&tqId=10961&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述：** 为数组 arr 中的每个元素求二次方。不要直接修改数组 arr，结果返回新的数组
 
 [题解](tijie/14.md)
+
+#### N0.15: [查找元素位置](https://www.nowcoder.com/practice/0a9af9cb20c34babb6232126e019c74d?tpId=6&tqId=10962&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 在数组 arr 中，查找值与 item 相等的元素出现的所有位置
+
+[题解](tijie/15.md)
