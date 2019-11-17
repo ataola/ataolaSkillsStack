@@ -148,6 +148,8 @@ ABBBBBBBBBA
 [题解](tijie/15.md)
 
 
-#### No.16: []()
+#### No.16: [避免全局变量](https://www.nowcoder.com/practice/e362110c727347048f350bd90af31c62?tpId=6&tqId=10963&rp=1&ru=%2Fta%2Fjs-assessment&qru=%2Fta%2Fjs-assessment%2Fquestion-ranking)
+
+**题目描述：** 给定的 js 代码中存在全局变量，请修复
 
 [题解](tijie/16.md)
