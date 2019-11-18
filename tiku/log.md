@@ -173,3 +173,17 @@ ABBBBBBBBBA
 **题目描述：** 判断 val1 和 val2 是否完全等同
 
 [题解](tijie/19.md)
+
+#### No.20: [计时器](https://www.nowcoder.com/practice/72c661d926494bd8a50608506915268c?tpId=6&tqId=10967&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 
+
+实现一个打点计时器，要求
+
+1、从 start 到 end（包含 start 和 end），每隔 100 毫秒 console.log 一个数字，每次数字增幅为 1
+
+2、返回的对象中需要包含一个 cancel 方法，用于停止定时操作
+
+3、第一个数需要立即输出
+
+[题解](tijie/20.md)
