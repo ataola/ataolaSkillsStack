@@ -265,3 +265,25 @@ function () {return this.greeting + ', ' + this.name + '!!!';}, {greeting: 'Hell
     Hello, world
 
 [题解](tijie/24.md)
+
+#### N0.25: [使用闭包](https://www.nowcoder.com/practice/578026cd24e3446bbf27fe565473dc26?tpId=6&tqId=10972&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+实现函数 makeClosures，调用之后满足如下条件：
+
+1、返回一个函数数组 result，长度与 arr 相同
+
+2、运行 result 中第 i 个函数，即 result[i]()，结果与 fn(arr[i]) 相同
+
+**输入**
+
+    [1, 2, 3], function (x) { 
+        return x * x; 
+    }
+
+**输出**
+
+    4
+
+[题解](tijie/25.md)
