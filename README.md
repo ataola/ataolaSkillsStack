@@ -50,7 +50,7 @@
 ###### &nbsp;&nbsp;2.4、[Jmeter](./ToolsUseage/Jmeter/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*做测试用的 点点点工具*
 
-###### &nbsp;&nbsp;2.5、[Excel-001](./ToolsUseage/Excel/README.md)
+###### &nbsp;&nbsp;2.5、[Excel](./ToolsUseage/Excel/README.md)
 &nbsp;&nbsp; &nbsp;&nbsp;*以具体的示例来重学Excel，这样记得会深刻一点，愿景是在有一定编码能力的基础上，提高图表数据处理能力。如果学有余力会搞VBA，也是蛮牛逼的*
 
 ###### &nbsp;&nbsp;2.6、[npm script](./ToolsUseage/npm/README.md)
@@ -192,24 +192,15 @@
 
 ###### &nbsp;&nbsp;5.3、[算法](./code/algorithm/README.md)
 
-###### &nbsp;&nbsp;5.4、[职来职往](./code/zlzw/README.md)
+###### &nbsp;&nbsp;5.4、~~[职来职往](./code/zlzw/README.md)~~
 
 
 #### 6、思考总结
 
 >对于一些问题的思考总结
 
-[2019-06-25-成熟的Web平台](./note/20190625.txt)
+[一些日常思考](note/log.md)
 
-[2019-06-27-谈谈Web兼容](./note/20190627.txt)
-
-[2019-07-01-打开浏览器的一些发现](./note/20190701.txt)
-
-[2019-07-10-我是这样考虑接口的](./note/20190710.txt)
-
-[2019-07-12-关于命名规范工作规范(补)](./note/20190712.txt)
-
-[2019-08-01-关于脏数据](./note/20190801.txt)
 
 #### 7、前端三驾马车
 
@@ -221,25 +212,13 @@
 
 >在已有页面设计的基础上，真机调试是少不了的
 
-###### &nbsp;&nbsp; [真机调试](./mobie/realPhone/README.md)
-
-###### &nbsp;&nbsp; [移动端屏幕尺寸](./mobie/iPhoneSize/README.md)
-
-###### &nbsp;&nbsp; [Android Studio + Gradle + SDK +Flutter一把梭](./mobie/AndroidFlutter/README.md)
-
-###### &nbsp;&nbsp; [你必须要知道的Android](./mobie/YourMustKnowAndroid/README.md)
-
-###### &nbsp;&nbsp; [Android Studio + Flutter断网宇宙终极解决方案](./mobie/AndroidFlutter/02.md)
-
-###### &nbsp;&nbsp; [Android 构建项目基础知识](./mobie/Android/01.md)
+[一些日常实践](mobie/log.md)
 
 #### 9、学习成长
 
 >一些非技术相关的学习成长
 
-###### &nbsp;&nbsp; [湖畔大学课堂](./neverStopStudy/hupan/README.md)
-
-###### &nbsp;&nbsp; [在职研究生调研](./neverStopStudy/On-the-job-postgraduate-student/README.md)
+[一些非技术方面学习成长的日志](neverStopStudy/log.md)
 
 #### 10、后端技术
 
@@ -254,14 +233,6 @@
 ###### &nbsp;&nbsp; [江涛的题库](./tiku/README.md)
 
 ###### &nbsp;&nbsp; [ataola刷题链](./tiku/log.md) 备注：楼上的迁移到楼下这里
-
-#### 杂记
-
-[2019-06~2019-07](./diary/01.md)
-
-[2019-08~2019-09](./diary/02.md)
-
-
 
 
 ## 知识共享许可协议
