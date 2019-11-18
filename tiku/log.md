@@ -208,3 +208,22 @@ ABBBBBBBBBA
 例如输入15 返回fizzbuzz。
 
 [题解](tijie/21.md)
+
+#### No.22: [函数传参](https://www.nowcoder.com/practice/80365a2685144559817e3d5e0c27f3a8?tpId=6&tqId=10969&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 将数组 arr 中的元素作为调用函数 fn 的参数
+
+**输入：** 
+
+```js
+function (greeting, name, punctuation) {return greeting + ', ' + name + (punctuation || '!');}, ['Hello', 'Ellie', '!']
+```
+
+**输出：** 
+
+```
+Hello, Ellie!
+```
+
+[题解](tijie/22.md)
+
