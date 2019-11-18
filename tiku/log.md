@@ -162,5 +162,14 @@ ABBBBBBBBBA
 [题解](tijie/17.md)
 
 
+#### No.18: [正确的使用parseInt](https://www.nowcoder.com/practice/a14f83473c384abba1bb51017d0dbd42?tpId=6&tqId=10965&tPage=1&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述:** 修改 js 代码中 parseInt 的调用方式，使之通过全部测试用例 
 
 [题解](tijie/18.md)
+
+#### No.19: [完全相等](https://www.nowcoder.com/practice/1d7e4611cea64950aa3a10caf2529c92?tpId=6&tqId=10966&rp=1&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 判断 val1 和 val2 是否完全等同
+
+[题解](tijie/19.md)
