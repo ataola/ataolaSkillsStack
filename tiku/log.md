@@ -243,3 +243,25 @@ function () {return this.greeting + ', ' + this.name + '!!!';}, {greeting: 'Hell
     Hello, Rebecca!!!
 
 [题解](tijie/23.md)
+
+#### No.24: [返回函数](https://www.nowcoder.com/practice/1f9fd23cdfd14675ab10207191e1d035?tpId=6&tqId=10971&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：**  
+
+实现函数 functionFunction，调用之后满足如下条件：
+
+1、返回值为一个函数 f
+
+2、调用返回的函数 f，返回值为按照调用顺序的参数拼接，拼接字符为英文逗号加一个空格，即 ', '
+
+3、所有函数的参数数量为 1，且均为 String 类型
+
+**输入：** 
+
+    functionFunction('Hello')('world')
+
+**输出：**
+
+    Hello, world
+
+[题解](tijie/24.md)
