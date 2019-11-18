@@ -227,3 +227,19 @@ Hello, Ellie!
 
 [题解](tijie/22.md)
 
+#### No.23: [函数的上下文](https://www.nowcoder.com/practice/5e97b94794bd438f893137b2d3b28a6a?tpId=6&tqId=10970&tPage=2&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 将函数 fn 的执行上下文改为 obj 对象
+
+**输入：** 
+
+```js
+function () {return this.greeting + ', ' + this.name + '!!!';}, {greeting: 'Hello', name: 'Rebecca'}
+```
+
+
+**输出：**
+
+    Hello, Rebecca!!!
+
+[题解](tijie/23.md)
