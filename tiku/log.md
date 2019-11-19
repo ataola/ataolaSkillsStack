@@ -311,3 +311,11 @@ Hello, Ellie!!!
 ```
 
 [题解](tijie/27.md)
+
+
+#### No.28: [使用arguments](https://www.nowcoder.com/practice/df84fa320cbe49d3b4a17516974b1136?tpId=6&tqId=10974&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 函数 useArguments 可以接收 1 个及以上的参数。请实现函数 useArguments，返回所有调用参数相加后的结果。本题的测试参数全部为 Number 类型，不需考虑参数转换。
+
+
+[题解](tijie/28.md)
