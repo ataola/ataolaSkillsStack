@@ -266,7 +266,7 @@ function () {return this.greeting + ', ' + this.name + '!!!';}, {greeting: 'Hell
 
 [题解](tijie/24.md)
 
-#### N0.25: [使用闭包](https://www.nowcoder.com/practice/578026cd24e3446bbf27fe565473dc26?tpId=6&tqId=10972&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.25: [使用闭包](https://www.nowcoder.com/practice/578026cd24e3446bbf27fe565473dc26?tpId=6&tqId=10972&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -287,3 +287,27 @@ function () {return this.greeting + ', ' + this.name + '!!!';}, {greeting: 'Hell
     4
 
 [题解](tijie/25.md)
+
+#### No.26: [二次封装函数](https://www.nowcoder.com/practice/fb2d46b99947455a897f2e9fe2268355?tpId=6&tqId=10973&tPage=2&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+已知函数 fn 执行需要 3 个参数。请实现函数 partial，调用之后满足如下条件：
+
+1、返回一个函数 result，该函数接受一个参数
+
+2、执行 result(str3) ，返回的结果与 fn(str1, str2, str3) 一致
+
+
+**输入**
+
+```js
+var sayIt = function(greeting, name, punctuation) {     return greeting + ', ' + name + (punctuation || '!'); };  partial(sayIt, 'Hello', 'Ellie')('!!!');
+```
+
+**输出**
+```js
+Hello, Ellie!!!
+```
+
+[题解](tijie/27.md)
