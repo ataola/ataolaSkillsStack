@@ -373,3 +373,11 @@ Hello, Ellie!!!
     6
 
 [题解](tijie/31.md)
+
+#### N0.32: [或运算](https://www.nowcoder.com/practice/77f1e6e2f54044d0ad47ab14e3711489?tpId=6&tqId=10978&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：**
+
+返回参数 a 和 b 的逻辑或运算结果
+
+[题解](tijie/32.md)
