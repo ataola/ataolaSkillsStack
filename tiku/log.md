@@ -389,7 +389,7 @@ Hello, Ellie!!!
 [题解](tijie/33.md)
 
 
-#### No.34: [模块]9https://www.nowcoder.com/practice/48e53feaabe94506a61300edadb5496d?tpId=6&tqId=10980&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking
+#### No.34: [模块](https://www.nowcoder.com/practice/48e53feaabe94506a61300edadb5496d?tpId=6&tqId=10980&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
