@@ -1,0 +1,70 @@
+## 解题思路
+
+这个是29.md那个升级版，就是result里面还有参数怎么搞，思路就是在上一题基础上，把result的参数给我拎出来。遗憾的是，我提交没通过
+
+## 我的答案
+
+```js
+function partialUsingArguments(fn) {
+    let argsArr = Array.prototype.slice.call(arguments, 1);
+    let result = function (...args) {
+        fn.call(this, ...args, ...argsArr);
+    };
+    return result;
+}
+```
+不通过
+您的代码已保存
+答案错误:您提交的程序没有通过所有的测试用例
+case通过率为0.00%
+
+## 牛客取经
+
+**希留**
+
+arguments不能用slice方法直接截取，需要先转换为数组，var args = Array.prototype.slice.call(arguments);合并参数可以使用concat方法，并且也需要将arguments先转换为数组才能使用concat进行合并。最用使用apply执行传入的函数即可。
+
+```js
+function partialUsingArguments(fn) {
+     //先获取p函数第一个参数之后的全部参数
+     var args = Array.prototype.slice.call(arguments,1);
+     //声明result函数
+     var result = function(){
+         //使用concat合并两个或多个数组中的元素
+         return fn.apply(null, args.concat([].slice.call(arguments)));
+     }
+     return result;
+ }
+```
+**希留 回复 似水流年xyz ：** apply方法要求第二个参数为arguments对象或者合法的数组，而“1”很明显不是数组，所以会报“Arguments list has wrong type”错误。
+
+
+**fuff**
+
+```js
+function partialUsingArguments(fn) {
+var a=Array.prototype.slice.call(arguments,1);   //获得函数partialUsingArguments()  除第一个参数外的参数数组
+    var result=function(){
+        var b=Array.prototype.slice.call(arguments);   //获得函数result的参数数组
+        return fn.apply(this,a.concat(b));
+    }
+    return result;
+}
+```
+运行时间：1499ms,占用内存：77832k
+
+**AlexGump**
+
+```js
+function partialUsingArguments(fn) {
+    // ES6
+    var [a, ...arr1] = arguments;
+    function result(){
+        var [...arr2] = arguments;
+        return fn(...arr1, ...arr2)
+    }
+     
+    return result;
+}
+```
+运行时间：1448ms,占用内存：77872k

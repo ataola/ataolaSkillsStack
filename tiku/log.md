@@ -331,3 +331,17 @@ Hello, Ellie!!!
 2、fn 的调用参数为 callIt 的第一个参数之后的全部参数
 
 [题解](tijie/29.md)
+
+#### No.30: [二次封装函数](https://www.nowcoder.com/practice/694afeb930f74392bda01a815219d81b?tpId=6&tqId=10976&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 
+
+实现函数 partialUsingArguments，调用之后满足如下条件：
+
+1、返回一个函数 result
+
+2、调用 result 之后，返回的结果与调用函数 fn 的结果一致
+
+3、fn 的调用参数为 partialUsingArguments 的第一个参数之后的全部参数以及 result 的调用参数
+
+[题解](tijie/30.md)
