@@ -319,3 +319,15 @@ Hello, Ellie!!!
 
 
 [题解](tijie/28.md)
+
+#### No.29: [使用apply调用函数](https://www.nowcoder.com/practice/d47b482e7148497582c7a995df51f393?tpId=6&tqId=10975&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+实现函数 callIt，调用之后满足如下条件
+
+1、返回的结果为调用 fn 之后的结果
+
+2、fn 的调用参数为 callIt 的第一个参数之后的全部参数
+
+[题解](tijie/29.md)
