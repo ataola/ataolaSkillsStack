@@ -389,5 +389,17 @@ Hello, Ellie!!!
 [题解](tijie/33.md)
 
 
+#### No.34: [模块]9https://www.nowcoder.com/practice/48e53feaabe94506a61300edadb5496d?tpId=6&tqId=10980&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking
+
+**题目描述**
+
+完成函数 createModule，调用之后满足如下要求：
+
+1、返回一个对象
+
+2、对象的 greeting 属性值等于 str1， name 属性值等于 str2
+
+3、对象存在一个 sayIt 方法，该方法返回的字符串为 greeting属性值 + ', ' + name属性值
 
 [题解](tijie/34.md)
+
