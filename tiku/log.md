@@ -605,3 +605,22 @@ iterate(new C());
     987
 
 [题解](tijie/45.md)
+
+#### No.46: [判断是否符合指定格式](https://www.nowcoder.com/practice/eb86f08c478749868a01861f5ddad28b?tpId=6&tqId=10992&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否符合如下格式
+1、XXX-XXX-XXXX
+2、其中 X 为 Number 类型
+
+**输入**
+
+    '800-555-1212'
+
+**输出**
+
+    true
+
+[题解](tijie/46.md)
+
