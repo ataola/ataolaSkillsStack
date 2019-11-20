@@ -457,3 +457,37 @@ Hello, Ellie!!!
     01000001
 
 [题解](tijie/37.md)
+
+#### No.38: [乘法](https://www.nowcoder.com/practice/6429776e4630435cbc3eeb36bdf41f83?tpId=6&tqId=10984&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+求 a 和 b 相乘的值，a 和 b 可能是小数，需要注意结果的精度问题
+
+**输入**
+
+    3, 0.0001
+
+**输出**
+    0.0003
+
+[题解](tijie/38.md)
+
+
+#### No.39: [改变上下文](https://www.nowcoder.com/practice/dfcc28bf243642b795eaf5a2a621acc5?tpId=6&tqId=10985&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：**
+
+将函数 fn 的执行上下文改为 obj，返回 fn 执行后的值
+
+**输入**
+
+```js
+alterContext(function() {return this.greeting + ', ' + this.name + '!'; }, {name: 'Rebecca', greeting: 'Yo' })
+```
+
+**输出**
+
+    Yo, Rebecca!
+
+[题解](tijie/39.md)
