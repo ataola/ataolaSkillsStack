@@ -405,7 +405,7 @@ Hello, Ellie!!!
 
 #### No.35: [二进制转换](https://www.nowcoder.com/practice/2c7f25d532aa4e20b67af9d3c93dc65f?tpId=6&tqId=10981&tPage=2&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
-**题目描述：** 
+**题目描述**
 
 获取数字 num 二进制形式第 bit 位的值。注意：
 
@@ -416,4 +416,231 @@ Hello, Ellie!!!
 3、举例：2 的二进制为 10，第 1 位为 0，第 2 位为 1
 
 
+**输入**
+
+    128, 8
+
+**输出**
+
+    1
+
 [题解](tijie/35.md)
+
+#### No.36: [二进制转换](https://www.nowcoder.com/practice/4123561150114d119ba41f28219a454f?tpId=6&tqId=10982&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定二进制字符串，将其换算成对应的十进制数字
+
+**输入**
+
+    '11000000'
+
+**输出**
+
+    192
+
+[题解](tijie/36.md)
+
+#### No.37: [二进制转换](https://www.nowcoder.com/practice/7b74386695cc48349af37196f45e62a8?tpId=6&tqId=10983&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+将给定数字转换成二进制字符串。如果字符串长度不足 8 位，则在前面补 0 到满8位。
+
+**输入**
+
+    65
+
+**输出**
+
+    01000001
+
+[题解](tijie/37.md)
+
+#### No.38: [乘法](https://www.nowcoder.com/practice/6429776e4630435cbc3eeb36bdf41f83?tpId=6&tqId=10984&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+求 a 和 b 相乘的值，a 和 b 可能是小数，需要注意结果的精度问题
+
+**输入**
+
+    3, 0.0001
+
+**输出**
+    0.0003
+
+[题解](tijie/38.md)
+
+
+#### No.39: [改变上下文](https://www.nowcoder.com/practice/dfcc28bf243642b795eaf5a2a621acc5?tpId=6&tqId=10985&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：**
+
+将函数 fn 的执行上下文改为 obj，返回 fn 执行后的值
+
+**输入**
+
+```js
+alterContext(function() {return this.greeting + ', ' + this.name + '!'; }, {name: 'Rebecca', greeting: 'Yo' })
+```
+
+**输出**
+
+    Yo, Rebecca!
+
+[题解](tijie/39.md)
+
+#### No.30: [批量改变对象的属性](https://www.nowcoder.com/practice/4f7d25a30eb1463cbf1daac39ec04f8d?tpId=6&tqId=10986&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 
+
+给定一个构造函数 constructor，请完成 alterObjects 方法，将 constructor 的所有实例的 greeting 属性指向给定的 greeting 变量。
+
+**输入**
+
+```js
+var C = function(name) {this.name = name; return this;}; 
+var obj1 = new C('Rebecca'); 
+alterObjects(C, 'What\'s up'); obj1.greeting;
+```
+
+**输出**
+
+    What's up
+
+[题解](tijie/40.md)
+
+#### No.41: [属性遍历](https://www.nowcoder.com/practice/0158a4f165154f2eaf27d1907aa55e57?tpId=6&tqId=10987&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+找出对象 obj 不在原型链上的属性(注意这题测试例子的冒号后面也有一个空格~)
+1、返回数组，格式为 key: value
+2、结果数组不要求顺序
+
+**输入**
+```js
+var C = function() {this.foo = 'bar'; this.baz = 'bim';}; 
+C.prototype.bop = 'bip'; 
+iterate(new C());
+```
+
+**输出**
+
+    ["foo: bar", "baz: bim"]
+
+[题解](tijie/41.md)
+
+#### No.42: [判断是否包含数字](https://www.nowcoder.com/practice/0fcb4eb9306d4bec837d0037fe39bcf7?tpId=6&tqId=10988&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否包含数字，包含返回 true，否则返回 false
+
+**输入**
+
+    'abc123'
+
+**输出**
+    
+    true
+
+[题解](tijie/42.md)
+
+
+#### No.43: [检查重复字符串](https://www.nowcoder.com/practice/5ef31f11adf64d9fb18d74860e9ab873?tpId=6&tqId=10989&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否包含连续重复的字母（a-zA-Z），包含返回 true，否则返回 false
+
+**输入**
+
+    'rattler'
+
+**输出**
+
+    true
+
+[题解](tijie/43.md)
+
+#### No.44: [判断是否以原音字母结尾](https://www.nowcoder.com/practice/c141ec7458f244a1ba1bb334c71e0f27?tpId=6&tqId=10990&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否以元音字母结尾
+
+1、元音字母包括 a，e，i，o，u，以及对应的大写
+
+2、包含返回 true，否则返回 false
+
+**输入**
+
+    'gorilla'
+
+**输出**
+
+    true
+
+[题解](tijie/44.md)
+
+#### No.45: [获取指定字符串](https://www.nowcoder.com/practice/4ec56ad04a9a4402a01e50a390a8060a?tpId=6&tqId=10991&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否包含 连续3个数字
+
+1、如果包含，返回最新出现的 3 个数字的字符串
+
+2、如果不包含，返回 false
+
+**输入**
+
+    '9876543'
+
+**输出**
+
+    987
+
+[题解](tijie/45.md)
+
+#### No.46: [判断是否符合指定格式](https://www.nowcoder.com/practice/eb86f08c478749868a01861f5ddad28b?tpId=6&tqId=10992&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否符合如下格式
+1、XXX-XXX-XXXX
+2、其中 X 为 Number 类型
+
+**输入**
+
+    '800-555-1212'
+
+**输出**
+
+    true
+
+[题解](tijie/46.md)
+
+
+#### No.47: [判断是否符合USD格式](https://www.nowcoder.com/practice/667dd00250d04d06989ed1b69102c9ab?tpId=6&tqId=10993&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否符合美元书写格式
+1、以 $ 开始
+2、整数部分，从个位起，满 3 个数字用 , 分隔
+3、如果为小数，则小数部分长度为 2
+4、正确的格式如：$1,023,032.03 或者 $2.03，错误的格式如：$3,432,12.12 或者 $34,344.3
+
+**输入**
+
+    '$20,933,209.93'
+
+**输出**
+
+    true
+
+[题解](tijie/47.md)
