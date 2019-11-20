@@ -491,3 +491,24 @@ alterContext(function() {return this.greeting + ', ' + this.name + '!'; }, {name
     Yo, Rebecca!
 
 [题解](tijie/39.md)
+
+#### No.30: [批量改变对象的属性](https://www.nowcoder.com/practice/4f7d25a30eb1463cbf1daac39ec04f8d?tpId=6&tqId=10986&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述：** 
+
+给定一个构造函数 constructor，请完成 alterObjects 方法，将 constructor 的所有实例的 greeting 属性指向给定的 greeting 变量。
+
+**输入**
+
+```js
+var C = function(name) {this.name = name; return this;}; 
+var obj1 = new C('Rebecca'); 
+alterObjects(C, 'What\'s up'); obj1.greeting;
+```
+
+**输出**
+
+    What's up
+
+[题解](tijie/40.md)
+
