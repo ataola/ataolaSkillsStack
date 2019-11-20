@@ -512,3 +512,23 @@ alterObjects(C, 'What\'s up'); obj1.greeting;
 
 [题解](tijie/40.md)
 
+#### No.41: [属性遍历](https://www.nowcoder.com/practice/0158a4f165154f2eaf27d1907aa55e57?tpId=6&tqId=10987&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+找出对象 obj 不在原型链上的属性(注意这题测试例子的冒号后面也有一个空格~)
+1、返回数组，格式为 key: value
+2、结果数组不要求顺序
+
+**输入**
+```js
+var C = function() {this.foo = 'bar'; this.baz = 'bim';}; 
+C.prototype.bop = 'bip'; 
+iterate(new C());
+```
+
+**输出**
+
+    ["foo: bar", "baz: bim"]
+
+[题解](tijie/41.md)
