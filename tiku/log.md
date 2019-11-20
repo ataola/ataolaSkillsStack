@@ -565,3 +565,23 @@ iterate(new C());
     true
 
 [题解](tijie/43.md)
+
+#### No.44: [判断是否以原音字母结尾](https://www.nowcoder.com/practice/c141ec7458f244a1ba1bb334c71e0f27?tpId=6&tqId=10990&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否以元音字母结尾
+
+1、元音字母包括 a，e，i，o，u，以及对应的大写
+
+2、包含返回 true，否则返回 false
+
+**输入**
+
+    'gorilla'
+
+**输出**
+
+    true
+
+[题解](tijie/44.md)
