@@ -532,3 +532,19 @@ iterate(new C());
     ["foo: bar", "baz: bim"]
 
 [题解](tijie/41.md)
+
+#### No.42: [判断是否包含数字](https://www.nowcoder.com/practice/0fcb4eb9306d4bec837d0037fe39bcf7?tpId=6&tqId=10988&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否包含数字，包含返回 true，否则返回 false
+
+**输入**
+
+    'abc123'
+
+**输出**
+    
+    true
+
+[题解](tijie/42.md)
