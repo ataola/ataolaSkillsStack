@@ -425,3 +425,19 @@ Hello, Ellie!!!
     1
 
 [题解](tijie/35.md)
+
+#### No.36: [二进制转换](https://www.nowcoder.com/practice/4123561150114d119ba41f28219a454f?tpId=6&tqId=10982&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定二进制字符串，将其换算成对应的十进制数字
+
+**输入**
+
+    '11000000'
+
+**输出**
+
+    192
+
+[题解](tijie/36.md)
