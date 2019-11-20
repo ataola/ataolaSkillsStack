@@ -585,3 +585,23 @@ iterate(new C());
     true
 
 [题解](tijie/44.md)
+
+#### No.45: [获取指定字符串](https://www.nowcoder.com/practice/4ec56ad04a9a4402a01e50a390a8060a?tpId=6&tqId=10991&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否包含 连续3个数字
+
+1、如果包含，返回最新出现的 3 个数字的字符串
+
+2、如果不包含，返回 false
+
+**输入**
+
+    '9876543'
+
+**输出**
+
+    987
+
+[题解](tijie/45.md)
