@@ -548,3 +548,20 @@ iterate(new C());
     true
 
 [题解](tijie/42.md)
+
+
+#### No.43: [检查重复字符串](https://www.nowcoder.com/practice/5ef31f11adf64d9fb18d74860e9ab873?tpId=6&tqId=10989&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+给定字符串 str，检查其是否包含连续重复的字母（a-zA-Z），包含返回 true，否则返回 false
+
+**输入**
+
+    'rattler'
+
+**输出**
+
+    true
+
+[题解](tijie/43.md)
