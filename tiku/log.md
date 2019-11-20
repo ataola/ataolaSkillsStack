@@ -441,3 +441,19 @@ Hello, Ellie!!!
     192
 
 [题解](tijie/36.md)
+
+#### No.37: [二进制转换](https://www.nowcoder.com/practice/7b74386695cc48349af37196f45e62a8?tpId=6&tqId=10983&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+
+**题目描述**
+
+将给定数字转换成二进制字符串。如果字符串长度不足 8 位，则在前面补 0 到满8位。
+
+**输入**
+
+    65
+
+**输出**
+
+    01000001
+
+[题解](tijie/37.md)
