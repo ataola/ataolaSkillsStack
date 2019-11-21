@@ -313,14 +313,14 @@ Hello, Ellie!!!
 [题解](tijie/27.md)
 
 
-#### No.28: [使用arguments](https://www.nowcoder.com/practice/df84fa320cbe49d3b4a17516974b1136?tpId=6&tqId=10974&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.27: [使用arguments](https://www.nowcoder.com/practice/df84fa320cbe49d3b4a17516974b1136?tpId=6&tqId=10974&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述：** 函数 useArguments 可以接收 1 个及以上的参数。请实现函数 useArguments，返回所有调用参数相加后的结果。本题的测试参数全部为 Number 类型，不需考虑参数转换。
 
 
 [题解](tijie/28.md)
 
-#### No.29: [使用apply调用函数](https://www.nowcoder.com/practice/d47b482e7148497582c7a995df51f393?tpId=6&tqId=10975&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.28: [使用apply调用函数](https://www.nowcoder.com/practice/d47b482e7148497582c7a995df51f393?tpId=6&tqId=10975&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -332,7 +332,7 @@ Hello, Ellie!!!
 
 [题解](tijie/29.md)
 
-#### No.30: [二次封装函数](https://www.nowcoder.com/practice/694afeb930f74392bda01a815219d81b?tpId=6&tqId=10976&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.29: [二次封装函数](https://www.nowcoder.com/practice/694afeb930f74392bda01a815219d81b?tpId=6&tqId=10976&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述：** 
 
@@ -346,7 +346,7 @@ Hello, Ellie!!!
 
 [题解](tijie/30.md)
 
-#### No.31: [柯里化](https://www.nowcoder.com/practice/bb78d69986794470969674a8b504ac00?tpId=6&tqId=10977&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.30: [柯里化](https://www.nowcoder.com/practice/bb78d69986794470969674a8b504ac00?tpId=6&tqId=10977&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 
 **题目描述：** 
@@ -374,7 +374,7 @@ Hello, Ellie!!!
 
 [题解](tijie/31.md)
 
-#### N0.32: [或运算](https://www.nowcoder.com/practice/77f1e6e2f54044d0ad47ab14e3711489?tpId=6&tqId=10978&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### N0.31: [或运算](https://www.nowcoder.com/practice/77f1e6e2f54044d0ad47ab14e3711489?tpId=6&tqId=10978&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述：**
 
@@ -382,14 +382,14 @@ Hello, Ellie!!!
 
 [题解](tijie/32.md)
 
-#### No.34: [且运算](https://www.nowcoder.com/practice/608780935ae44babb9785485bb650a76?tpId=6&tqId=10979&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.32: [且运算](https://www.nowcoder.com/practice/608780935ae44babb9785485bb650a76?tpId=6&tqId=10979&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述：** 返回参数 a 和 b 的逻辑且运算结果
 
 [题解](tijie/33.md)
 
 
-#### No.34: [模块](https://www.nowcoder.com/practice/48e53feaabe94506a61300edadb5496d?tpId=6&tqId=10980&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.33: [模块](https://www.nowcoder.com/practice/48e53feaabe94506a61300edadb5496d?tpId=6&tqId=10980&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -403,7 +403,7 @@ Hello, Ellie!!!
 
 [题解](tijie/34.md)
 
-#### No.35: [二进制转换](https://www.nowcoder.com/practice/2c7f25d532aa4e20b67af9d3c93dc65f?tpId=6&tqId=10981&tPage=2&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.34: [二进制转换](https://www.nowcoder.com/practice/2c7f25d532aa4e20b67af9d3c93dc65f?tpId=6&tqId=10981&tPage=2&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -426,7 +426,7 @@ Hello, Ellie!!!
 
 [题解](tijie/35.md)
 
-#### No.36: [二进制转换](https://www.nowcoder.com/practice/4123561150114d119ba41f28219a454f?tpId=6&tqId=10982&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.35: [二进制转换](https://www.nowcoder.com/practice/4123561150114d119ba41f28219a454f?tpId=6&tqId=10982&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -442,7 +442,7 @@ Hello, Ellie!!!
 
 [题解](tijie/36.md)
 
-#### No.37: [二进制转换](https://www.nowcoder.com/practice/7b74386695cc48349af37196f45e62a8?tpId=6&tqId=10983&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.36: [二进制转换](https://www.nowcoder.com/practice/7b74386695cc48349af37196f45e62a8?tpId=6&tqId=10983&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -458,7 +458,7 @@ Hello, Ellie!!!
 
 [题解](tijie/37.md)
 
-#### No.38: [乘法](https://www.nowcoder.com/practice/6429776e4630435cbc3eeb36bdf41f83?tpId=6&tqId=10984&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.37: [乘法](https://www.nowcoder.com/practice/6429776e4630435cbc3eeb36bdf41f83?tpId=6&tqId=10984&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -474,7 +474,7 @@ Hello, Ellie!!!
 [题解](tijie/38.md)
 
 
-#### No.39: [改变上下文](https://www.nowcoder.com/practice/dfcc28bf243642b795eaf5a2a621acc5?tpId=6&tqId=10985&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.38: [改变上下文](https://www.nowcoder.com/practice/dfcc28bf243642b795eaf5a2a621acc5?tpId=6&tqId=10985&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述：**
 
@@ -492,7 +492,7 @@ alterContext(function() {return this.greeting + ', ' + this.name + '!'; }, {name
 
 [题解](tijie/39.md)
 
-#### No.30: [批量改变对象的属性](https://www.nowcoder.com/practice/4f7d25a30eb1463cbf1daac39ec04f8d?tpId=6&tqId=10986&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.39: [批量改变对象的属性](https://www.nowcoder.com/practice/4f7d25a30eb1463cbf1daac39ec04f8d?tpId=6&tqId=10986&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述：** 
 
@@ -512,7 +512,7 @@ alterObjects(C, 'What\'s up'); obj1.greeting;
 
 [题解](tijie/40.md)
 
-#### No.41: [属性遍历](https://www.nowcoder.com/practice/0158a4f165154f2eaf27d1907aa55e57?tpId=6&tqId=10987&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.40: [属性遍历](https://www.nowcoder.com/practice/0158a4f165154f2eaf27d1907aa55e57?tpId=6&tqId=10987&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -533,7 +533,7 @@ iterate(new C());
 
 [题解](tijie/41.md)
 
-#### No.42: [判断是否包含数字](https://www.nowcoder.com/practice/0fcb4eb9306d4bec837d0037fe39bcf7?tpId=6&tqId=10988&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.41: [判断是否包含数字](https://www.nowcoder.com/practice/0fcb4eb9306d4bec837d0037fe39bcf7?tpId=6&tqId=10988&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -550,7 +550,7 @@ iterate(new C());
 [题解](tijie/42.md)
 
 
-#### No.43: [检查重复字符串](https://www.nowcoder.com/practice/5ef31f11adf64d9fb18d74860e9ab873?tpId=6&tqId=10989&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.42: [检查重复字符串](https://www.nowcoder.com/practice/5ef31f11adf64d9fb18d74860e9ab873?tpId=6&tqId=10989&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -566,7 +566,7 @@ iterate(new C());
 
 [题解](tijie/43.md)
 
-#### No.44: [判断是否以原音字母结尾](https://www.nowcoder.com/practice/c141ec7458f244a1ba1bb334c71e0f27?tpId=6&tqId=10990&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.43: [判断是否以原音字母结尾](https://www.nowcoder.com/practice/c141ec7458f244a1ba1bb334c71e0f27?tpId=6&tqId=10990&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -586,7 +586,7 @@ iterate(new C());
 
 [题解](tijie/44.md)
 
-#### No.45: [获取指定字符串](https://www.nowcoder.com/practice/4ec56ad04a9a4402a01e50a390a8060a?tpId=6&tqId=10991&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.44: [获取指定字符串](https://www.nowcoder.com/practice/4ec56ad04a9a4402a01e50a390a8060a?tpId=6&tqId=10991&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -606,7 +606,7 @@ iterate(new C());
 
 [题解](tijie/45.md)
 
-#### No.46: [判断是否符合指定格式](https://www.nowcoder.com/practice/eb86f08c478749868a01861f5ddad28b?tpId=6&tqId=10992&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.45: [判断是否符合指定格式](https://www.nowcoder.com/practice/eb86f08c478749868a01861f5ddad28b?tpId=6&tqId=10992&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
@@ -625,7 +625,7 @@ iterate(new C());
 [题解](tijie/46.md)
 
 
-#### No.47: [判断是否符合USD格式](https://www.nowcoder.com/practice/667dd00250d04d06989ed1b69102c9ab?tpId=6&tqId=10993&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.4: [判断是否符合USD格式](https://www.nowcoder.com/practice/667dd00250d04d06989ed1b69102c9ab?tpId=6&tqId=10993&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
