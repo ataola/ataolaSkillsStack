@@ -625,7 +625,7 @@ iterate(new C());
 [题解](tijie/46.md)
 
 
-#### No.4: [判断是否符合USD格式](https://www.nowcoder.com/practice/667dd00250d04d06989ed1b69102c9ab?tpId=6&tqId=10993&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
+#### No.46: [判断是否符合USD格式](https://www.nowcoder.com/practice/667dd00250d04d06989ed1b69102c9ab?tpId=6&tqId=10993&rp=2&ru=/ta/js-assessment&qru=/ta/js-assessment/question-ranking)
 
 **题目描述**
 
