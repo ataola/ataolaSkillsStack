@@ -654,3 +654,19 @@ iterate(new C());
 
 
 [题解](tijie/48.md)
+
+
+#### No.48: [获取url参数](https://www.nowcoder.com/practice/a3ded747e3884a3c86d09d88d1652e10?tpId=2&tqId=10852&rp=1&ru=/ta/front-end&qru=/ta/front-end/question-ranking)
+
+**题目描述：** 
+
+获取 url 中的参数
+
+1. 指定参数名称，返回该参数的值 或者 空字符串
+
+2. 不指定参数名称，返回全部的参数对象 或者 {}
+
+3. 如果存在多个同名参数，则返回数组
+
+
+[题解](tijie/49.md)
