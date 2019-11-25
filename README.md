@@ -183,16 +183,13 @@
 
 >工作中用到或者看到的代码片段，下次看到要是忘了就看下自己的仓库巩固下，要是熟悉的话直接贴，把时间留给快乐不是蛮好的吗？
 
-###### &nbsp;&nbsp;5.1、[基础知识](./code/jc/README.md)
-
-###### &nbsp;&nbsp;5.2、[前端](./code/fe/README.md)
-
+###### &nbsp;&nbsp;5.1、[前端](./code/fe/README.md)
 
 &nbsp;&nbsp; &nbsp;&nbsp;*前端部分的一些酷毙了的代码*
 
-###### &nbsp;&nbsp;5.3、[算法](./code/algorithm/README.md)
+###### &nbsp;&nbsp;5.2、[算法](./code/algorithm/README.md)
 
-###### &nbsp;&nbsp;5.4、~~[职来职往](./code/zlzw/README.md)~~
+###### &nbsp;&nbsp;5.3、~~[职来职往](./code/zlzw/README.md)~~
 
 
 #### 6、思考总结

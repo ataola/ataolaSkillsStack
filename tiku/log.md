@@ -644,3 +644,13 @@ iterate(new C());
     true
 
 [题解](tijie/47.md)
+
+
+#### No.47: [修改this指向](https://www.nowcoder.com/practice/a616b3de81b948fda9a92db7e86bd171?tpId=2&tqId=10851&tPage=1&rp=1&ru=/ta/front-end&qru=/ta/front-end/question-ranking)
+
+**题目描述：**
+
+封装函数 f，使 f 的 this 指向指定的对象
+
+
+[题解](tijie/48.md)
