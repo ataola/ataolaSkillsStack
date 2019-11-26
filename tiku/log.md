@@ -696,3 +696,19 @@ iterate(new C());
 请使用嵌入样式将所有p标签设置为红色文字
 
 [题解](tijie/52.md)
+
+#### No.52: [数组去重](https://www.nowcoder.com/practice/0b5ae9c4a8c546f79e2547c0179bfdc2?tpId=2&tqId=10855&rp=1&ru=%2Fta%2Ffront-end&qru=%2Fta%2Ffront-end%2Fquestion-ranking)
+
+**题目描述：**
+
+为 Array 对象添加一个去除重复项的方法
+
+**输入**
+
+    [false, true, undefined, null, NaN, 0, 1, {}, {}, 'a', 'a', NaN]
+
+**输出**
+
+    [false, true, undefined, null, NaN, 0, 1, {}, {}, 'a']
+
+[题解](tijie/53.md)
