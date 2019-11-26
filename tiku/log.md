@@ -670,3 +670,12 @@ iterate(new C());
 
 
 [题解](tijie/49.md)
+
+
+#### No.49: [加粗文字](https://www.nowcoder.com/practice/919c502e497f4c53a3f7c336beec7cb4?tpId=2&tqId=33258&rp=1&ru=%2Fta%2Ffront-end&qru=%2Fta%2Ffront-end%2Fquestion-ranking&tPage=1)
+
+**题目描述：** 
+
+使用一个标签将“牛客网”三个字加粗显示
+
+[题解](tijie/50.md)
