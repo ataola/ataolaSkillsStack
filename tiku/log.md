@@ -712,3 +712,12 @@ iterate(new C());
     [false, true, undefined, null, NaN, 0, 1, {}, {}, 'a']
 
 [题解](tijie/53.md)
+
+#### No.53: [斐波那契数列](https://www.nowcoder.com/practice/aa8ffe28ec7c4050b2aa8bc9d26710e9?tpId=2&tqId=10856&rp=1&ru=%2Fta%2Ffront-end&qru=%2Fta%2Ffront-end%2Fquestion-ranking&tPage=1)
+
+
+**题目描述**
+
+用 JavaScript 实现斐波那契数列函数,返回第n个斐波那契数。 f(1) = 1, f(2) = 1 等
+
+[题解](tijie/54.md)
