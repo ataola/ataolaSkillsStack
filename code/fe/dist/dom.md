@@ -21,3 +21,18 @@ document.addEventListener("visibilitychange", function () {
     }
 });
 ```
+
+* **静止Y轴滚动**
+
+这个你也可以引申下，静止X轴的，这里就介绍Y轴，在body的style中加
+
+```css
+body {
+    overflow-y: hidden;
+}
+```
+
+
+
+
+
