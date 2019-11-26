@@ -685,4 +685,14 @@ iterate(new C());
 
 **题目描述**
 
+请将下面这句话已段落的形式展示在浏览器中——“牛客网是一个专注于程序员的学习和成长的专业平台。”
+
 [题解](tijie/51.md)
+
+#### No.51: [设置文字颜色](https://www.nowcoder.com/practice/679e4b1089a444e799736cde61d51bc6?tpId=2&tqId=33260&rp=1&ru=%2Fta%2Ffront-end&qru=%2Fta%2Ffront-end%2Fquestion-ranking)
+
+**题目描述：**
+
+请使用嵌入样式将所有p标签设置为红色文字
+
+[题解](tijie/52.md)
