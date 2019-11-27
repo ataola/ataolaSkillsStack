@@ -744,3 +744,23 @@ iterate(new C());
     {h: 1, e: 1, l: 3, o: 2, w: 1, r: 1, d: 1}
 
 [题解](tijie/55.md)
+
+#### No.55: [将字符串转换为驼峰格式](https://www.nowcoder.com/practice/2ded24e34ec34325a62d42d0c8479bae?tpId=2&tqId=10861&rp=1&ru=/ta/front-end&qru=/ta/front-end/question-ranking)
+
+**题目描述：** 
+
+css 中经常有类似 background-image 这种通过 - 连接的字符，通过 javascript 设置样式的时候需要将这种样式转换成 backgroundImage 驼峰格式，请完成此转换功能
+
+1. 以 - 为分隔符，将第二个起的非空单词首字母转为大写
+
+2. -webkit-border-image 转换后的结果为 webkitBorderImage
+
+**输入**
+
+    'font-size'
+
+**输出**
+
+    fontSize
+
+[题解](tijie/56.md)
