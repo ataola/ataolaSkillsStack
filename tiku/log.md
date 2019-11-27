@@ -721,3 +721,26 @@ iterate(new C());
 用 JavaScript 实现斐波那契数列函数,返回第n个斐波那契数。 f(1) = 1, f(2) = 1 等
 
 [题解](tijie/54.md)
+
+
+#### No.54: [字符串字符统计](https://www.nowcoder.com/practice/777d0cd160de485cae0b1fd1dd973b44?tpId=2&tqId=10862&tPage=1&rp=1&ru=%2Fta%2Ffront-end&qru=%2Fta%2Ffront-end%2Fquestion-ranking)
+
+**题目描述：** 
+
+统计字符串中每个字符的出现频率，返回一个 Object，key 为统计字符，value 为出现频率
+
+1. 不限制 key 的顺序
+
+2. 输入的字符串参数不会为空
+
+3. 忽略空白字符
+
+**输入**
+
+    'hello world'
+
+**输出**
+
+    {h: 1, e: 1, l: 3, o: 2, w: 1, r: 1, d: 1}
+
+[题解](tijie/55.md)
