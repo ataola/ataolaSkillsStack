@@ -764,3 +764,25 @@ css 中经常有类似 background-image 这种通过 - 连接的字符，通过 
     fontSize
 
 [题解](tijie/56.md)
+
+#### No.56: [颜色字符串转换](https://www.nowcoder.com/practice/80b08802a833419f9c4ccc6e042c1cca?tpId=2&tqId=10860&rp=1&ru=/ta/front-end&qru=/ta/front-end/question-ranking)
+
+**题目描述**
+
+将 rgb 颜色字符串转换为十六进制的形式，如 rgb(255, 255, 255) 转为 #ffffff
+
+1. rgb 中每个 , 后面的空格数量不固定
+
+2. 十六进制表达式使用六位小写字母
+
+3. 如果输入不符合 rgb 格式，返回原始输入
+
+**输入**
+
+    'rgb(255, 255, 255)'
+
+**输出**
+
+    #ffffff
+
+[题解](tijie/57.md)
