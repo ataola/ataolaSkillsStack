@@ -786,3 +786,11 @@ css 中经常有类似 background-image 这种通过 - 连接的字符，通过 
     #ffffff
 
 [题解](tijie/57.md)
+
+#### No.57: [邮箱字符串判断](https://www.nowcoder.com/practice/c72b2b5472704d4a98597cb74b0257a7?tpId=2&tqId=10859&tPage=1&rp=1&ru=/ta/front-end&qru=/ta/front-end/question-ranking)
+
+**题目描述：**
+
+判断输入是否是正确的邮箱格式
+
+[题解](tijie/58.md)

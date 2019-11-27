@@ -1,0 +1,58 @@
+## 解题思路
+
+这题感觉除了正则我想不出更好的了，话题就转移到了对邮箱的定义,形如这种{Your Name}@{domain}，那么问题就来了，
+你这个your name里面可以是什么不可以是什么? 其实我也不是很清楚，但我知道可以是数字，字母打头，再说个猥琐的，例如
+我想去注册`ataola.vip@163.com`形如这种是不可以的，但是`ataola_vip@163.com`是可以的。
+
+## 我的答案
+
+```js
+function isAvailableEmail(sEmail) {
+    return /\w[-\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\.)+[A-Za-z]{2,14}/.test(sEmail);
+}
+```
+不通过
+您的代码已保存
+答案错误:您提交的程序没有通过所有的测试用例
+case通过率为71.43%
+
+好吧，这题我不会。。。。。。
+
+## 牛客取经
+
+**阿呆1**
+
+```js
+function isAvailableEmail(sEmail) {
+    var reg=/^([\w+\.])+@\w+([.]\w+)+$/;
+    return reg.test(sEmail);
+}
+```
+运行时间：1457ms,占用内存：79744k
+
+
+**JockieH**
+
+```js
+function isAvailableEmail(sEmail) {
+    var reg = /^[-a-z0-9~!$%^&*_=+}{\'?]+(\.[-a-z0-9~!$%^&*_=+}{\'?]+)*@([a-z0-9_][-a-z0-9_]*(\.[-a-z0-9_]+)*\.(aero|arpa|biz|com|coop|edu|gov|info|int|mil|museum|name|net|org|pro|travel|mobi|[a-z][a-z])|([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}))(:[0-9]{1,5})?$/i;
+    return reg.test(sEmail);
+}
+```
+
+链接：https://www.nowcoder.com/questionTerminal/c72b2b5472704d4a98597cb74b0257a7?f=discussion
+来源：牛客网
+
+
+**Cao/L慧**
+
+```js
+function isAvailableEmail(sEmail) {
+    var reg = /^\w{3,}(\.\w+)*@[A-z0-9]+(\.[A-z]{2,5}){1,2}$/;
+    if(reg.test(sEmail)){
+        return true;
+    }
+    return false;
+}
+```
+
