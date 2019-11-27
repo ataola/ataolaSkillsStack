@@ -794,3 +794,21 @@ css 中经常有类似 background-image 这种通过 - 连接的字符，通过 
 判断输入是否是正确的邮箱格式
 
 [题解](tijie/58.md)
+
+#### No.58: [获取字符串长度](https://www.nowcoder.com/practice/e436bbc408744b73b69a8925fac26efc?tpId=2&tqId=10858&rp=1&ru=/ta/front-end&qru=/ta/front-end/question-ranking)
+
+**题目描述**
+
+如果第二个参数 bUnicode255For1 === true，则所有字符长度为 1
+
+否则如果字符 Unicode 编码 > 255 则长度为 2
+
+**输入**
+
+    'hello world, 牛客', false
+
+**输出**
+
+    17
+
+[题解](tijie/59.md)
