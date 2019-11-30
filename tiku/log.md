@@ -881,4 +881,14 @@ w: 星期，为 ['日', '一', '二', '三', '四', '五', '六'] 中的某一�
 
 [题解](tijie/61.md)
 
+#### No.61: [DOM节点查找](https://www.nowcoder.com/practice/74d74be449af4c66907fe2d6961c255c?tpId=2&tqId=10853&rp=1&ru=/ta/front-end&qru=/ta/front-end/question-ranking)
 
+**题目描述**
+
+查找两个节点的最近的一个共同父节点，可以包括节点自身
+
+**输入描述:**
+
+oNode1 和 oNode2 在同一文档中，且不会为相同的节点
+
+[题解](tijie/62.md)
