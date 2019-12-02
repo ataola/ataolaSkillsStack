@@ -1,6 +1,7 @@
 # ataolaSkillsStack
 阿涛啦的成长技术栈（学习笔记开源部分）持续更新中 :rocket: :rocket: :rocket:
-微信公众号：搜 ==> <font color="red">ataola</font> | <font color="green">阿涛啦</font> 都可以, 欢迎您的到来， 谢谢！
+
+微信公众号：阿涛啦, 欢迎您的到来， 谢谢！
 
 <div align="center">
 <img src="./imgs/logo.jpg" width="200" height="200">

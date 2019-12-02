@@ -865,7 +865,7 @@ w: 星期，为 ['日', '一', '二', '三', '四', '五', '六'] 中的某一�
 [题解](tijie/60.md)
 
 
-#### No.60: [根据包名，在指定空间中创建对象](https://www.nowcoder.com/practice/a82e035501504cedbe881d08c824a381?tpId=2&tqId=10854&tPage=1&rp=1&ru=/ta/front-end&qru=/ta/front-end/question-ranking)
+#### No.60: [根据包名，在指定空间创建对象](https://www.nowcoder.com/practice/a82e035501504cedbe881d08c824a381?tpId=2&tqId=10854&tPage=1&rp=1&ru=/ta/front-end&qru=/ta/front-end/question-ranking)
 
 **题目描述**
 
@@ -880,3 +880,15 @@ w: 星期，为 ['日', '一', '二', '三', '四', '五', '六'] 中的某一�
     {a: {test: 1, b: {c: {d: {}}}}}
 
 [题解](tijie/61.md)
+
+#### No.61: [DOM节点查找](https://www.nowcoder.com/practice/74d74be449af4c66907fe2d6961c255c?tpId=2&tqId=10853&rp=1&ru=/ta/front-end&qru=/ta/front-end/question-ranking)
+
+**题目描述**
+
+查找两个节点的最近的一个共同父节点，可以包括节点自身
+
+**输入描述:**
+
+oNode1 和 oNode2 在同一文档中，且不会为相同的节点
+
+[题解](tijie/62.md)

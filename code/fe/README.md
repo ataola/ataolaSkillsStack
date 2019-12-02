@@ -23,6 +23,8 @@
 
 * [CSS](dist/css.md)
 
+* [Javascript](dist/js.md)
+
 
 ## Bug记
 
