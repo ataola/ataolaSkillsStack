@@ -230,7 +230,9 @@
 
 ###### &nbsp;&nbsp; [江涛的题库](./tiku/README.md)
 
-###### &nbsp;&nbsp; [ataola刷题链](./tiku/log.md) 备注：楼上的迁移到楼下这里
+###### &nbsp;&nbsp; [ataola刷题链](./tiku/log.md) 
+
+###### &nbsp;&nbsp; [ataola & sql](./tiku/sql/log.md)
 
 #### 12、计算机网络
 

@@ -12,6 +12,7 @@
 
 * [关于定时器](dist/timer.md)
 
+* [数据类型](dist/type.md)
 
 
 
