@@ -18,6 +18,8 @@
 
 * [一些格式](dist/style.md)
 
+* [ES6](dist/es6.md)
+
 
 ## 一些工作中碰到的案例(基本上是问题总结)
 
@@ -30,6 +32,10 @@
 * [Javascript](dist/js.md)
 
 * [sql](dist/sql.md)
+
+* [数构和算法](dist/ds.md)
+
+* [Node.JS](dist/node.md)
 
 
 ## Bug记

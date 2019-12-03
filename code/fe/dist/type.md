@@ -16,3 +16,26 @@
 
 
 
+#### Object
+
+* 判断某个key是不是对象Object里面的
+
+    * `k in obj`
+
+    * `obj.hasOwnProperty(k);`
+
+* 如何知道一个Object中key的个数
+
+    * 你先观察，设置`len = 0`,然后每当有key增加或者删除len跟着变
+    
+    * `Object.keys(obj).length`一把梭，这个在过早的浏览器不支持。
+
+    * 硬核遍历然后`obj.hasOwnProperty(k)`一把梭，如果是的话len加一(兼容性最好)
+
+
+
+#### Array
+
+
+* 不像其他语言，Javascript中的数组长度可变，不需要你去操心
+
