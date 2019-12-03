@@ -51,4 +51,25 @@ PRIMARY KEY (`emp_no`));
 
 [题解](tijie/02.md)
 
+#### No.3: [查找各个部门当前领导当前薪水详情以及其对应部门编号dept_no](https://www.nowcoder.com/practice/c63c5b54d86e4c6d880e4834bfd70c3b?tpId=82&tqId=29755&rp=0&ru=/ta/sql&qru=/ta/sql/question-ranking)
+
+**题目描述**
+
+查找各个部门当前(to_date='9999-01-01')领导当前薪水详情以及其对应部门编号dept_no
+
+```sql
+CREATE TABLE `dept_manager` (
+`dept_no` char(4) NOT NULL,
+`emp_no` int(11) NOT NULL,
+`from_date` date NOT NULL,
+`to_date` date NOT NULL,
+PRIMARY KEY (`emp_no`,`dept_no`));
+CREATE TABLE `salaries` (
+`emp_no` int(11) NOT NULL,
+`salary` int(11) NOT NULL,
+`from_date` date NOT NULL,
+`to_date` date NOT NULL,
+PRIMARY KEY (`emp_no`,`from_date`));
+```
+
 [题解](tijie/03.md)
