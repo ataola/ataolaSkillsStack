@@ -50,3 +50,5 @@ PRIMARY KEY (`emp_no`));
 | 10005 | 1955-01-21 | Kyoichi | Maliniak | M |1989-09-12 |
 
 [题解](tijie/02.md)
+
+[题解](tijie/03.md)

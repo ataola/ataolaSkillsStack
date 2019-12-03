@@ -29,6 +29,8 @@
 
 * [Javascript](dist/js.md)
 
+* [sql](dist/sql.md)
+
 
 ## Bug记
 
