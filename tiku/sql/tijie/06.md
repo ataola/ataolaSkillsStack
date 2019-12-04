@@ -1,0 +1,48 @@
+## 解题思路
+
+抓重点，入职薪水在员工表和薪水表的联系，然后按emp_no逆序
+
+## 我的答案
+
+```sql
+SELECT a.emp_no, a.salary FROM salaries a WHERE emp_no IN (SELECT b.emp_no FROM employees b WHERE b.hire_date = a.from_date ) ORDER BY a.emp_no DESC;
+```
+运行时间：21ms，占用内存：3320k
+
+## 牛客取经
+
+**ciphersaw**
+此题应注意以下四个知识点：
+1、由于测试数据中，salaries.emp_no 不唯一（因为号码为 emp_no 的员***有多次涨薪的可能，所以在 salaries 中对应的记录不止一条），employees.emp_no 唯一，即 salaries 的数据会多于 employees，因此需先找到 employees.emp_no 在 salaries 表中对应的记录salaries.emp_no，则有限制条件 e.emp_no = s.emp_no
+
+2、根据题意注意到 salaries.from_date 和 employees.hire_date 的值应该要相等，因此有限制条件 e.hire_date = s.from_date
+
+3、根据题意要按照 emp_no 值逆序排列，因此最后要加上 ORDER BY e.emp_no DESC
+
+4、为了代码良好的可读性，运用了 Alias 别名语句，将 employees 简化为 e，salaries 简化为s，即 employees AS e 与 salaries AS s，其中 AS 可以省略
+
+方法一：利用 INNER JOIN 连接两张表
+
+```sql
+SELECT e.emp_no, s.salary FROM employees AS e INNER JOIN salaries AS s
+ON e.emp_no = s.emp_no AND e.hire_date = s.from_date
+ORDER BY e.emp_no DESC
+```
+
+方法二：直接用逗号并列查询两张表
+
+```sql
+SELECT e.emp_no, s.salary FROM employees AS e, salaries AS s
+WHERE e.emp_no = s.emp_no AND e.hire_date = s.from_date
+ORDER BY e.emp_no DESC
+```
+
+**心凝梦魇冰**
+
+这样写居然通过了，完全不需要employees这个表啊
+```sql
+select emp_no,salary from salaries
+group by emp_no having min(from_date)
+order by emp_no DESC
+```
+
