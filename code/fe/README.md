@@ -20,6 +20,10 @@
 
 * [ES6](dist/es6.md)
 
+* [JSON](dist/json.md)
+
+* [浏览器](dist/browser.md)
+
 
 ## 一些工作中碰到的案例(基本上是问题总结)
 
@@ -41,3 +45,4 @@
 ## Bug记
 
 * [关于input的Bug](bug/input.md)
+
