@@ -148,3 +148,20 @@ PRIMARY KEY (`emp_no`,`from_date`));
 ```
 
 [题解](tijie/06.md)
+
+#### No.7: [查找薪水涨幅超过15次的员工号emp_no以及其对应的涨幅次数t](https://www.nowcoder.com/practice/6d4a4cff1d58495182f536c548fee1ae?tpId=82&tqId=29759&rp=0&ru=/ta/sql&qru=/ta/sql/question-ranking)
+
+**题目描述**
+
+查找薪水涨幅超过15次的员工号emp_no以及其对应的涨幅次数t
+
+```sql
+CREATE TABLE `salaries` (
+`emp_no` int(11) NOT NULL,
+`salary` int(11) NOT NULL,
+`from_date` date NOT NULL,
+`to_date` date NOT NULL,
+PRIMARY KEY (`emp_no`,`from_date`));
+```
+
+[题解](tijie/07.md)
