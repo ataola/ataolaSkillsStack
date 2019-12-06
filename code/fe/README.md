@@ -46,3 +46,5 @@
 
 * [关于input的Bug](bug/input.md)
 
+* [关于浏览器](bug/browser.md)
+
