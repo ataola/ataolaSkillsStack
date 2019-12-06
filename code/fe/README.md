@@ -41,6 +41,8 @@
 
 * [Node.JS](dist/node.md)
 
+* [正则](dist/regular.md)
+
 
 ## Bug记
 
