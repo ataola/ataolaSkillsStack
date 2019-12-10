@@ -1,0 +1,26 @@
+# 我就不信，我治不了你们
+
+# 屏蔽ccleaner验证
+127.0.0.1   license.piriform.com
+
+# gist曲线救国
+192.30.253.118 gist.github.com
+192.30.253.119 gist.github.com
+
+# 屏蔽sublime text验证
+127.0.0.1 www.sublimetext.com
+127.0.0.1 sublimetext.com
+127.0.0.1 sublimehq.com
+127.0.0.1 telemetry.sublimehq.com
+127.0.0.1 license.sublimehq.com
+
+
+# 屏蔽Adobe验证
+127.0.0.1 cc-api-data.adobe.io
+127.0.0.1 ims-prod06.adobelogin.com
+127.0.0.1 ims-na1.adobelogin.com
+127.0.0.1 hbrt.adobe.com
+127.0.0.1 adobeid-na1.services.adobe.com
+127.0.0.1 lm.licenses.adobe.com
+
+
