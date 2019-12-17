@@ -8,5 +8,5 @@
 
 [Redis中文网](http://redis.cn/)
 
-[Redis命令行](http://try.redis.io/)
+~~[Redis命令行](http://try.redis.io/)~~
 
