@@ -34,3 +34,6 @@
 127.0.0.1 iws.corel.com
 
 
+# 屏蔽JB
+0.0.0.0 account.jetbrains.com
+
