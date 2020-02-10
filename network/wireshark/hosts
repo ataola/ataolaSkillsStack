@@ -37,3 +37,9 @@
 # 屏蔽JB
 0.0.0.0 account.jetbrains.com
 
+# 屏蔽Adobe更新
+127.0.0.1 armmf.adobe.com
+
+
+# 屏蔽mindmanger提示
+127.0.0.1 notification.mindjet.com
