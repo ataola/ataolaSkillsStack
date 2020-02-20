@@ -511,6 +511,13 @@ ssh-keygen -t rsa -C "your eamil"
 公钥贴到服务器上
 
 ```
+&nbsp;&nbsp;**指定tag打包压缩：**
+
+`git archive --format=zip --output=v1.0.zip 1.0`
+
+`git archive 1.0 | bzip2 > v1.0.tar.bz2`
+
+`git archive --format=tar 1.0 | gzip > v1.0.tar.gz`
 
 
 &nbsp;&nbsp;**问题汇总：**
